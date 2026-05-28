@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KJNRJWAF",
+  "close_ref": "KJNRJWAF",
+  "attested_at": "2026-05-28T23:29:26Z",
+  "hash": "1f9edc36abd994dd5ae10bca0b879022865cbac07ded3b802f9c36024b8ecaec",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KJNRJWAF",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-28T13:00:00Z",
+      "level": 25075.1,
+      "order_ref": "KJNRJWAF"
+    },
+    "exit": {
+      "time": "2026-05-28T14:21:16Z",
+      "level": 25126.6,
+      "order_ref": "KJNRJWAF"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 51.5,
+    "currency": "€"
+  }
+}
