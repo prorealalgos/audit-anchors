@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JNJEK2A6",
+  "close_ref": "JNJEK2A6",
+  "attested_at": "2026-05-28T23:29:38Z",
+  "hash": "e7ec35ef6ae9ba2cb790ff5921f0e0ebee2959dc3de2c4fd23bf958089ee6883",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JNJEK2A6",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-22T09:44:00Z",
+      "level": 24752.6,
+      "order_ref": "JNJEK2A6"
+    },
+    "exit": {
+      "time": "2026-05-22T14:02:28Z",
+      "level": 24838.9,
+      "order_ref": "JNJEK2A6"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 86.3,
+    "currency": "€"
+  }
+}
