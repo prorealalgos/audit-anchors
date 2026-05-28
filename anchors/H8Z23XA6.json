@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "H8Z23XA6",
+  "close_ref": "H8Z23XA6",
+  "attested_at": "2026-05-28T23:29:40Z",
+  "hash": "ce9204bef47c741a7da71450e4a5d2aa037414b25da7fba51e4c1d1ca772e359",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "H8Z23XA6",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-20T14:18:00Z",
+      "level": 24698.8,
+      "order_ref": "H8Z23XA6"
+    },
+    "exit": {
+      "time": "2026-05-22T08:34:55Z",
+      "level": 24680.8,
+      "order_ref": "H8Z23XA6"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -18.0,
+    "currency": "€"
+  }
+}
