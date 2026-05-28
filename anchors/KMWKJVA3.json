@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KMWKJVA3",
+  "close_ref": "KMWKJVA3",
+  "attested_at": "2026-05-28T23:29:25Z",
+  "hash": "4a6cceabc2b08f5292fd16a7d1dfcf846409e9c81a79e693e9326e9ea23ec0f1",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KMWKJVA3",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-28T14:45:00Z",
+      "level": 30092.5,
+      "order_ref": "KMWKJVA3"
+    },
+    "exit": {
+      "time": "2026-05-28T19:55:00Z",
+      "level": 30217.9,
+      "order_ref": "KMWKJVA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 125.4,
+    "currency": "€"
+  }
+}
