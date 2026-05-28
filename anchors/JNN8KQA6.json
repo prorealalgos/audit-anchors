@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JNN8KQA6",
+  "close_ref": "JNN8KQA6",
+  "attested_at": "2026-05-28T23:29:39Z",
+  "hash": "0edd3caa90b78b45abe793a12faad7ab1c018a8266cf576a8ffe6649942ef897",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JNN8KQA6",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-22T10:15:00Z",
+      "level": 50456.0,
+      "order_ref": "JNN8KQA6"
+    },
+    "exit": {
+      "time": "2026-05-22T13:36:39Z",
+      "level": 50576.2,
+      "order_ref": "JNN8KQA6"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 60.1,
+    "currency": "€"
+  }
+}
