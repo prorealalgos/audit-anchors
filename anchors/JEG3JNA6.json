@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JEG3JNA6",
+  "close_ref": "JEG3JNA6",
+  "attested_at": "2026-05-28T23:29:44Z",
+  "hash": "d306bc00c1fef2407bfe219b06a3689743ee7a2b6de81fa1bd4b1288e0be266a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JEG3JNA6",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-21T08:11:00Z",
+      "level": 24791.2,
+      "order_ref": "JEG3JNA6"
+    },
+    "exit": {
+      "time": "2026-05-21T18:48:40Z",
+      "level": 24791.4,
+      "order_ref": "JEG3JNA6"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 0.2,
+    "currency": "€"
+  }
+}
