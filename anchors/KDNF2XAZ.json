@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KDNF2XAZ",
+  "close_ref": "KDNF2XAZ",
+  "attested_at": "2026-05-28T23:29:27Z",
+  "hash": "01a16d8c900f57b63445f81bb558ca8e23083f4f12f56e0c2dc9ef0c6d252866",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KDNF2XAZ",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-05-27T15:45:00Z",
+      "level": 7502.59,
+      "order_ref": "KDNF2XAZ"
+    },
+    "exit": {
+      "time": "2026-05-27T16:42:00Z",
+      "level": 7519.88,
+      "order_ref": "KDNF2XAZ"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -51.87,
+    "currency": "€"
+  }
+}
