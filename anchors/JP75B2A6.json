@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JP75B2A6",
+  "close_ref": "JP75B2A6",
+  "attested_at": "2026-05-28T23:29:35Z",
+  "hash": "88c22cd3daa73d8bd86fddb5e64ef95252eabaecf65cfc6e3d6217e005dac58f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JP75B2A6",
+    "algo": "Prime DAX M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-22T14:00:00Z",
+      "level": 24890.2,
+      "order_ref": "JP75B2A6"
+    },
+    "exit": {
+      "time": "2026-05-26T08:08:36Z",
+      "level": 25226.4,
+      "order_ref": "JP75B2A6"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 336.2,
+    "currency": "€"
+  }
+}
