@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JX2EEQAF",
+  "close_ref": "JX2EEQAF",
+  "attested_at": "2026-05-28T23:29:36Z",
+  "hash": "ea45dacdcaa7730645a99625c4bfc4fbf05c990387cf12479e44cc13d8351acf",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JX2EEQAF",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-25T18:10:00Z",
+      "level": 29871.9,
+      "order_ref": "JX2EEQAF"
+    },
+    "exit": {
+      "time": "2026-05-25T22:36:11Z",
+      "level": 29821.7,
+      "order_ref": "JX2EEQAF"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -50.2,
+    "currency": "€"
+  }
+}
