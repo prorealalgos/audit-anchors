@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JRXNR5AX",
+  "close_ref": "JRXNR5AX",
+  "attested_at": "2026-05-28T23:29:37Z",
+  "hash": "f8133826e3e03cc5e681f4dc77b372faad5a630e7be105213e37e5d4756fbe4d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JRXNR5AX",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-21T03:00:00Z",
+      "level": 158.978,
+      "order_ref": "JRXNR5AX"
+    },
+    "exit": {
+      "time": "2026-05-22T19:00:00Z",
+      "level": 159.128,
+      "order_ref": "JRXNR5AX"
+    },
+    "costs": {
+      "entry_spread": -0.7,
+      "exit_spread": -0.7,
+      "overnight": 0.0
+    },
+    "net": 16.15,
+    "currency": "€"
+  }
+}
