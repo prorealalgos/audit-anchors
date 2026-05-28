@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KDBDNCAL",
+  "close_ref": "KDBDNCAL",
+  "attested_at": "2026-05-28T23:29:28Z",
+  "hash": "e18dd27732126e24811fed457b61f408a9bf8c9ed742a729c2cba671c7e70650",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KDBDNCAL",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-25T13:42:00Z",
+      "level": 7547.26,
+      "order_ref": "KDBDNCAL"
+    },
+    "exit": {
+      "time": "2026-05-27T15:45:00Z",
+      "level": 7503.1,
+      "order_ref": "KDBDNCAL"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 1.14
+    },
+    "net": -131.34,
+    "currency": "€"
+  }
+}
