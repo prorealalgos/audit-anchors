@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JXVZMXAF",
+  "close_ref": "JXVZMXAF",
+  "attested_at": "2026-05-28T23:29:30Z",
+  "hash": "d14f848d3cef1ec77dd7720aba7062e0cc188944f504ea42ecc4d49e71235b7a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JXVZMXAF",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-25T16:58:00Z",
+      "level": 29874.6,
+      "order_ref": "JXVZMXAF"
+    },
+    "exit": {
+      "time": "2026-05-27T13:30:43Z",
+      "level": 30063.0,
+      "order_ref": "JXVZMXAF"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.12
+    },
+    "net": 188.52,
+    "currency": "€"
+  }
+}
