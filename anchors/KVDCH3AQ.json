@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KVDCH3AQ",
+  "close_ref": "KVDCH3AQ",
+  "attested_at": "2026-05-29T19:55:00Z",
+  "hash": "14ab7755a620bf93295f9f507f71f1ba62572d68a97476032946cf212ef13e80",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KVDCH3AQ",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-28T14:13:00Z",
+      "level": 25177.9,
+      "order_ref": "KVDCH3AQ"
+    },
+    "exit": {
+      "time": "2026-05-29T19:50:00Z",
+      "level": 25052.1,
+      "order_ref": "KVDCH3AQ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -125.8,
+    "currency": "€"
+  }
+}
