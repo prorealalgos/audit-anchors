@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KRF5ZGAF",
+  "close_ref": "KRF5ZGAF",
+  "attested_at": "2026-06-01T00:03:26Z",
+  "hash": "b8418bd6b3b8201ad2507c087e32168a9e8329a9fb10d17cafd95793fa2b3bdd",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KRF5ZGAF",
+    "algo": "Cuts DAX M10",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-05-29T11:09:00Z",
+      "level": 25123.7,
+      "order_ref": "KRF5ZGAF"
+    },
+    "exit": {
+      "time": "2026-06-01T00:02:30Z",
+      "level": 25117.6,
+      "order_ref": "KRF5ZGAF"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 6.1,
+    "currency": "€"
+  }
+}
