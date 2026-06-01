@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KTNBZXAF",
+  "close_ref": "KTNBZXAF",
+  "attested_at": "2026-06-01T13:13:31Z",
+  "hash": "aa6589df0b8e60b8e6b05294f42627ecef66f7d852400b6523e0f21a78fe2ee7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KTNBZXAF",
+    "algo": "Prime DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-29T14:54:00Z",
+      "level": 25173.8,
+      "order_ref": "KTNBZXAF"
+    },
+    "exit": {
+      "time": "2026-06-01T13:11:02Z",
+      "level": 25199.6,
+      "order_ref": "KTNBZXAF"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 25.8,
+    "currency": "€"
+  }
+}
