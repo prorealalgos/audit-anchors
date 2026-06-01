@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "J3FJJHAF",
+  "close_ref": "J3FJJHAF",
+  "attested_at": "2026-06-01T13:13:32Z",
+  "hash": "93bf0a621f9f5db15abc2df773db41b84b63bf65e52c5b1de6ffef4456118e59",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "J3FJJHAF",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-26T11:25:00Z",
+      "level": 50894.1,
+      "order_ref": "J3FJJHAF"
+    },
+    "exit": {
+      "time": "2026-06-01T13:11:02Z",
+      "level": 51128.1,
+      "order_ref": "J3FJJHAF"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 15.12
+    },
+    "net": 132.12,
+    "currency": "€"
+  }
+}
