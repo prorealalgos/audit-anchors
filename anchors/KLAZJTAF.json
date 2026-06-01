@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KLAZJTAF",
+  "close_ref": "KLAZJTAF",
+  "attested_at": "2026-06-01T13:28:30Z",
+  "hash": "37c40592909203f4f45cfa0d7d4bc7f7d713a49c9a4172b403185a8b78a947e8",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KLAZJTAF",
+    "algo": "Prime US100 M30",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-28T15:00:00Z",
+      "level": 30113.7,
+      "order_ref": "KLAZJTAF"
+    },
+    "exit": {
+      "time": "2026-06-01T13:24:34Z",
+      "level": 30243.1,
+      "order_ref": "KLAZJTAF"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 3.62
+    },
+    "net": 133.02,
+    "currency": "€"
+  }
+}
