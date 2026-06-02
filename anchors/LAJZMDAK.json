@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LAJZMDAK",
+  "close_ref": "LAJZMDAK",
+  "attested_at": "2026-06-02T13:38:28Z",
+  "hash": "c00fd03d0c2adf856a351cfa20a08cc2f34235d28d720a339323ea252d3d007b",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LAJZMDAK",
+    "algo": "Prime DOW M5",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-02T12:05:00Z",
+      "level": 50852.8,
+      "order_ref": "LAJZMDAK"
+    },
+    "exit": {
+      "time": "2026-06-02T13:35:00Z",
+      "level": 51159.2,
+      "order_ref": "LAJZMDAK"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -153.2,
+    "currency": "€"
+  }
+}
