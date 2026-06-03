@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LBP56EAR",
+  "close_ref": "LBP56EAR",
+  "attested_at": "2026-06-03T14:20:56Z",
+  "hash": "4eaa7cd7253b3cb655c66a8bb57931fb5a815a2dc73793fd7b0001d2f155759f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LBP56EAR",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-02T14:51:00Z",
+      "level": 25126.0,
+      "order_ref": "LBP56EAR"
+    },
+    "exit": {
+      "time": "2026-06-03T14:18:24Z",
+      "level": 24799.1,
+      "order_ref": "LBP56EAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -326.9,
+    "currency": "€"
+  }
+}
