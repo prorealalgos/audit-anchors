@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LMFKC6BC",
+  "close_ref": "LMFKC6BC",
+  "attested_at": "2026-06-03T20:00:20Z",
+  "hash": "5f57c5cb2f41d0a76a2021a491ecaf0138926baa4393c568d059dd53c06d8dc1",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LMFKC6BC",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-03T13:46:00Z",
+      "level": 24818.4,
+      "order_ref": "LMFKC6BC"
+    },
+    "exit": {
+      "time": "2026-06-03T19:58:00Z",
+      "level": 24749.9,
+      "order_ref": "LMFKC6BC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 68.5,
+    "currency": "€"
+  }
+}
