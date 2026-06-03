@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "J24CQWAF",
+  "close_ref": "J24CQWAF",
+  "attested_at": "2026-06-03T16:30:56Z",
+  "hash": "c0f7ea9c98b90b47b7c3dd1875211a1f2fc1f8e271ca7923efcf057adae2e127",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "J24CQWAF",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-26T10:24:00Z",
+      "level": 25257.5,
+      "order_ref": "J24CQWAF"
+    },
+    "exit": {
+      "time": "2026-06-03T16:27:17Z",
+      "level": 24751.6,
+      "order_ref": "J24CQWAF"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -505.9,
+    "currency": "€"
+  }
+}
