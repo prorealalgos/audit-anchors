@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "J2W9LSAF",
+  "close_ref": "J2W9LSAF",
+  "attested_at": "2026-06-03T20:05:19Z",
+  "hash": "126cd8067d08bb2ff30ee793d12e13b738e95732e846df9efcf3658f36cf1237",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "J2W9LSAF",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-26T09:50:00Z",
+      "level": 25218.6,
+      "order_ref": "J2W9LSAF"
+    },
+    "exit": {
+      "time": "2026-06-03T20:03:14Z",
+      "level": 24713.9,
+      "order_ref": "J2W9LSAF"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -504.7,
+    "currency": "€"
+  }
+}
