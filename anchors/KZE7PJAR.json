@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KZE7PJAR",
+  "close_ref": "KZE7PJAR",
+  "attested_at": "2026-06-03T13:50:56Z",
+  "hash": "8f08fa626c362a63648df0466f58e812ade06d81895ae97bbfd73ff80a914222",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KZE7PJAR",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-01T10:38:00Z",
+      "level": 30437.6,
+      "order_ref": "KZE7PJAR"
+    },
+    "exit": {
+      "time": "2026-06-03T13:46:29Z",
+      "level": 30525.5,
+      "order_ref": "KZE7PJAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.8
+    },
+    "net": 88.7,
+    "currency": "€"
+  }
+}
