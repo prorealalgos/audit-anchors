@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LKHRGEAR",
+  "close_ref": "LKHRGEAR",
+  "attested_at": "2026-06-04T00:35:23Z",
+  "hash": "66e238a648df663a47c7471933f4425ffa9b5be4e8d06de16621403027b3c9d8",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LKHRGEAR",
+    "algo": "Cuts DAX M10",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-03T14:45:00Z",
+      "level": 24766.8,
+      "order_ref": "LKHRGEAR"
+    },
+    "exit": {
+      "time": "2026-06-04T00:34:01Z",
+      "level": 24741.9,
+      "order_ref": "LKHRGEAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 24.9,
+    "currency": "€"
+  }
+}
