@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LKFAKKAR",
+  "close_ref": "LKFAKKAR",
+  "attested_at": "2026-06-04T00:35:22Z",
+  "hash": "deaf011a8f9d03dc4f65105c8a7b10a3962bad229a079188daab5de433579d96",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LKFAKKAR",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-03T14:39:00Z",
+      "level": 24799.4,
+      "order_ref": "LKFAKKAR"
+    },
+    "exit": {
+      "time": "2026-06-04T00:34:01Z",
+      "level": 24742.4,
+      "order_ref": "LKFAKKAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 57.0,
+    "currency": "€"
+  }
+}
