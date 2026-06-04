@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LVTNFRBB",
+  "close_ref": "LVTNFRBB",
+  "attested_at": "2026-06-04T20:00:24Z",
+  "hash": "c55f79b68654c518d3da4462b11bdfa948901f35a64d05ec36532af523696ad1",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LVTNFRBB",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-04T09:58:00Z",
+      "level": 24962.1,
+      "order_ref": "LVTNFRBB"
+    },
+    "exit": {
+      "time": "2026-06-04T19:58:00Z",
+      "level": 24942.8,
+      "order_ref": "LVTNFRBB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -19.3,
+    "currency": "€"
+  }
+}
