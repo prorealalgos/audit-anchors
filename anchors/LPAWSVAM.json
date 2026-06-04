@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LPAWSVAM",
+  "close_ref": "LPAWSVAM",
+  "attested_at": "2026-06-04T04:00:21Z",
+  "hash": "4938591c67fb9e51e7a7ebfb95fbb5e3f89326e41c7d9d4a2ac0270dfe1672a8",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LPAWSVAM",
+    "algo": "FX USD/JPY H1",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-02T20:00:00Z",
+      "level": 159.934,
+      "order_ref": "LPAWSVAM"
+    },
+    "exit": {
+      "time": "2026-06-04T04:00:00Z",
+      "level": 159.979,
+      "order_ref": "LPAWSVAM"
+    },
+    "costs": {
+      "entry_spread": -0.7,
+      "exit_spread": -0.7,
+      "overnight": -1.98
+    },
+    "net": -6.85,
+    "currency": "€"
+  }
+}
