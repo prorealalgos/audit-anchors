@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LYXBGBAR",
+  "close_ref": "LYXBGBAR",
+  "attested_at": "2026-06-05T20:05:28Z",
+  "hash": "f02608c65e19de3b4a8f14dbaaa06d8a304b3efc40e797d4dd7eda1bc186bc58",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LYXBGBAR",
+    "algo": "Prime DAX M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-05T09:15:00Z",
+      "level": 25001.1,
+      "order_ref": "LYXBGBAR"
+    },
+    "exit": {
+      "time": "2026-06-05T20:01:54Z",
+      "level": 24500.8,
+      "order_ref": "LYXBGBAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -500.3,
+    "currency": "€"
+  }
+}
