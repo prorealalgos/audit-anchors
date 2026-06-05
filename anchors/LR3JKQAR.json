@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LR3JKQAR",
+  "close_ref": "LR3JKQAR",
+  "attested_at": "2026-06-05T00:05:24Z",
+  "hash": "be881ba3533a73c5ea04c1b48d11374fa4d98cc8b34812d575cad6281055908f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LR3JKQAR",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-04T12:00:00Z",
+      "level": 7532.91,
+      "order_ref": "LR3JKQAR"
+    },
+    "exit": {
+      "time": "2026-06-05T00:00:55Z",
+      "level": 7556.28,
+      "order_ref": "LR3JKQAR"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 10.83
+    },
+    "net": 80.94,
+    "currency": "€"
+  }
+}
