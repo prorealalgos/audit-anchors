@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "L6R2TRA5",
+  "close_ref": "L6R2TRA5",
+  "attested_at": "2026-06-05T19:00:24Z",
+  "hash": "18b70d1e5b77e46ff224bbf705b00ab0bab8566c8f18acacd8f33bbe53c45e73",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "L6R2TRA5",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-04T04:00:01Z",
+      "level": 159.985,
+      "order_ref": "L6R2TRA5"
+    },
+    "exit": {
+      "time": "2026-06-05T19:00:00Z",
+      "level": 160.167,
+      "order_ref": "L6R2TRA5"
+    },
+    "costs": {
+      "entry_spread": -0.7,
+      "exit_spread": -0.7,
+      "overnight": -3.98
+    },
+    "net": 15.64,
+    "currency": "€"
+  }
+}
