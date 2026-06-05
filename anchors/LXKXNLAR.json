@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LXKXNLAR",
+  "close_ref": "LXKXNLAR",
+  "attested_at": "2026-06-05T19:20:24Z",
+  "hash": "fb1c289d331c602221616aee0331cea04c5db28ec9444ef57628f7fffca1450c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LXKXNLAR",
+    "algo": "PATF DOW M15 (Friday close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-05T05:00:00Z",
+      "level": 51561.3,
+      "order_ref": "LXKXNLAR"
+    },
+    "exit": {
+      "time": "2026-06-05T19:18:01Z",
+      "level": 50787.2,
+      "order_ref": "LXKXNLAR"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -387.05,
+    "currency": "€"
+  }
+}
