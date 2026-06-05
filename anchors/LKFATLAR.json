@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LKFATLAR",
+  "close_ref": "LKFATLAR",
+  "attested_at": "2026-06-05T01:20:24Z",
+  "hash": "a11625a3da78174b6fead78cbd6339d556ab46326ef008aa9cee2c011e751287",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LKFATLAR",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-03T14:40:00Z",
+      "level": 30664.8,
+      "order_ref": "LKFATLAR"
+    },
+    "exit": {
+      "time": "2026-06-05T01:15:40Z",
+      "level": 30051.0,
+      "order_ref": "LKFATLAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 9.82
+    },
+    "net": -603.98,
+    "currency": "€"
+  }
+}
