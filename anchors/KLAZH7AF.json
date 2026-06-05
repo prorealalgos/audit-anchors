@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KLAZH7AF",
+  "close_ref": "KLAZH7AF",
+  "attested_at": "2026-06-05T14:25:24Z",
+  "hash": "8f5b6585bb5cae0414ad5a1b00ade8a0ba0a965fee1dd292fdeea85e3b1b0de9",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KLAZH7AF",
+    "algo": "Cuts Gold H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-28T15:00:00Z",
+      "level": 4470.48,
+      "order_ref": "KLAZH7AF"
+    },
+    "exit": {
+      "time": "2026-06-05T14:22:31Z",
+      "level": 4358.03,
+      "order_ref": "KLAZH7AF"
+    },
+    "costs": {
+      "entry_spread": -1.2,
+      "exit_spread": -1.2,
+      "overnight": 0.0
+    },
+    "net": -899.6,
+    "currency": "€"
+  }
+}
