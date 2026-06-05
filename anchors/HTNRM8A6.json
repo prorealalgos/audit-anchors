@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "HTNRM8A6",
+  "close_ref": "HTNRM8A6",
+  "attested_at": "2026-06-05T15:40:24Z",
+  "hash": "809a04c2a68058a1a2ca49eefe764e49a8985e0f1a2ab40e1356da5c616b5235",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "HTNRM8A6",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-18T19:15:00Z",
+      "level": 7379.97,
+      "order_ref": "HTNRM8A6"
+    },
+    "exit": {
+      "time": "2026-06-05T15:36:34Z",
+      "level": 7486.35,
+      "order_ref": "HTNRM8A6"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 57.6
+    },
+    "net": 376.74,
+    "currency": "€"
+  }
+}
