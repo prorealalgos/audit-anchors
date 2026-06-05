@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LUZFLGAR",
+  "close_ref": "LUZFLGAR",
+  "attested_at": "2026-06-05T18:40:24Z",
+  "hash": "5474bcd1f6dce42b460538b85bef3f5a941be18ca77d6e0af9fc12e0cad14347",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LUZFLGAR",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-04T16:53:00Z",
+      "level": 24941.1,
+      "order_ref": "LUZFLGAR"
+    },
+    "exit": {
+      "time": "2026-06-05T18:38:35Z",
+      "level": 24616.2,
+      "order_ref": "LUZFLGAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -324.9,
+    "currency": "€"
+  }
+}
