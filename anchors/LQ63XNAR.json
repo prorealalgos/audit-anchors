@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LQ63XNAR",
+  "close_ref": "LQ63XNAR",
+  "attested_at": "2026-06-05T20:05:27Z",
+  "hash": "e636ec78e57d9ebe24dc02d63608f01bdc43c8b8312013b42519bf396ab1d530",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LQ63XNAR",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-04T09:56:00Z",
+      "level": 24963.0,
+      "order_ref": "LQ63XNAR"
+    },
+    "exit": {
+      "time": "2026-06-05T20:03:44Z",
+      "level": 24463.7,
+      "order_ref": "LQ63XNAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -499.3,
+    "currency": "€"
+  }
+}
