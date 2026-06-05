@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LZN2G6A5",
+  "close_ref": "LZN2G6A5",
+  "attested_at": "2026-06-05T12:10:24Z",
+  "hash": "029b2acb4fb6dbd25993ca12354b3c3b71a869b10ec6401cab36cd01e5e1487f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LZN2G6A5",
+    "algo": "Cuts SP500 M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-05-25T17:00:00Z",
+      "level": 7546.27,
+      "order_ref": "LZN2G6A5"
+    },
+    "exit": {
+      "time": "2026-06-05T12:10:00Z",
+      "level": 7550.0,
+      "order_ref": "LZN2G6A5"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 31.55
+    },
+    "net": 42.74,
+    "currency": "€"
+  }
+}
