@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LZ6T5ZAR",
+  "close_ref": "LZ6T5ZAR",
+  "attested_at": "2026-06-07T23:54:02Z",
+  "hash": "80d6080d082fd9be9166f5e0c0071873545956f81bfc46c60e0b8754328dc191",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LZ6T5ZAR",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-05T12:57:00Z",
+      "level": 7537.66,
+      "order_ref": "LZ6T5ZAR"
+    },
+    "exit": {
+      "time": "2026-06-07T23:49:14Z",
+      "level": 7389.24,
+      "order_ref": "LZ6T5ZAR"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": -0.9
+    },
+    "net": 444.36,
+    "currency": "€"
+  }
+}
