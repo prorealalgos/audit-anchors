@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MDK587AR",
+  "close_ref": "MDK587AR",
+  "attested_at": "2026-06-08T22:07:52Z",
+  "hash": "589e548e74a68c862af6cffd8d5578331ab9152a2e2f6bdfad3bf7cc4893f0f6",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MDK587AR",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-08T13:15:00Z",
+      "level": 7450.54,
+      "order_ref": "MDK587AR"
+    },
+    "exit": {
+      "time": "2026-06-08T22:06:54Z",
+      "level": 7390.3,
+      "order_ref": "MDK587AR"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 2.48
+    },
+    "net": -178.24,
+    "currency": "€"
+  }
+}
