@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MGQVRBBB",
+  "close_ref": "MGQVRBBB",
+  "attested_at": "2026-06-08T20:02:52Z",
+  "hash": "881c840dd45e4c23cfb0125c268958dbfe9f8dedaa7a27519f64c65666bbca07",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MGQVRBBB",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-08T15:12:00Z",
+      "level": 24654.8,
+      "order_ref": "MGQVRBBB"
+    },
+    "exit": {
+      "time": "2026-06-08T19:58:00Z",
+      "level": 24573.1,
+      "order_ref": "MGQVRBBB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -81.7,
+    "currency": "€"
+  }
+}
