@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MFQVJMAK",
+  "close_ref": "MFQVJMAK",
+  "attested_at": "2026-06-08T16:34:05Z",
+  "hash": "ef8b50589c22dfc48042f526b8c824415e75a04db16e9f7d41e97c552257e6d3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MFQVJMAK",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-08T09:45:00Z",
+      "level": 7412.0,
+      "order_ref": "MFQVJMAK"
+    },
+    "exit": {
+      "time": "2026-06-08T16:30:00Z",
+      "level": 7431.86,
+      "order_ref": "MFQVJMAK"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 59.58,
+    "currency": "€"
+  }
+}
