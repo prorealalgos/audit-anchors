@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MFQRQRAH",
+  "close_ref": "MFQRQRAH",
+  "attested_at": "2026-06-08T16:34:06Z",
+  "hash": "0c5f009af8ce1c10f48ede50a61c1826b3f13af1ac730190535f4d1a67a79514",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MFQRQRAH",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-08T16:30:00Z",
+      "level": 7431.86,
+      "order_ref": "MFQRQRAH"
+    },
+    "exit": {
+      "time": "2026-06-08T16:30:00Z",
+      "level": 7432.21,
+      "order_ref": "MFQRQRAH"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -1.05,
+    "currency": "€"
+  }
+}
