@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MNKJKCAR",
+  "close_ref": "MNKJKCAR",
+  "attested_at": "2026-06-09T17:02:54Z",
+  "hash": "1737b789a7aa8755bd45a76639e9dc992420fabc9b1c2988959f1b1c73def336",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MNKJKCAR",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-09T14:40:00Z",
+      "level": 24692.6,
+      "order_ref": "MNKJKCAR"
+    },
+    "exit": {
+      "time": "2026-06-09T17:02:25Z",
+      "level": 24329.5,
+      "order_ref": "MNKJKCAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 363.1,
+    "currency": "€"
+  }
+}
