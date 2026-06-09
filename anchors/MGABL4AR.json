@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MGABL4AR",
+  "close_ref": "MGABL4AR",
+  "attested_at": "2026-06-09T12:17:52Z",
+  "hash": "ca5b45571599c998f1d00a0ee564f35914cd6f8cebeacb7bfa1d4286488a92d6",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MGABL4AR",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-08T18:21:00Z",
+      "level": 24599.4,
+      "order_ref": "MGABL4AR"
+    },
+    "exit": {
+      "time": "2026-06-09T12:15:06Z",
+      "level": 24704.0,
+      "order_ref": "MGABL4AR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 104.6,
+    "currency": "€"
+  }
+}
