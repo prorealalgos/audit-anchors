@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MFVG78AR",
+  "close_ref": "MFVG78AR",
+  "attested_at": "2026-06-09T22:52:52Z",
+  "hash": "6fec806a2b3bb1be0414992eb74a0c8040027aca8af12ed9f40135f4c61c3da2",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MFVG78AR",
+    "algo": "Cuts Gold H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-08T17:00:00Z",
+      "level": 4341.58,
+      "order_ref": "MFVG78AR"
+    },
+    "exit": {
+      "time": "2026-06-09T22:51:45Z",
+      "level": 4232.97,
+      "order_ref": "MFVG78AR"
+    },
+    "costs": {
+      "entry_spread": -1.2,
+      "exit_spread": -1.2,
+      "overnight": 0.0
+    },
+    "net": -868.88,
+    "currency": "€"
+  }
+}
