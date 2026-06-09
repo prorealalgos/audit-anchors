@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MMKYQQAR",
+  "close_ref": "MMKYQQAR",
+  "attested_at": "2026-06-09T15:32:54Z",
+  "hash": "fbac3d2c95f7f075344d5f4dde180cde11a6b9d5be18ba79eb75a441addc5209",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MMKYQQAR",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-09T13:51:00Z",
+      "level": 24794.4,
+      "order_ref": "MMKYQQAR"
+    },
+    "exit": {
+      "time": "2026-06-09T15:28:02Z",
+      "level": 24469.5,
+      "order_ref": "MMKYQQAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -324.9,
+    "currency": "€"
+  }
+}
