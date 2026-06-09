@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MQKNUTAR",
+  "close_ref": "MQKNUTAR",
+  "attested_at": "2026-06-09T17:02:56Z",
+  "hash": "bcf9adf5f4fddc9dea5787fb86707bb2067388289b1025aead738af9dc60e6e3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MQKNUTAR",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-09T16:25:00Z",
+      "level": 28493.1,
+      "order_ref": "MQKNUTAR"
+    },
+    "exit": {
+      "time": "2026-06-09T16:59:12Z",
+      "level": 28417.7,
+      "order_ref": "MQKNUTAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 75.4,
+    "currency": "€"
+  }
+}
