@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MGBJYTAR",
+  "close_ref": "MGBJYTAR",
+  "attested_at": "2026-06-09T14:17:52Z",
+  "hash": "7e85d1722af38ae95fff5eed6c7d771104ce38377aaa8356574ac0e59d62b963",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MGBJYTAR",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-08T18:33:00Z",
+      "level": 7433.59,
+      "order_ref": "MGBJYTAR"
+    },
+    "exit": {
+      "time": "2026-06-09T14:13:20Z",
+      "level": 7436.03,
+      "order_ref": "MGBJYTAR"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 2.73
+    },
+    "net": 10.05,
+    "currency": "€"
+  }
+}
