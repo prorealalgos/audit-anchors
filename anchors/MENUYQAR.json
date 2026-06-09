@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MENUYQAR",
+  "close_ref": "MENUYQAR",
+  "attested_at": "2026-06-09T15:32:56Z",
+  "hash": "15998f2964f8f3f0723b5d707c5e80365c0667719aa60030159c142d43f13dd1",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MENUYQAR",
+    "algo": "Prime US100 M30",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-08T14:30:00Z",
+      "level": 29473.9,
+      "order_ref": "MENUYQAR"
+    },
+    "exit": {
+      "time": "2026-06-09T15:28:01Z",
+      "level": 28883.8,
+      "order_ref": "MENUYQAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.38
+    },
+    "net": -589.72,
+    "currency": "€"
+  }
+}
