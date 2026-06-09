@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MEWEUJAR",
+  "close_ref": "MEWEUJAR",
+  "attested_at": "2026-06-09T14:02:52Z",
+  "hash": "25e0319716bcdbeac34e76ade881350b778a5c2e0e23d4707604bb7286ba5b16",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MEWEUJAR",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-08T14:50:00Z",
+      "level": 29569.6,
+      "order_ref": "MEWEUJAR"
+    },
+    "exit": {
+      "time": "2026-06-09T14:00:15Z",
+      "level": 29588.8,
+      "order_ref": "MEWEUJAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.4
+    },
+    "net": 19.6,
+    "currency": "€"
+  }
+}
