@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MXGURFAR",
+  "close_ref": "MXGURFAR",
+  "attested_at": "2026-06-10T15:00:33Z",
+  "hash": "305f1b5e56892189634446e46e4e85cece85c6d9284cb02880330fa1b709e139",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MXGURFAR",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-10T12:15:00Z",
+      "level": 7318.03,
+      "order_ref": "MXGURFAR"
+    },
+    "exit": {
+      "time": "2026-06-10T14:55:51Z",
+      "level": 7349.61,
+      "order_ref": "MXGURFAR"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 94.74,
+    "currency": "€"
+  }
+}
