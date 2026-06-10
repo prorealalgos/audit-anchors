@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MVWWWQAR",
+  "close_ref": "MVWWWQAR",
+  "attested_at": "2026-06-10T11:20:32Z",
+  "hash": "0bfa4b6e825dd2bb0d48e7e3d909e0b0dd6167769c0eb3d4fafb4da65cfa6a45",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MVWWWQAR",
+    "algo": "Cuts DAX M10",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-10T08:45:00Z",
+      "level": 24336.2,
+      "order_ref": "MVWWWQAR"
+    },
+    "exit": {
+      "time": "2026-06-10T11:15:55Z",
+      "level": 24160.4,
+      "order_ref": "MVWWWQAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 175.8,
+    "currency": "€"
+  }
+}
