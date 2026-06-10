@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MUW8NRAR",
+  "close_ref": "MUW8NRAR",
+  "attested_at": "2026-06-10T11:05:35Z",
+  "hash": "09f71f84ec7fb4e7331c258f8b45e647c4b6dc419544e64fdb8b69e2f29e220c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MUW8NRAR",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-10T06:06:00Z",
+      "level": 24502.1,
+      "order_ref": "MUW8NRAR"
+    },
+    "exit": {
+      "time": "2026-06-10T11:03:52Z",
+      "level": 24183.6,
+      "order_ref": "MUW8NRAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -318.5,
+    "currency": "€"
+  }
+}
