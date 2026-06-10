@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MVU3LSAR",
+  "close_ref": "MVU3LSAR",
+  "attested_at": "2026-06-10T09:40:32Z",
+  "hash": "58fbfdfd30913994fed0031b354f4441e2db8191fd6ff32e7b678c60b236f2e8",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MVU3LSAR",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-10T08:39:00Z",
+      "level": 24372.3,
+      "order_ref": "MVU3LSAR"
+    },
+    "exit": {
+      "time": "2026-06-10T09:38:35Z",
+      "level": 24340.8,
+      "order_ref": "MVU3LSAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 31.5,
+    "currency": "€"
+  }
+}
