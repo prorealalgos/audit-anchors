@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "M98XRCAR",
+  "close_ref": "M98XRCAR",
+  "attested_at": "2026-06-11T18:10:34Z",
+  "hash": "d161dc00181bec4a80a7ffcfa37f45baae0a29a5f47c5f1d04826fe2d81b153f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "M98XRCAR",
+    "algo": "Cuts DAX M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-11T13:57:00Z",
+      "level": 24310.7,
+      "order_ref": "M98XRCAR"
+    },
+    "exit": {
+      "time": "2026-06-11T18:05:56Z",
+      "level": 24469.5,
+      "order_ref": "M98XRCAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 158.8,
+    "currency": "€"
+  }
+}
