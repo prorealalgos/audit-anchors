@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ND5S8FAR",
+  "close_ref": "ND5S8FAR",
+  "attested_at": "2026-06-11T20:00:34Z",
+  "hash": "25acba1c8eb19207f135935adec470129fea7d6149c9721ecd9ba9ff7257a54a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ND5S8FAR",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-11T14:22:00Z",
+      "level": 24224.6,
+      "order_ref": "ND5S8FAR"
+    },
+    "exit": {
+      "time": "2026-06-11T19:58:00Z",
+      "level": 24615.8,
+      "order_ref": "ND5S8FAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -391.2,
+    "currency": "€"
+  }
+}
