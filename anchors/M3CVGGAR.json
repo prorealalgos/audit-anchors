@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "M3CVGGAR",
+  "close_ref": "M3CVGGAR",
+  "attested_at": "2026-06-11T00:20:33Z",
+  "hash": "f834967d71a0e991301cb1e67f5b334e3d12cbc13208e36633d3a2e022715478",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "M3CVGGAR",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-10T17:36:00Z",
+      "level": 7296.45,
+      "order_ref": "M3CVGGAR"
+    },
+    "exit": {
+      "time": "2026-06-11T00:16:48Z",
+      "level": 7265.9,
+      "order_ref": "M3CVGGAR"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.12
+    },
+    "net": 91.77,
+    "currency": "€"
+  }
+}
