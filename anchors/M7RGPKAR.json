@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "M7RGPKAR",
+  "close_ref": "M7RGPKAR",
+  "attested_at": "2026-06-11T15:05:34Z",
+  "hash": "f869967df2c4a2292e3dad7f286cddd1b7d378b15a02a364cf0df43e0ce353fe",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "M7RGPKAR",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-11T08:00:00Z",
+      "level": 7319.4,
+      "order_ref": "M7RGPKAR"
+    },
+    "exit": {
+      "time": "2026-06-11T15:01:19Z",
+      "level": 7260.73,
+      "order_ref": "M7RGPKAR"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -176.01,
+    "currency": "€"
+  }
+}
