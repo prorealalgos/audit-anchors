@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NBUAQ8A5",
+  "close_ref": "NBUAQ8A5",
+  "attested_at": "2026-06-11T16:10:34Z",
+  "hash": "4ea6f453da9a3344953c17e125cbed0050813912a728f60b0f063f16ce4fb6f9",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NBUAQ8A5",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-11T14:54:00Z",
+      "level": 7283.79,
+      "order_ref": "NBUAQ8A5"
+    },
+    "exit": {
+      "time": "2026-06-11T16:09:00Z",
+      "level": 7304.53,
+      "order_ref": "NBUAQ8A5"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -62.22,
+    "currency": "€"
+  }
+}
