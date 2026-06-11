@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NA2W2QAY",
+  "close_ref": "NA2W2QAY",
+  "attested_at": "2026-06-11T14:55:34Z",
+  "hash": "6722288a05b922f389cfd19dcf9ddf1ed972e589515da87bc205c16b29daab99",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NA2W2QAY",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-11T13:54:00Z",
+      "level": 7323.98,
+      "order_ref": "NA2W2QAY"
+    },
+    "exit": {
+      "time": "2026-06-11T14:54:00Z",
+      "level": 7284.24,
+      "order_ref": "NA2W2QAY"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -119.22,
+    "currency": "€"
+  }
+}
