@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "M3K3G9AR",
+  "close_ref": "M3K3G9AR",
+  "attested_at": "2026-06-11T14:15:33Z",
+  "hash": "41e60647bf69424ee38aa565465e21c4f2170cf7dda100a0de946bf2fae94140",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "M3K3G9AR",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-10T18:06:00Z",
+      "level": 28777.2,
+      "order_ref": "M3K3G9AR"
+    },
+    "exit": {
+      "time": "2026-06-11T14:14:39Z",
+      "level": 28795.9,
+      "order_ref": "M3K3G9AR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 18.7,
+    "currency": "€"
+  }
+}
