@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NBS97JAR",
+  "close_ref": "NBS97JAR",
+  "attested_at": "2026-06-12T07:15:33Z",
+  "hash": "4e876e6c1a37f58f9ecb3405621bcc5b360bd5282e08ce5c4e4c09a9db445432",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NBS97JAR",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-11T16:09:00Z",
+      "level": 7304.82,
+      "order_ref": "NBS97JAR"
+    },
+    "exit": {
+      "time": "2026-06-12T07:13:58Z",
+      "level": 7375.01,
+      "order_ref": "NBS97JAR"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 3.78
+    },
+    "net": 214.35,
+    "currency": "€"
+  }
+}
