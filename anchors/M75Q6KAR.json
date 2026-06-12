@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "M75Q6KAR",
+  "close_ref": "M75Q6KAR",
+  "attested_at": "2026-06-12T06:55:33Z",
+  "hash": "559343294df97a3d8849019fddfa29fc740726fb727c632eb66dfab522423d9c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "M75Q6KAR",
+    "algo": "Prime US100 M30",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-11T09:00:00Z",
+      "level": 28877.1,
+      "order_ref": "M75Q6KAR"
+    },
+    "exit": {
+      "time": "2026-06-12T06:53:47Z",
+      "level": 29310.6,
+      "order_ref": "M75Q6KAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 1.79
+    },
+    "net": 435.29,
+    "currency": "€"
+  }
+}
