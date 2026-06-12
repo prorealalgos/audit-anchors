@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "M94SN5AR",
+  "close_ref": "M94SN5AR",
+  "attested_at": "2026-06-12T06:35:33Z",
+  "hash": "63a7f0c4eb424270d9bf77b3df4bb10ba9df373549ddb54faa75f9c26f46a543",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "M94SN5AR",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-11T13:51:00Z",
+      "level": 24299.4,
+      "order_ref": "M94SN5AR"
+    },
+    "exit": {
+      "time": "2026-06-12T06:31:06Z",
+      "level": 24556.4,
+      "order_ref": "M94SN5AR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 257.0,
+    "currency": "€"
+  }
+}
