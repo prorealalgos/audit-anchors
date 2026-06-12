@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NBUE7GAR",
+  "close_ref": "NBUE7GAR",
+  "attested_at": "2026-06-12T05:50:34Z",
+  "hash": "3c1ff48048b1eb9c22dffe89802c4abc663da282e083a0c4f7c833a37fd11ed4",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NBUE7GAR",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-11T16:12:00Z",
+      "level": 28905.3,
+      "order_ref": "NBUE7GAR"
+    },
+    "exit": {
+      "time": "2026-06-12T05:49:34Z",
+      "level": 29402.6,
+      "order_ref": "NBUE7GAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 1.86
+    },
+    "net": 499.16,
+    "currency": "€"
+  }
+}
