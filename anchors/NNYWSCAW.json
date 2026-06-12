@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NNYWSCAW",
+  "close_ref": "NNYWSCAW",
+  "attested_at": "2026-06-12T19:50:33Z",
+  "hash": "768bff7282232278172cc01bb0aec9b7b75a7936737baa535dc62da3f1534e43",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NNYWSCAW",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-12T07:57:00Z",
+      "level": 24690.7,
+      "order_ref": "NNYWSCAW"
+    },
+    "exit": {
+      "time": "2026-06-12T19:50:00Z",
+      "level": 24667.2,
+      "order_ref": "NNYWSCAW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -23.5,
+    "currency": "€"
+  }
+}
