@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NKPP43AK",
+  "close_ref": "NKPP43AK",
+  "attested_at": "2026-06-12T13:45:41Z",
+  "hash": "e5b4f31b88d8d2225e612899dc697a1864d5b381274681f9c24f6f13f4579b83",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NKPP43AK",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-12T11:45:00Z",
+      "level": 7437.54,
+      "order_ref": "NKPP43AK"
+    },
+    "exit": {
+      "time": "2026-06-12T13:42:00Z",
+      "level": 7381.35,
+      "order_ref": "NKPP43AK"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -168.57,
+    "currency": "€"
+  }
+}
