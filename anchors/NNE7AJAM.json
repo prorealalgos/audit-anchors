@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NNE7AJAM",
+  "close_ref": "NNE7AJAM",
+  "attested_at": "2026-06-12T17:25:34Z",
+  "hash": "67b00abc4b87bb20c665dad7cd096d6f0d24fac107bd0575b0f7e1857ae5d355",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NNE7AJAM",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-12T13:42:00Z",
+      "level": 7379.71,
+      "order_ref": "NNE7AJAM"
+    },
+    "exit": {
+      "time": "2026-06-12T17:21:00Z",
+      "level": 7439.43,
+      "order_ref": "NNE7AJAM"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -179.16,
+    "currency": "€"
+  }
+}
