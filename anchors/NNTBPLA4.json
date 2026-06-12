@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NNTBPLA4",
+  "close_ref": "NNTBPLA4",
+  "attested_at": "2026-06-12T19:00:34Z",
+  "hash": "221d133d2dbbe4d7ab659735c6b5ca478743610c1e1f4f157450e72fb073292b",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NNTBPLA4",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-11T04:00:00Z",
+      "level": 160.521,
+      "order_ref": "NNTBPLA4"
+    },
+    "exit": {
+      "time": "2026-06-12T19:00:00Z",
+      "level": 160.236,
+      "order_ref": "NNTBPLA4"
+    },
+    "costs": {
+      "entry_spread": -0.7,
+      "exit_spread": -0.7,
+      "overnight": 0.94
+    },
+    "net": -29.95,
+    "currency": "€"
+  }
+}
