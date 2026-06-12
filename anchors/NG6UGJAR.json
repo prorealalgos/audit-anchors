@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NG6UGJAR",
+  "close_ref": "NG6UGJAR",
+  "attested_at": "2026-06-12T10:25:34Z",
+  "hash": "8a0253b86723e46a5c27decc9ced549ab1c747b19a8b5e94c6a0e26cc7f6b01e",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NG6UGJAR",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-12T08:10:00Z",
+      "level": 51056.5,
+      "order_ref": "NG6UGJAR"
+    },
+    "exit": {
+      "time": "2026-06-12T10:20:59Z",
+      "level": 51119.0,
+      "order_ref": "NG6UGJAR"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 31.25,
+    "currency": "€"
+  }
+}
