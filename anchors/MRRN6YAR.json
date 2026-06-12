@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "MRRN6YAR",
+  "close_ref": "MRRN6YAR",
+  "attested_at": "2026-06-12T13:45:40Z",
+  "hash": "68b5d13897e83a7bf55ff0988f65153572cabf53bfb455af790c6f7a09c9ac68",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "MRRN6YAR",
+    "algo": "Prime SP500 M3b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-09T17:45:00Z",
+      "level": 7342.04,
+      "order_ref": "MRRN6YAR"
+    },
+    "exit": {
+      "time": "2026-06-12T13:42:29Z",
+      "level": 7374.23,
+      "order_ref": "MRRN6YAR"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 3.36
+    },
+    "net": 99.93,
+    "currency": "€"
+  }
+}
