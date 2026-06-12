@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "M8BWP7AR",
+  "close_ref": "M8BWP7AR",
+  "attested_at": "2026-06-12T12:20:33Z",
+  "hash": "0f73f8cac6c0088c9f82ce59d2c80a225f01dd173a8bfd16d06040989067734b",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "M8BWP7AR",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-11T09:44:00Z",
+      "level": 24234.0,
+      "order_ref": "M8BWP7AR"
+    },
+    "exit": {
+      "time": "2026-06-12T12:15:50Z",
+      "level": 24514.3,
+      "order_ref": "M8BWP7AR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 280.3,
+    "currency": "€"
+  }
+}
