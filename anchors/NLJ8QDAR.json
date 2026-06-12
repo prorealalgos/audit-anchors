@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NLJ8QDAR",
+  "close_ref": "NLJ8QDAR",
+  "attested_at": "2026-06-12T16:00:35Z",
+  "hash": "80f47b7ab8eb22f49e0b4215bcfdae12fa490311cf1e2128d78e5199d3eec557",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NLJ8QDAR",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-12T14:36:00Z",
+      "level": 24527.4,
+      "order_ref": "NLJ8QDAR"
+    },
+    "exit": {
+      "time": "2026-06-12T15:59:02Z",
+      "level": 24554.7,
+      "order_ref": "NLJ8QDAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 27.3,
+    "currency": "€"
+  }
+}
