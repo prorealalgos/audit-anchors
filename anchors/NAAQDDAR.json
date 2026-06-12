@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NAAQDDAR",
+  "close_ref": "NAAQDDAR",
+  "attested_at": "2026-06-12T12:25:33Z",
+  "hash": "6a40faf1b3a6afdc27fd7d8f2d328ede777498f8028a2df42d29f0bd4d9efb21",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NAAQDDAR",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-11T14:00:00Z",
+      "level": 24303.9,
+      "order_ref": "NAAQDDAR"
+    },
+    "exit": {
+      "time": "2026-06-12T12:23:32Z",
+      "level": 24506.6,
+      "order_ref": "NAAQDDAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 202.7,
+    "currency": "€"
+  }
+}
