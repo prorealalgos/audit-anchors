@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NUNYY7AW",
+  "close_ref": "NUNYY7AW",
+  "attested_at": "2026-06-15T15:51:21Z",
+  "hash": "28b1bcfeef8dd80605f8f82a1e180aea9459c62613f3b45f14a4ffd402bd1de9",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NUNYY7AW",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-15T12:45:00Z",
+      "level": 30232.3,
+      "order_ref": "NUNYY7AW"
+    },
+    "exit": {
+      "time": "2026-06-15T15:47:39Z",
+      "level": 30533.4,
+      "order_ref": "NUNYY7AW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 301.1,
+    "currency": "€"
+  }
+}
