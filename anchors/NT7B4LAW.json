@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NT7B4LAW",
+  "close_ref": "NT7B4LAW",
+  "attested_at": "2026-06-16T12:44:55Z",
+  "hash": "277bdcdb056418f468955e5ae9d7a225c9e7402215985a4dedea2b41b1a90394",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NT7B4LAW",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-15T11:13:00Z",
+      "level": 24955.5,
+      "order_ref": "NT7B4LAW"
+    },
+    "exit": {
+      "time": "2026-06-16T12:44:26Z",
+      "level": 24992.9,
+      "order_ref": "NT7B4LAW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 37.4,
+    "currency": "€"
+  }
+}
