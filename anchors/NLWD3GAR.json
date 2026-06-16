@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NLWD3GAR",
+  "close_ref": "NLWD3GAR",
+  "attested_at": "2026-06-16T20:04:16Z",
+  "hash": "078857dbd8b95b15b3af816c748f594415e8f3737f073a0fc87d9a54d895d229",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NLWD3GAR",
+    "algo": "Prime SP500 M3b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-12T14:57:00Z",
+      "level": 7430.8,
+      "order_ref": "NLWD3GAR"
+    },
+    "exit": {
+      "time": "2026-06-16T19:59:41Z",
+      "level": 7508.29,
+      "order_ref": "NLWD3GAR"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 11.06
+    },
+    "net": 243.53,
+    "currency": "€"
+  }
+}
