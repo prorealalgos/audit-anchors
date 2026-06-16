@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NLB9DNAR",
+  "close_ref": "NLB9DNAR",
+  "attested_at": "2026-06-16T14:24:16Z",
+  "hash": "a425c70e80d5659c6ae748c1cb6a77778a6ecf12fbd3f653bc2549a9ef9dcefc",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NLB9DNAR",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-12T14:18:00Z",
+      "level": 29593.0,
+      "order_ref": "NLB9DNAR"
+    },
+    "exit": {
+      "time": "2026-06-16T14:19:35Z",
+      "level": 30426.5,
+      "order_ref": "NLB9DNAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 2.7
+    },
+    "net": 836.2,
+    "currency": "€"
+  }
+}
