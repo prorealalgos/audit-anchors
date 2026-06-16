@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NNFFE8AR",
+  "close_ref": "NNFFE8AR",
+  "attested_at": "2026-06-16T14:34:16Z",
+  "hash": "085e029086fa5abd81d5c5e6809ac34e552fc58247d19d32efa328d68eeba731",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NNFFE8AR",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-12T17:21:00Z",
+      "level": 7439.79,
+      "order_ref": "NNFFE8AR"
+    },
+    "exit": {
+      "time": "2026-06-16T14:31:25Z",
+      "level": 7535.41,
+      "order_ref": "NNFFE8AR"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 15.09
+    },
+    "net": 301.95,
+    "currency": "€"
+  }
+}
