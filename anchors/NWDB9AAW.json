@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NWDB9AAW",
+  "close_ref": "NWDB9AAW",
+  "attested_at": "2026-06-16T05:14:55Z",
+  "hash": "0426d10718c373f3bc7884810ac89ece895a6ff87f32db3d4a536b2c0a632725",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NWDB9AAW",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-15T15:12:00Z",
+      "level": 24902.1,
+      "order_ref": "NWDB9AAW"
+    },
+    "exit": {
+      "time": "2026-06-16T05:11:09Z",
+      "level": 24899.1,
+      "order_ref": "NWDB9AAW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 3.0,
+    "currency": "€"
+  }
+}
