@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "N94TRXA6",
+  "close_ref": "N94TRXA6",
+  "attested_at": "2026-06-17T08:34:17Z",
+  "hash": "6219fa9680fca535fb39926920f8c64d16404f620c993524358a72a67f1131d3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "N94TRXA6",
+    "algo": "Cuts SP500 M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-15T11:50:00Z",
+      "level": 7526.1,
+      "order_ref": "N94TRXA6"
+    },
+    "exit": {
+      "time": "2026-06-17T08:30:00Z",
+      "level": 7524.34,
+      "order_ref": "N94TRXA6"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 2.26
+    },
+    "net": -3.02,
+    "currency": "€"
+  }
+}
