@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PACJT5AW",
+  "close_ref": "PACJT5AW",
+  "attested_at": "2026-06-17T11:59:16Z",
+  "hash": "37b9c99dfe9f90f7e7092f6a31b09d5447a676608617697e5d1de57fd2265db3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PACJT5AW",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-17T09:14:00Z",
+      "level": 24859.0,
+      "order_ref": "PACJT5AW"
+    },
+    "exit": {
+      "time": "2026-06-17T11:55:30Z",
+      "level": 24862.0,
+      "order_ref": "PACJT5AW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 3.0,
+    "currency": "€"
+  }
+}
