@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PBPQANAW",
+  "close_ref": "PBPQANAW",
+  "attested_at": "2026-06-17T14:49:16Z",
+  "hash": "936e318496920f8113ea8282c36a224e7b1c717eff3a4d07ead399265e95525f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PBPQANAW",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-17T13:40:00Z",
+      "level": 52058.0,
+      "order_ref": "PBPQANAW"
+    },
+    "exit": {
+      "time": "2026-06-17T14:47:20Z",
+      "level": 52073.2,
+      "order_ref": "PBPQANAW"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 7.6,
+    "currency": "€"
+  }
+}
