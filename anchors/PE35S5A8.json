@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PE35S5A8",
+  "close_ref": "PE35S5A8",
+  "attested_at": "2026-06-17T19:04:17Z",
+  "hash": "d89e9b1ee6c24555e975b27897c26bdc02ca6a73062bc223321ea0994e4825ab",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PE35S5A8",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-17T12:57:00Z",
+      "level": 7521.48,
+      "order_ref": "PE35S5A8"
+    },
+    "exit": {
+      "time": "2026-06-17T19:03:00Z",
+      "level": 7467.21,
+      "order_ref": "PE35S5A8"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -162.81,
+    "currency": "€"
+  }
+}
