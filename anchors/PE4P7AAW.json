@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PE4P7AAW",
+  "close_ref": "PE4P7AAW",
+  "attested_at": "2026-06-17T22:14:16Z",
+  "hash": "66b01cb945ca2f5a6202598f85aa0dee53cf4d939eedf7c6c0e7865a0ab849ef",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PE4P7AAW",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-17T19:03:00Z",
+      "level": 7466.91,
+      "order_ref": "PE4P7AAW"
+    },
+    "exit": {
+      "time": "2026-06-17T22:09:36Z",
+      "level": 7443.14,
+      "order_ref": "PE4P7AAW"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": -0.3
+    },
+    "net": 71.01,
+    "currency": "€"
+  }
+}
