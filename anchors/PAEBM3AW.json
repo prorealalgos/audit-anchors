@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PAEBM3AW",
+  "close_ref": "PAEBM3AW",
+  "attested_at": "2026-06-17T18:04:16Z",
+  "hash": "498db77b63bf71dcfb9f9dd0b75635e202393cc5da2345753e5186547f196c6c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PAEBM3AW",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-17T09:21:00Z",
+      "level": 24859.4,
+      "order_ref": "PAEBM3AW"
+    },
+    "exit": {
+      "time": "2026-06-17T18:04:09Z",
+      "level": 24866.3,
+      "order_ref": "PAEBM3AW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 6.9,
+    "currency": "€"
+  }
+}
