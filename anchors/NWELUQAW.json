@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NWELUQAW",
+  "close_ref": "NWELUQAW",
+  "attested_at": "2026-06-17T01:09:16Z",
+  "hash": "c70d23592197c5f7fe03377486a7b221cdc69538d6d913fb72b2514ed20a368e",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NWELUQAW",
+    "algo": "Cuts DAX M10",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-15T15:18:00Z",
+      "level": 24893.5,
+      "order_ref": "NWELUQAW"
+    },
+    "exit": {
+      "time": "2026-06-17T01:05:57Z",
+      "level": 24816.5,
+      "order_ref": "NWELUQAW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 77.0,
+    "currency": "€"
+  }
+}
