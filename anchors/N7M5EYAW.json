@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "N7M5EYAW",
+  "close_ref": "N7M5EYAW",
+  "attested_at": "2026-06-17T15:19:17Z",
+  "hash": "215ec4a961340b96eec16115d27f0d94dc1162010c866099472b91fea99c5d46",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "N7M5EYAW",
+    "algo": "Cuts SP500 M15",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-16T20:15:00Z",
+      "level": 7507.41,
+      "order_ref": "N7M5EYAW"
+    },
+    "exit": {
+      "time": "2026-06-17T15:14:44Z",
+      "level": 7506.8,
+      "order_ref": "N7M5EYAW"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 1.83,
+    "currency": "€"
+  }
+}
