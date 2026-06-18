@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PJBZ6EAW",
+  "close_ref": "PJBZ6EAW",
+  "attested_at": "2026-06-18T08:34:17Z",
+  "hash": "220603f4e86d2d25723582a79a114f2de4011b54275f831872efc5a1dd9ddffa",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PJBZ6EAW",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-18T06:30:00Z",
+      "level": 24964.0,
+      "order_ref": "PJBZ6EAW"
+    },
+    "exit": {
+      "time": "2026-06-18T08:31:04Z",
+      "level": 24901.4,
+      "order_ref": "PJBZ6EAW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -62.6,
+    "currency": "€"
+  }
+}
