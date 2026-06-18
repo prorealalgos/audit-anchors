@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PLQZS5AW",
+  "close_ref": "PLQZS5AW",
+  "attested_at": "2026-06-18T13:44:17Z",
+  "hash": "3e9df0200c57229688eb0d6d70febfc4ca2fa79112c440a449027d7823c8ffbe",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PLQZS5AW",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-18T13:00:00Z",
+      "level": 25023.2,
+      "order_ref": "PLQZS5AW"
+    },
+    "exit": {
+      "time": "2026-06-18T13:39:56Z",
+      "level": 24948.1,
+      "order_ref": "PLQZS5AW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -75.1,
+    "currency": "€"
+  }
+}
