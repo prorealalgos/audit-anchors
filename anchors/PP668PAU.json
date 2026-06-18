@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PP668PAU",
+  "close_ref": "PP668PAU",
+  "attested_at": "2026-06-18T19:59:17Z",
+  "hash": "c6955fc8bb1594f328efcc7be7f947be3038f0138bddd1d17c632c11ef924deb",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PP668PAU",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-18T14:40:00Z",
+      "level": 25023.1,
+      "order_ref": "PP668PAU"
+    },
+    "exit": {
+      "time": "2026-06-18T19:58:00Z",
+      "level": 25047.0,
+      "order_ref": "PP668PAU"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 23.9,
+    "currency": "€"
+  }
+}
