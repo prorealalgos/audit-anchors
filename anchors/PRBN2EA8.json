@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PRBN2EA8",
+  "close_ref": "PRBN2EA8",
+  "attested_at": "2026-06-19T03:04:17Z",
+  "hash": "b6066fc005989769748bd7ff7d190baea6e25cca446746d3e08f35e938f41b55",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PRBN2EA8",
+    "algo": "FX USD/JPY H1",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-18T21:00:01Z",
+      "level": 161.333,
+      "order_ref": "PRBN2EA8"
+    },
+    "exit": {
+      "time": "2026-06-19T03:00:00Z",
+      "level": 161.237,
+      "order_ref": "PRBN2EA8"
+    },
+    "costs": {
+      "entry_spread": -0.7,
+      "exit_spread": -0.7,
+      "overnight": 0.0
+    },
+    "net": 10.34,
+    "currency": "€"
+  }
+}
