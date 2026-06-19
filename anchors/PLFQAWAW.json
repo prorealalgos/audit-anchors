@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PLFQAWAW",
+  "close_ref": "PLFQAWAW",
+  "attested_at": "2026-06-19T00:19:18Z",
+  "hash": "7628fcd43cacdcc0a9e45db2bf82aa6f1bd20bff90de28c25c26014a6060710c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PLFQAWAW",
+    "algo": "Prime DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-18T12:18:00Z",
+      "level": 24983.9,
+      "order_ref": "PLFQAWAW"
+    },
+    "exit": {
+      "time": "2026-06-19T00:15:19Z",
+      "level": 24999.3,
+      "order_ref": "PLFQAWAW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 15.4,
+    "currency": "€"
+  }
+}
