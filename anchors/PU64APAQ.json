@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PU64APAQ",
+  "close_ref": "PU64APAQ",
+  "attested_at": "2026-06-19T19:04:18Z",
+  "hash": "03ceaac2bb2ae0f0e71664f520de235b4b8f8a95b293ddc31623b8cb49d75828",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PU64APAQ",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-19T03:00:00Z",
+      "level": 161.242,
+      "order_ref": "PU64APAQ"
+    },
+    "exit": {
+      "time": "2026-06-19T19:00:00Z",
+      "level": 161.255,
+      "order_ref": "PU64APAQ"
+    },
+    "costs": {
+      "entry_spread": -0.7,
+      "exit_spread": -0.7,
+      "overnight": 0.0
+    },
+    "net": 1.4,
+    "currency": "€"
+  }
+}
