@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PU8DPJA2",
+  "close_ref": "PU8DPJA2",
+  "attested_at": "2026-06-19T19:54:17Z",
+  "hash": "4761ff50903294f5001266edbdba43b0deea6ec918af4d21050c6bfad5a4fc78",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PU8DPJA2",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-19T13:02:00Z",
+      "level": 25083.9,
+      "order_ref": "PU8DPJA2"
+    },
+    "exit": {
+      "time": "2026-06-19T19:50:00Z",
+      "level": 24993.2,
+      "order_ref": "PU8DPJA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -90.7,
+    "currency": "€"
+  }
+}
