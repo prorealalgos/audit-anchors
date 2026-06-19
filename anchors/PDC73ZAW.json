@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PDC73ZAW",
+  "close_ref": "PDC73ZAW",
+  "attested_at": "2026-06-19T03:19:17Z",
+  "hash": "19582fbfc39e6539446653c6193c271f6f42277ca530a9fa48affd20722e2f3d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PDC73ZAW",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-17T16:00:00Z",
+      "level": 30122.6,
+      "order_ref": "PDC73ZAW"
+    },
+    "exit": {
+      "time": "2026-06-19T03:16:07Z",
+      "level": 30229.7,
+      "order_ref": "PDC73ZAW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 3.04
+    },
+    "net": 110.14,
+    "currency": "€"
+  }
+}
