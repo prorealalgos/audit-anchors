@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PTMBRDAK",
+  "close_ref": "PTMBRDAK",
+  "attested_at": "2026-06-19T11:09:18Z",
+  "hash": "3388f2d2dfe49331a5d824674abf9cae3a941c3248e133df757a022d92a05103",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PTMBRDAK",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-18T09:48:00Z",
+      "level": 7491.56,
+      "order_ref": "PTMBRDAK"
+    },
+    "exit": {
+      "time": "2026-06-19T11:09:00Z",
+      "level": 7469.3,
+      "order_ref": "PTMBRDAK"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 1.29
+    },
+    "net": -65.49,
+    "currency": "€"
+  }
+}
