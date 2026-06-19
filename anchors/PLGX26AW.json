@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PLGX26AW",
+  "close_ref": "PLGX26AW",
+  "attested_at": "2026-06-19T00:19:17Z",
+  "hash": "ff991a528f94dcc8aef64c0d3571e1ff93500cee4da4699c44833618a0ad1dee",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PLGX26AW",
+    "algo": "Cuts DAX M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-18T12:21:00Z",
+      "level": 24988.8,
+      "order_ref": "PLGX26AW"
+    },
+    "exit": {
+      "time": "2026-06-19T00:15:19Z",
+      "level": 24999.3,
+      "order_ref": "PLGX26AW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 10.5,
+    "currency": "€"
+  }
+}
