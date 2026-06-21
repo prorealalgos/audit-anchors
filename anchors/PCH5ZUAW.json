@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PCH5ZUAW",
+  "close_ref": "PCH5ZUAW",
+  "attested_at": "2026-06-21T22:09:19Z",
+  "hash": "08df888114b962eb20d2a21e77f357861b801c6c1d9cba23dabf693804458a70",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PCH5ZUAW",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-17T14:33:00Z",
+      "level": 24913.6,
+      "order_ref": "PCH5ZUAW"
+    },
+    "exit": {
+      "time": "2026-06-21T22:09:05Z",
+      "level": 24941.8,
+      "order_ref": "PCH5ZUAW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 28.2,
+    "currency": "€"
+  }
+}
