@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PY73V7AS",
+  "close_ref": "PY73V7AS",
+  "attested_at": "2026-06-22T09:14:18Z",
+  "hash": "f4565c1a146f6ffcb9809abd26c209ac713fe85b071fdeeb8d53ba549c30f4d6",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PY73V7AS",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-19T11:09:00Z",
+      "level": 7467.2,
+      "order_ref": "PY73V7AS"
+    },
+    "exit": {
+      "time": "2026-06-22T09:12:00Z",
+      "level": 7495.38,
+      "order_ref": "PY73V7AS"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -84.54,
+    "currency": "€"
+  }
+}
