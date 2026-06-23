@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "P7YS8VAV",
+  "close_ref": "P7YS8VAV",
+  "attested_at": "2026-06-23T06:09:18Z",
+  "hash": "51b088320c66e4bfcc91810bca7db41da6efc37cdb41ba3831fffdc9e92b742f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "P7YS8VAV",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-22T11:11:00Z",
+      "level": 24951.8,
+      "order_ref": "P7YS8VAV"
+    },
+    "exit": {
+      "time": "2026-06-23T06:05:00Z",
+      "level": 24906.2,
+      "order_ref": "P7YS8VAV"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -45.6,
+    "currency": "€"
+  }
+}
