@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PUNA9NAW",
+  "close_ref": "PUNA9NAW",
+  "attested_at": "2026-06-23T03:39:19Z",
+  "hash": "9ef15a216e94f76fdbb6967bd0cd6de90ebbb169cc053e5345593ef37d99d529",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PUNA9NAW",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-19T14:45:00Z",
+      "level": 7493.44,
+      "order_ref": "PUNA9NAW"
+    },
+    "exit": {
+      "time": "2026-06-23T03:36:20Z",
+      "level": 7433.49,
+      "order_ref": "PUNA9NAW"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.3
+    },
+    "net": -179.55,
+    "currency": "€"
+  }
+}
