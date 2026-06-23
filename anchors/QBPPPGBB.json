@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "QBPPPGBB",
+  "close_ref": "QBPPPGBB",
+  "attested_at": "2026-06-23T13:50:44Z",
+  "hash": "2c9f408df1e528e0f56185971798bb2c31249b1942f7323044430cbc403a6089",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "QBPPPGBB",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-23T13:18:00Z",
+      "level": 7362.14,
+      "order_ref": "QBPPPGBB"
+    },
+    "exit": {
+      "time": "2026-06-23T13:48:00Z",
+      "level": 7388.56,
+      "order_ref": "QBPPPGBB"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -79.26,
+    "currency": "€"
+  }
+}
