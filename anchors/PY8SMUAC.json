@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PY8SMUAC",
+  "close_ref": "PY8SMUAC",
+  "attested_at": "2026-06-23T06:29:18Z",
+  "hash": "7d8c88f4bfbc4fb924c305dc556873ce7cae581bb748012346b99eebd1ccf990",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PY8SMUAC",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-22T09:12:00Z",
+      "level": 7497.19,
+      "order_ref": "PY8SMUAC"
+    },
+    "exit": {
+      "time": "2026-06-23T06:25:40Z",
+      "level": 7384.73,
+      "order_ref": "PY8SMUAC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.33
+    },
+    "net": -337.05,
+    "currency": "€"
+  }
+}
