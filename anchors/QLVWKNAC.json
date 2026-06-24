@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "QLVWKNAC",
+  "close_ref": "QLVWKNAC",
+  "attested_at": "2026-06-24T17:28:36Z",
+  "hash": "0704d2c5687c931c749277d481b336e7ec077d0bde14a0a460d1f8069bcdd63f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "QLVWKNAC",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-24T15:15:00Z",
+      "level": 7413.89,
+      "order_ref": "QLVWKNAC"
+    },
+    "exit": {
+      "time": "2026-06-24T17:25:06Z",
+      "level": 7354.56,
+      "order_ref": "QLVWKNAC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -177.99,
+    "currency": "€"
+  }
+}
