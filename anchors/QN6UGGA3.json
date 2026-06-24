@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "QN6UGGA3",
+  "close_ref": "QN6UGGA3",
+  "attested_at": "2026-06-24T19:58:37Z",
+  "hash": "3200620933ad6404337c8b71798cb1ba5b3957db313cdd466794cda28e68bc50",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "QN6UGGA3",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-24T12:02:00Z",
+      "level": 24660.3,
+      "order_ref": "QN6UGGA3"
+    },
+    "exit": {
+      "time": "2026-06-24T19:58:00Z",
+      "level": 24681.9,
+      "order_ref": "QN6UGGA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 21.6,
+    "currency": "€"
+  }
+}
