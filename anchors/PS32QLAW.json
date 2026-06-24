@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PS32QLAW",
+  "close_ref": "PS32QLAW",
+  "attested_at": "2026-06-24T10:03:36Z",
+  "hash": "9474f915b571f1604b1a83e335a694adec21b364e0dbb23ff10439eea8f00aaf",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PS32QLAW",
+    "algo": "Prime DAX M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-19T09:00:00Z",
+      "level": 25126.4,
+      "order_ref": "PS32QLAW"
+    },
+    "exit": {
+      "time": "2026-06-24T10:02:00Z",
+      "level": 24623.3,
+      "order_ref": "PS32QLAW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -503.1,
+    "currency": "€"
+  }
+}
