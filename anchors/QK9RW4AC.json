@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "QK9RW4AC",
+  "close_ref": "QK9RW4AC",
+  "attested_at": "2026-06-24T17:33:36Z",
+  "hash": "976bfaaa0570791f067cab4efa29daf306b4cad23389b291296c29d7a78524f0",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "QK9RW4AC",
+    "algo": "Cuts DAX M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-24T14:24:00Z",
+      "level": 24648.6,
+      "order_ref": "QK9RW4AC"
+    },
+    "exit": {
+      "time": "2026-06-24T17:28:48Z",
+      "level": 24659.4,
+      "order_ref": "QK9RW4AC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 10.8,
+    "currency": "€"
+  }
+}
