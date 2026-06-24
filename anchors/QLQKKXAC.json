@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "QLQKKXAC",
+  "close_ref": "QLQKKXAC",
+  "attested_at": "2026-06-24T19:08:36Z",
+  "hash": "9eec9468e064893a0bc987f5d732316a6df30e0f3ad1e087b6ccc2fa234bf7b8",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "QLQKKXAC",
+    "algo": "Prime US100 M30",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-24T15:00:01Z",
+      "level": 29589.1,
+      "order_ref": "QLQKKXAC"
+    },
+    "exit": {
+      "time": "2026-06-24T19:07:03Z",
+      "level": 28996.0,
+      "order_ref": "QLQKKXAC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -593.1,
+    "currency": "€"
+  }
+}
