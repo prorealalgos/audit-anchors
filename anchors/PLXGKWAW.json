@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "PLXGKWAW",
+  "close_ref": "PLXGKWAW",
+  "attested_at": "2026-06-24T16:48:36Z",
+  "hash": "adae36ed0df8951ebf35555f65d9124eb248c5cb18831018d5a030404fffbd24",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "PLXGKWAW",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-18T13:30:00Z",
+      "level": 51857.4,
+      "order_ref": "PLXGKWAW"
+    },
+    "exit": {
+      "time": "2026-06-24T16:43:48Z",
+      "level": 52057.4,
+      "order_ref": "PLXGKWAW"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 100.0,
+    "currency": "€"
+  }
+}
