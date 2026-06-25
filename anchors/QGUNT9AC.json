@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "QGUNT9AC",
+  "close_ref": "QGUNT9AC",
+  "attested_at": "2026-06-25T06:13:36Z",
+  "hash": "10c608ad78e6f42cee4aa59d915add6e4209ce798cc8b5ede4ae5460c02c2235",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "QGUNT9AC",
+    "algo": "Prime DAX M1",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-24T07:11:00Z",
+      "level": 24766.3,
+      "order_ref": "QGUNT9AC"
+    },
+    "exit": {
+      "time": "2026-06-25T06:08:58Z",
+      "level": 24760.3,
+      "order_ref": "QGUNT9AC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 6.0,
+    "currency": "€"
+  }
+}
