@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "QTG7Z5AC",
+  "close_ref": "QTG7Z5AC",
+  "attested_at": "2026-06-25T15:13:37Z",
+  "hash": "2e0c1ca0ccb0c0ea8de3d1c39ac7bc28bdaa4d52826d21ce231322f53ea3aa82",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "QTG7Z5AC",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-25T12:08:00Z",
+      "level": 24934.9,
+      "order_ref": "QTG7Z5AC"
+    },
+    "exit": {
+      "time": "2026-06-25T15:11:35Z",
+      "level": 24995.4,
+      "order_ref": "QTG7Z5AC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 60.5,
+    "currency": "€"
+  }
+}
