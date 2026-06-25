@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "QLCT5YAC",
+  "close_ref": "QLCT5YAC",
+  "attested_at": "2026-06-25T01:58:36Z",
+  "hash": "d30c185df6d70f852aedb2f13eb92ca0308a4fa2599bea26c8dc622c0062ae88",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "QLCT5YAC",
+    "algo": "Prime DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-24T14:33:00Z",
+      "level": 24672.3,
+      "order_ref": "QLCT5YAC"
+    },
+    "exit": {
+      "time": "2026-06-25T01:58:10Z",
+      "level": 24701.4,
+      "order_ref": "QLCT5YAC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 29.1,
+    "currency": "€"
+  }
+}
