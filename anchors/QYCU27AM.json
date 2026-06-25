@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "QYCU27AM",
+  "close_ref": "QYCU27AM",
+  "attested_at": "2026-06-25T19:58:37Z",
+  "hash": "cf9bc02df81a1c89fe8b4c1620a313697dee8324da50fbca8f96cab1005e238a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "QYCU27AM",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-25T17:25:00Z",
+      "level": 29430.2,
+      "order_ref": "QYCU27AM"
+    },
+    "exit": {
+      "time": "2026-06-25T19:55:00Z",
+      "level": 29397.0,
+      "order_ref": "QYCU27AM"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 33.2,
+    "currency": "€"
+  }
+}
