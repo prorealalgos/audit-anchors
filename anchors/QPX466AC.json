@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "QPX466AC",
+  "close_ref": "QPX466AC",
+  "attested_at": "2026-06-25T13:58:37Z",
+  "hash": "4dcfb5de31dd96915e86c1a0e5b8931f1efba7bfa5eec637ed9f2463f5057b98",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "QPX466AC",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-24T23:00:00Z",
+      "level": 7399.36,
+      "order_ref": "QPX466AC"
+    },
+    "exit": {
+      "time": "2026-06-25T13:53:36Z",
+      "level": 7340.08,
+      "order_ref": "QPX466AC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -177.84,
+    "currency": "€"
+  }
+}
