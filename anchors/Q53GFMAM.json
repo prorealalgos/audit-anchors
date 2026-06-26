@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "Q53GFMAM",
+  "close_ref": "Q53GFMAM",
+  "attested_at": "2026-06-26T13:58:37Z",
+  "hash": "acb4ceeac1581dc44da1d1ac67c5c5b722cb9945b46c33ff770a02b8be321f83",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "Q53GFMAM",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-26T13:39:00Z",
+      "level": 7309.32,
+      "order_ref": "Q53GFMAM"
+    },
+    "exit": {
+      "time": "2026-06-26T13:57:00Z",
+      "level": 7335.09,
+      "order_ref": "Q53GFMAM"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -77.31,
+    "currency": "€"
+  }
+}
