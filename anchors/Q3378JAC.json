@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "Q3378JAC",
+  "close_ref": "Q3378JAC",
+  "attested_at": "2026-06-26T14:03:39Z",
+  "hash": "92b813cebdb97365927e7f275d39f7fbe41a49d52d73fef6d061e7c83021165e",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "Q3378JAC",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-26T09:21:00Z",
+      "level": 24715.7,
+      "order_ref": "Q3378JAC"
+    },
+    "exit": {
+      "time": "2026-06-26T14:00:21Z",
+      "level": 24674.7,
+      "order_ref": "Q3378JAC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 41.0,
+    "currency": "€"
+  }
+}
