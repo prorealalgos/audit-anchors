@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "Q527Z5AC",
+  "close_ref": "Q527Z5AC",
+  "attested_at": "2026-06-26T18:48:37Z",
+  "hash": "033088b250fefcd69140b877379f50f5f932240deec4f768646734644188aff2",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "Q527Z5AC",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-26T13:57:00Z",
+      "level": 7335.2,
+      "order_ref": "Q527Z5AC"
+    },
+    "exit": {
+      "time": "2026-06-26T18:46:31Z",
+      "level": 7350.04,
+      "order_ref": "Q527Z5AC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 44.52,
+    "currency": "€"
+  }
+}
