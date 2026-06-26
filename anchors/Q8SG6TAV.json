@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "Q8SG6TAV",
+  "close_ref": "Q8SG6TAV",
+  "attested_at": "2026-06-26T19:58:38Z",
+  "hash": "6dedead18888b79ae9c30fdb73956e2e85f56b550cd4cc117579f0d847a36a0d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "Q8SG6TAV",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-26T12:32:00Z",
+      "level": 24703.2,
+      "order_ref": "Q8SG6TAV"
+    },
+    "exit": {
+      "time": "2026-06-26T19:58:00Z",
+      "level": 24646.7,
+      "order_ref": "Q8SG6TAV"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -56.5,
+    "currency": "€"
+  }
+}
