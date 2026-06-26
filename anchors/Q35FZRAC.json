@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "Q35FZRAC",
+  "close_ref": "Q35FZRAC",
+  "attested_at": "2026-06-26T14:03:40Z",
+  "hash": "7cdc489d080fe355d8707162bcaee77859107aafcaeab10b3ba40e5d24822966",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "Q35FZRAC",
+    "algo": "Cuts DAX M10",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-26T09:24:00Z",
+      "level": 24699.4,
+      "order_ref": "Q35FZRAC"
+    },
+    "exit": {
+      "time": "2026-06-26T14:00:21Z",
+      "level": 24675.9,
+      "order_ref": "Q35FZRAC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 23.5,
+    "currency": "€"
+  }
+}
