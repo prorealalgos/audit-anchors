@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "RLBTJ7AP",
+  "close_ref": "RLBTJ7AP",
+  "attested_at": "2026-06-29T19:58:39Z",
+  "hash": "7668a6e28634f03c81d0d39616c84700f62bb54a71acd8166d534a9e31800fb5",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "RLBTJ7AP",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-29T10:52:00Z",
+      "level": 24688.1,
+      "order_ref": "RLBTJ7AP"
+    },
+    "exit": {
+      "time": "2026-06-29T19:58:00Z",
+      "level": 24729.8,
+      "order_ref": "RLBTJ7AP"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 41.7,
+    "currency": "€"
+  }
+}
