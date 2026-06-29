@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "Q7GFALAC",
+  "close_ref": "Q7GFALAC",
+  "attested_at": "2026-06-29T07:03:38Z",
+  "hash": "70cec0da16e4d73fd14635243f678da98351e4d96232d247ae643a1e6f2ca62c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "Q7GFALAC",
+    "algo": "Cuts DAX M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-26T15:42:00Z",
+      "level": 24687.5,
+      "order_ref": "Q7GFALAC"
+    },
+    "exit": {
+      "time": "2026-06-29T07:02:45Z",
+      "level": 24696.4,
+      "order_ref": "Q7GFALAC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 8.9,
+    "currency": "€"
+  }
+}
