@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "RQVJJHAR",
+  "close_ref": "RQVJJHAR",
+  "attested_at": "2026-06-30T13:08:39Z",
+  "hash": "d7218e6120a078c7e50a9f03438c8ef1596a637d0045bec8eabaa2f6c9ed4a2a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "RQVJJHAR",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-29T14:42:00Z",
+      "level": 7402.9,
+      "order_ref": "RQVJJHAR"
+    },
+    "exit": {
+      "time": "2026-06-30T13:06:00Z",
+      "level": 7434.42,
+      "order_ref": "RQVJJHAR"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 5.31
+    },
+    "net": 99.87,
+    "currency": "€"
+  }
+}
