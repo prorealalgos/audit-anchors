@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "RR82CDA5",
+  "close_ref": "RR82CDA5",
+  "attested_at": "2026-06-30T14:43:39Z",
+  "hash": "699160c1a6ea6c321d6ac2f7f742a0b4321210939873a092f71d9aba782d857c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "RR82CDA5",
+    "algo": "Prime DOW M5",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-26T13:05:00Z",
+      "level": 51834.8,
+      "order_ref": "RR82CDA5"
+    },
+    "exit": {
+      "time": "2026-06-30T14:40:00Z",
+      "level": 52274.0,
+      "order_ref": "RR82CDA5"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": -2.22
+    },
+    "net": -221.82,
+    "currency": "€"
+  }
+}
