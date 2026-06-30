@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "RGMPLSA3",
+  "close_ref": "RGMPLSA3",
+  "attested_at": "2026-06-30T12:33:39Z",
+  "hash": "eeb261a218e8fb9cab32e3032c1b345af2a909a1fcdb9bcfb209d79d6c0925c5",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "RGMPLSA3",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-29T12:04:00Z",
+      "level": 24699.9,
+      "order_ref": "RGMPLSA3"
+    },
+    "exit": {
+      "time": "2026-06-30T12:31:50Z",
+      "level": 24908.0,
+      "order_ref": "RGMPLSA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 208.1,
+    "currency": "€"
+  }
+}
