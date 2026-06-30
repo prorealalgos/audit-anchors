@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "RGKDCAA3",
+  "close_ref": "RGKDCAA3",
+  "attested_at": "2026-06-30T12:28:39Z",
+  "hash": "411c22c1ce40d13aa18be288181d4e4181585487be0b783605c290064f359d96",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "RGKDCAA3",
+    "algo": "Cuts DAX M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-29T11:57:00Z",
+      "level": 24689.5,
+      "order_ref": "RGKDCAA3"
+    },
+    "exit": {
+      "time": "2026-06-30T12:25:55Z",
+      "level": 24928.2,
+      "order_ref": "RGKDCAA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 238.7,
+    "currency": "€"
+  }
+}
