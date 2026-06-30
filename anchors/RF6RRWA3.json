@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "RF6RRWA3",
+  "close_ref": "RF6RRWA3",
+  "attested_at": "2026-06-30T13:28:39Z",
+  "hash": "6a74ad41256c80d6f078bd36a60d8dc8aace6ad09dd7bb807fec7129483df0e4",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "RF6RRWA3",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-29T10:12:00Z",
+      "level": 29405.1,
+      "order_ref": "RF6RRWA3"
+    },
+    "exit": {
+      "time": "2026-06-30T13:24:37Z",
+      "level": 29717.6,
+      "order_ref": "RF6RRWA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.98
+    },
+    "net": 313.48,
+    "currency": "€"
+  }
+}
