@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "RQVAZ9AT",
+  "close_ref": "RQVAZ9AT",
+  "attested_at": "2026-06-30T13:08:40Z",
+  "hash": "494d3298dc1d063d8b8aab9c7f78a2e3b598487047452cd63399ca353db797b7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "RQVAZ9AT",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-30T13:06:00Z",
+      "level": 7434.24,
+      "order_ref": "RQVAZ9AT"
+    },
+    "exit": {
+      "time": "2026-06-30T13:06:00Z",
+      "level": 7435.74,
+      "order_ref": "RQVAZ9AT"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -4.5,
+    "currency": "€"
+  }
+}
