@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "RJKWEUA3",
+  "close_ref": "RJKWEUA3",
+  "attested_at": "2026-07-01T08:43:39Z",
+  "hash": "ea22b1b91a964ae753b57e6c2b73485c3ae14d45ed87a3e7c14db03507d9bf3d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "RJKWEUA3",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-06-29T14:51:00Z",
+      "level": 24603.0,
+      "order_ref": "RJKWEUA3"
+    },
+    "exit": {
+      "time": "2026-07-01T08:39:27Z",
+      "level": 25095.6,
+      "order_ref": "RJKWEUA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -492.6,
+    "currency": "€"
+  }
+}
