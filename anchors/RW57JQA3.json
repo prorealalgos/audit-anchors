@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "RW57JQA3",
+  "close_ref": "RW57JQA3",
+  "attested_at": "2026-07-01T13:53:40Z",
+  "hash": "769c2d1ea5f4a4463b088cebe29daa15814c7e2844408b224dabc577862d809f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "RW57JQA3",
+    "algo": "Cuts SP500 M15",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-01T10:15:00Z",
+      "level": 7470.76,
+      "order_ref": "RW57JQA3"
+    },
+    "exit": {
+      "time": "2026-07-01T13:50:57Z",
+      "level": 7469.71,
+      "order_ref": "RW57JQA3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 3.15,
+    "currency": "€"
+  }
+}
