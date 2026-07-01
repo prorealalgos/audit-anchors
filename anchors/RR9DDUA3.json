@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "RR9DDUA3",
+  "close_ref": "RR9DDUA3",
+  "attested_at": "2026-07-01T17:03:40Z",
+  "hash": "c98edb3616d4926f86310599b0939499603b1d5aea62b13e5307627f5691666c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "RR9DDUA3",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-30T14:40:00Z",
+      "level": 52272.6,
+      "order_ref": "RR9DDUA3"
+    },
+    "exit": {
+      "time": "2026-07-01T16:59:15Z",
+      "level": 52536.9,
+      "order_ref": "RR9DDUA3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 132.15,
+    "currency": "€"
+  }
+}
