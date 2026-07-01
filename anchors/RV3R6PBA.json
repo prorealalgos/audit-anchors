@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "RV3R6PBA",
+  "close_ref": "RV3R6PBA",
+  "attested_at": "2026-07-01T07:03:39Z",
+  "hash": "a4dca16cddc1bc761e0dff487b5cff10917cd10064058dfa9be4ce3fa6702b9d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "RV3R6PBA",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-29T15:45:00Z",
+      "level": 24642.1,
+      "order_ref": "RV3R6PBA"
+    },
+    "exit": {
+      "time": "2026-07-01T07:00:00Z",
+      "level": 25038.3,
+      "order_ref": "RV3R6PBA"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 396.2,
+    "currency": "€"
+  }
+}
