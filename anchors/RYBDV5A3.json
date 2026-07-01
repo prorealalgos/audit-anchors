@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "RYBDV5A3",
+  "close_ref": "RYBDV5A3",
+  "attested_at": "2026-07-01T19:58:40Z",
+  "hash": "f679ea89c37c120a855f0266cc6adf286bd440951040d62409cd8c6f5f7d1b46",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "RYBDV5A3",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-01T13:24:00Z",
+      "level": 7480.37,
+      "order_ref": "RYBDV5A3"
+    },
+    "exit": {
+      "time": "2026-07-01T19:57:42Z",
+      "level": 7480.57,
+      "order_ref": "RYBDV5A3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 0.6,
+    "currency": "€"
+  }
+}
