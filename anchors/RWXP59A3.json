@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "RWXP59A3",
+  "close_ref": "RWXP59A3",
+  "attested_at": "2026-07-02T14:53:41Z",
+  "hash": "12d2a74768fb8981de8e1daf07199e3c0a052d0232b47aa9e781b666b9850978",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "RWXP59A3",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-01T09:20:00Z",
+      "level": 30095.8,
+      "order_ref": "RWXP59A3"
+    },
+    "exit": {
+      "time": "2026-07-02T14:53:22Z",
+      "level": 29487.2,
+      "order_ref": "RWXP59A3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -608.6,
+    "currency": "€"
+  }
+}
