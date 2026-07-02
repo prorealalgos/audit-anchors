@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "RSMHUYA3",
+  "close_ref": "RSMHUYA3",
+  "attested_at": "2026-07-02T06:33:40Z",
+  "hash": "38e044cb182569aea11884449b099a89a2c1f4089e050d9d9066f325163beec7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "RSMHUYA3",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-30T15:10:00Z",
+      "level": 24989.3,
+      "order_ref": "RSMHUYA3"
+    },
+    "exit": {
+      "time": "2026-07-02T06:29:33Z",
+      "level": 25035.4,
+      "order_ref": "RSMHUYA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 46.1,
+    "currency": "€"
+  }
+}
