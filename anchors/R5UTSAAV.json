@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "R5UTSAAV",
+  "close_ref": "R5UTSAAV",
+  "attested_at": "2026-07-02T07:03:40Z",
+  "hash": "20e71747bfe0c50989cd397f39022ed0fc406aecd6d28ecd72e2341d5e658d0c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "R5UTSAAV",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-29T03:00:00Z",
+      "level": 161.79,
+      "order_ref": "R5UTSAAV"
+    },
+    "exit": {
+      "time": "2026-07-02T07:00:00Z",
+      "level": 161.813,
+      "order_ref": "R5UTSAAV"
+    },
+    "costs": {
+      "entry_spread": -0.7,
+      "exit_spread": -0.7,
+      "overnight": 5.08
+    },
+    "net": 7.56,
+    "currency": "€"
+  }
+}
