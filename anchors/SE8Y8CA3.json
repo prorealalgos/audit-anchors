@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "SE8Y8CA3",
+  "close_ref": "SE8Y8CA3",
+  "attested_at": "2026-07-03T07:33:41Z",
+  "hash": "344d88efd657feaa44a51e2c7d549e906b88499affde04d1f1bbde6f6408ce68",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "SE8Y8CA3",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-03T07:15:00Z",
+      "level": 25782.5,
+      "order_ref": "SE8Y8CA3"
+    },
+    "exit": {
+      "time": "2026-07-03T07:31:28Z",
+      "level": 25718.0,
+      "order_ref": "SE8Y8CA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -64.5,
+    "currency": "€"
+  }
+}
