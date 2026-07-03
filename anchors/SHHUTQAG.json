@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "SHHUTQAG",
+  "close_ref": "SHHUTQAG",
+  "attested_at": "2026-07-03T17:03:42Z",
+  "hash": "c1ff7899eb8a839461b71bcdfd8700a57d7195d31d99bb98b1373f1a25fa85bd",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "SHHUTQAG",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-03T13:00:00Z",
+      "level": 25750.1,
+      "order_ref": "SHHUTQAG"
+    },
+    "exit": {
+      "time": "2026-07-03T17:00:00Z",
+      "level": 25795.6,
+      "order_ref": "SHHUTQAG"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 45.5,
+    "currency": "€"
+  }
+}
