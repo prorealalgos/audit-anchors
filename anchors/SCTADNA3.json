@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "SCTADNA3",
+  "close_ref": "SCTADNA3",
+  "attested_at": "2026-07-03T07:48:41Z",
+  "hash": "2825e8aff476ef2f775191c605108d63c747b9496cc63241fd794e87c5aa9e57",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "SCTADNA3",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-02T19:41:00Z",
+      "level": 25540.8,
+      "order_ref": "SCTADNA3"
+    },
+    "exit": {
+      "time": "2026-07-03T07:45:03Z",
+      "level": 25689.9,
+      "order_ref": "SCTADNA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 149.1,
+    "currency": "€"
+  }
+}
