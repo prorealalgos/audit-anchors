@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "SHLUP7AZ",
+  "close_ref": "SHLUP7AZ",
+  "attested_at": "2026-07-03T19:53:41Z",
+  "hash": "c6542762b7bef3192aa1e884f20c50b7d8cdfc94a065ca9b787d864931c5db6c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "SHLUP7AZ",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-03T10:31:00Z",
+      "level": 25685.6,
+      "order_ref": "SHLUP7AZ"
+    },
+    "exit": {
+      "time": "2026-07-03T19:50:00Z",
+      "level": 25797.1,
+      "order_ref": "SHLUP7AZ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 111.5,
+    "currency": "€"
+  }
+}
