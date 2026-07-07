@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "NTZPHZAW",
+  "close_ref": "NTZPHZAW",
+  "attested_at": "2026-07-07T10:30:27Z",
+  "hash": "1b976b417517ca7d60681051ee0add288731375f918d994b639778da73ad7bcb",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "NTZPHZAW",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-15T10:28:00Z",
+      "level": 24955.6,
+      "order_ref": "NTZPHZAW"
+    },
+    "exit": {
+      "time": "2026-07-07T10:30:01Z",
+      "level": 25667.2,
+      "order_ref": "NTZPHZAW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 711.6,
+    "currency": "€"
+  }
+}
