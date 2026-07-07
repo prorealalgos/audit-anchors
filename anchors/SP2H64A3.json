@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "SP2H64A3",
+  "close_ref": "SP2H64A3",
+  "attested_at": "2026-07-07T13:40:28Z",
+  "hash": "d5a67c7665a2ddd97429dae924c378a7c1103f0ddc33aca41ba383b67593471c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "SP2H64A3",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-06T15:10:00Z",
+      "level": 52892.5,
+      "order_ref": "SP2H64A3"
+    },
+    "exit": {
+      "time": "2026-07-07T13:40:02Z",
+      "level": 53126.4,
+      "order_ref": "SP2H64A3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 116.95,
+    "currency": "€"
+  }
+}
