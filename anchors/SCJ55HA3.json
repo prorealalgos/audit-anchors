@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "SCJ55HA3",
+  "close_ref": "SCJ55HA3",
+  "attested_at": "2026-07-07T14:45:28Z",
+  "hash": "151132dd4c3346a0d02a0d88be24e95fb0e3f81a2b26cae1d2226257b07bc458",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "SCJ55HA3",
+    "algo": "Prime SP500 M3b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-02T18:51:00Z",
+      "level": 7459.11,
+      "order_ref": "SCJ55HA3"
+    },
+    "exit": {
+      "time": "2026-07-07T14:41:55Z",
+      "level": 7482.42,
+      "order_ref": "SCJ55HA3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 2.59
+    },
+    "net": 72.52,
+    "currency": "€"
+  }
+}
