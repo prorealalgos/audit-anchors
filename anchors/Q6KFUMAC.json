@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "Q6KFUMAC",
+  "close_ref": "Q6KFUMAC",
+  "attested_at": "2026-07-07T10:40:27Z",
+  "hash": "d33bc93f9028fadcfc0e2389c2634e8216889dc06c4f42a257ed33c2a42ce52f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "Q6KFUMAC",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-06-26T14:24:00Z",
+      "level": 24686.4,
+      "order_ref": "Q6KFUMAC"
+    },
+    "exit": {
+      "time": "2026-07-07T10:36:44Z",
+      "level": 25656.6,
+      "order_ref": "Q6KFUMAC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 970.2,
+    "currency": "€"
+  }
+}
