@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "SYUPJMBC",
+  "close_ref": "SYUPJMBC",
+  "attested_at": "2026-07-07T20:00:28Z",
+  "hash": "2206c081dbae3f940dde0f81cd199db46146d8792c89b8d891f03c67bbeeb319",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "SYUPJMBC",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-07T14:04:00Z",
+      "level": 25536.1,
+      "order_ref": "SYUPJMBC"
+    },
+    "exit": {
+      "time": "2026-07-07T19:58:00Z",
+      "level": 25459.7,
+      "order_ref": "SYUPJMBC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 76.4,
+    "currency": "€"
+  }
+}
