@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "SLVJGBA3",
+  "close_ref": "SLVJGBA3",
+  "attested_at": "2026-07-08T11:44:30Z",
+  "hash": "b014185ff5640e9b96b7d98991621383c4e089ecfdcc11918fee3a30c6914b4c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "SLVJGBA3",
+    "algo": "Prime DAX M1",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-06T06:41:00Z",
+      "level": 25774.3,
+      "order_ref": "SLVJGBA3"
+    },
+    "exit": {
+      "time": "2026-07-08T11:43:46Z",
+      "level": 25046.4,
+      "order_ref": "SLVJGBA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 727.9,
+    "currency": "€"
+  }
+}
