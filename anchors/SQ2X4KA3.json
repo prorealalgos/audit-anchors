@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "SQ2X4KA3",
+  "close_ref": "SQ2X4KA3",
+  "attested_at": "2026-07-08T07:00:17Z",
+  "hash": "a75d6711b5c61cbdc9e479531bc9172873b4a5e06ce31e49710ca9025bbf96fa",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "SQ2X4KA3",
+    "algo": "Prime DAX M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-06T18:30:00Z",
+      "level": 25813.9,
+      "order_ref": "SQ2X4KA3"
+    },
+    "exit": {
+      "time": "2026-07-08T06:59:47Z",
+      "level": 25294.8,
+      "order_ref": "SQ2X4KA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -519.1,
+    "currency": "€"
+  }
+}
