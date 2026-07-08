@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "SUZHV8A3",
+  "close_ref": "SUZHV8A3",
+  "attested_at": "2026-07-08T09:15:17Z",
+  "hash": "9edddc5277af295bd202185d0baa7027e37a26cc97b10aa1d23020187eaf58cd",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "SUZHV8A3",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-07T12:06:00Z",
+      "level": 7531.88,
+      "order_ref": "SUZHV8A3"
+    },
+    "exit": {
+      "time": "2026-07-08T09:14:25Z",
+      "level": 7418.51,
+      "order_ref": "SUZHV8A3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.21
+    },
+    "net": -339.9,
+    "currency": "€"
+  }
+}
