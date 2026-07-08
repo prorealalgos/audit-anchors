@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "SUB6X2A3",
+  "close_ref": "SUB6X2A3",
+  "attested_at": "2026-07-08T00:30:30Z",
+  "hash": "91d5de7ffd627858c9a7069fe48417dafd64c66dfbbc5eb05ab55214ee178a56",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "SUB6X2A3",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-07T09:27:00Z",
+      "level": 25720.2,
+      "order_ref": "SUB6X2A3"
+    },
+    "exit": {
+      "time": "2026-07-08T00:25:35Z",
+      "level": 25478.5,
+      "order_ref": "SUB6X2A3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 241.7,
+    "currency": "€"
+  }
+}
