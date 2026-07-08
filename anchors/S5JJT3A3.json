@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "S5JJT3A3",
+  "close_ref": "S5JJT3A3",
+  "attested_at": "2026-07-08T14:54:30Z",
+  "hash": "9332fd8d63e0b74f4924c8b31db843a8ce90e82333cbb707acc677ceb91d2021",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "S5JJT3A3",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-08T10:36:00Z",
+      "level": 28823.7,
+      "order_ref": "S5JJT3A3"
+    },
+    "exit": {
+      "time": "2026-07-08T14:50:00Z",
+      "level": 28945.4,
+      "order_ref": "S5JJT3A3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 121.7,
+    "currency": "€"
+  }
+}
