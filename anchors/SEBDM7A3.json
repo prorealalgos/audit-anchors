@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "SEBDM7A3",
+  "close_ref": "SEBDM7A3",
+  "attested_at": "2026-07-08T08:30:17Z",
+  "hash": "8d4abdf7a81462332f7d10609fd362694e21d722464ad5a2768add18c07fa8ab",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "SEBDM7A3",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-03T03:15:00Z",
+      "level": 7498.58,
+      "order_ref": "SEBDM7A3"
+    },
+    "exit": {
+      "time": "2026-07-08T08:30:05Z",
+      "level": 7438.59,
+      "order_ref": "SEBDM7A3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.6
+    },
+    "net": -179.37,
+    "currency": "€"
+  }
+}
