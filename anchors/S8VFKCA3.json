@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "S8VFKCA3",
+  "close_ref": "S8VFKCA3",
+  "attested_at": "2026-07-09T14:16:14Z",
+  "hash": "0818d83f36567acbaaeb4bc5f45b8595686f70cb303e131ef4e74e5a17db229d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "S8VFKCA3",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-08T16:32:00Z",
+      "level": 29081.0,
+      "order_ref": "S8VFKCA3"
+    },
+    "exit": {
+      "time": "2026-07-09T14:16:00Z",
+      "level": 29493.0,
+      "order_ref": "S8VFKCA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.44
+    },
+    "net": 412.44,
+    "currency": "€"
+  }
+}
