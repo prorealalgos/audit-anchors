@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "S5NJDLA3",
+  "close_ref": "S5NJDLA3",
+  "attested_at": "2026-07-10T14:36:14Z",
+  "hash": "833ab1df402157e45da90383f73a70d40655aeb9447aa74314df7db855e4804a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "S5NJDLA3",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-08T10:57:00Z",
+      "level": 24945.0,
+      "order_ref": "S5NJDLA3"
+    },
+    "exit": {
+      "time": "2026-07-10T14:33:14Z",
+      "level": 24934.0,
+      "order_ref": "S5NJDLA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -11.0,
+    "currency": "€"
+  }
+}
