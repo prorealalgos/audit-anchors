@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "S8GAV4A3",
+  "close_ref": "S8GAV4A3",
+  "attested_at": "2026-07-13T06:21:19Z",
+  "hash": "3f28d7a1a72b0befea38ae75daded5cc60102974c5e7dbfaaefa555311a40203",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "S8GAV4A3",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-08T15:39:00Z",
+      "level": 24909.5,
+      "order_ref": "S8GAV4A3"
+    },
+    "exit": {
+      "time": "2026-07-13T06:20:40Z",
+      "level": 24891.3,
+      "order_ref": "S8GAV4A3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 18.2,
+    "currency": "€"
+  }
+}
