@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "TKJTQYA3",
+  "close_ref": "TKJTQYA3",
+  "attested_at": "2026-07-13T03:01:15Z",
+  "hash": "a3b7e172af33ef93cbb9802df13949f7c059843dd780e9a6c2077c39b91dcd8e",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "TKJTQYA3",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-10T09:15:00Z",
+      "level": 7536.48,
+      "order_ref": "TKJTQYA3"
+    },
+    "exit": {
+      "time": "2026-07-13T02:59:33Z",
+      "level": 7538.71,
+      "order_ref": "TKJTQYA3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.09
+    },
+    "net": 6.78,
+    "currency": "€"
+  }
+}
