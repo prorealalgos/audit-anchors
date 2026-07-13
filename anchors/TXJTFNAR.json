@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "TXJTFNAR",
+  "close_ref": "TXJTFNAR",
+  "attested_at": "2026-07-13T20:01:15Z",
+  "hash": "e5d3a09a8856eb8289d53e32d7ccdd429db7d2e0067727e7ff907dddbccac94f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "TXJTFNAR",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-13T15:12:00Z",
+      "level": 25119.2,
+      "order_ref": "TXJTFNAR"
+    },
+    "exit": {
+      "time": "2026-07-13T19:58:00Z",
+      "level": 24993.4,
+      "order_ref": "TXJTFNAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -125.8,
+    "currency": "€"
+  }
+}
