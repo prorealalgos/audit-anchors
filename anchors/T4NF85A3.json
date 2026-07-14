@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "T4NF85A3",
+  "close_ref": "T4NF85A3",
+  "attested_at": "2026-07-14T15:06:16Z",
+  "hash": "0f954988de7c6a7035cd8a94157bb775430775a435777002ae8c84ae9bafcdd7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "T4NF85A3",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-14T13:15:01Z",
+      "level": 52437.2,
+      "order_ref": "T4NF85A3"
+    },
+    "exit": {
+      "time": "2026-07-14T15:01:55Z",
+      "level": 52460.2,
+      "order_ref": "T4NF85A3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 11.5,
+    "currency": "€"
+  }
+}
