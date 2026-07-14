@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "TVHRBYA3",
+  "close_ref": "TVHRBYA3",
+  "attested_at": "2026-07-14T13:36:16Z",
+  "hash": "7e1625ef44d22eea8f63e1db7bd7863158baacc6e81349e2c0c04d4f8a6d5996",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "TVHRBYA3",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-13T14:36:00Z",
+      "level": 29481.8,
+      "order_ref": "TVHRBYA3"
+    },
+    "exit": {
+      "time": "2026-07-14T13:34:49Z",
+      "level": 29487.2,
+      "order_ref": "TVHRBYA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 5.4,
+    "currency": "€"
+  }
+}
