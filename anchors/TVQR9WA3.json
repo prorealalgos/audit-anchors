@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "TVQR9WA3",
+  "close_ref": "TVQR9WA3",
+  "attested_at": "2026-07-14T03:21:15Z",
+  "hash": "de066886ff6fd0e5ab8acf713045f62bf75f2bca51617398a0cb68e4deb5051a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "TVQR9WA3",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-13T14:56:00Z",
+      "level": 25111.9,
+      "order_ref": "TVQR9WA3"
+    },
+    "exit": {
+      "time": "2026-07-14T03:18:00Z",
+      "level": 24785.4,
+      "order_ref": "TVQR9WA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -326.5,
+    "currency": "€"
+  }
+}
