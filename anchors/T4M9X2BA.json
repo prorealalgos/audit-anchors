@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "T4M9X2BA",
+  "close_ref": "T4M9X2BA",
+  "attested_at": "2026-07-14T13:16:16Z",
+  "hash": "2fd17268eec19d0a6f174796621fa5e892c42f83320699eb3d02bd84111a279a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "T4M9X2BA",
+    "algo": "Prime DOW M5",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-14T11:05:00Z",
+      "level": 52110.5,
+      "order_ref": "T4M9X2BA"
+    },
+    "exit": {
+      "time": "2026-07-14T13:15:00Z",
+      "level": 52437.2,
+      "order_ref": "T4M9X2BA"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -163.35,
+    "currency": "€"
+  }
+}
