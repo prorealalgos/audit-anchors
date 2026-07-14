@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "TZTVGJA3",
+  "close_ref": "TZTVGJA3",
+  "attested_at": "2026-07-14T14:06:16Z",
+  "hash": "ed4ce1ca1048b8bf41534b2b4fd73ceec1394d5e37ad65967bb76ae6a048fcb8",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "TZTVGJA3",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-14T06:25:00Z",
+      "level": 29413.7,
+      "order_ref": "TZTVGJA3"
+    },
+    "exit": {
+      "time": "2026-07-14T14:05:06Z",
+      "level": 29463.5,
+      "order_ref": "TZTVGJA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 49.8,
+    "currency": "€"
+  }
+}
