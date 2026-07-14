@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "T4GDRLA3",
+  "close_ref": "T4GDRLA3",
+  "attested_at": "2026-07-14T18:41:16Z",
+  "hash": "d4abf8c2f3de84c4d98882e5ce5f3d779a39bffb8208388e1c3ab57ebe7125f7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "T4GDRLA3",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-14T12:56:00Z",
+      "level": 24988.4,
+      "order_ref": "T4GDRLA3"
+    },
+    "exit": {
+      "time": "2026-07-14T18:40:20Z",
+      "level": 25054.2,
+      "order_ref": "T4GDRLA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 65.8,
+    "currency": "€"
+  }
+}
