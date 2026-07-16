@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "SXSXG9A3",
+  "close_ref": "SXSXG9A3",
+  "attested_at": "2026-07-16T19:29:47Z",
+  "hash": "e6507ea8cb9ab41473b14ea42d71e3191c622ec0a37197cf3ba5c93811d29a36",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "SXSXG9A3",
+    "algo": "Prime SP500 M3b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-07T16:24:00Z",
+      "level": 7514.02,
+      "order_ref": "SXSXG9A3"
+    },
+    "exit": {
+      "time": "2026-07-16T19:26:12Z",
+      "level": 7517.34,
+      "order_ref": "SXSXG9A3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 9.0
+    },
+    "net": 18.96,
+    "currency": "€"
+  }
+}
