@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "UJQT43A3",
+  "close_ref": "UJQT43A3",
+  "attested_at": "2026-07-16T12:04:47Z",
+  "hash": "ab1d53c7a6879fd9cff20a966067a886a8ec12c7b06cb61d26194624dced0ac7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "UJQT43A3",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-16T11:14:00Z",
+      "level": 24813.5,
+      "order_ref": "UJQT43A3"
+    },
+    "exit": {
+      "time": "2026-07-16T12:03:21Z",
+      "level": 24794.4,
+      "order_ref": "UJQT43A3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 19.1,
+    "currency": "€"
+  }
+}
