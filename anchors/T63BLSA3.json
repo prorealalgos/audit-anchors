@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "T63BLSA3",
+  "close_ref": "T63BLSA3",
+  "attested_at": "2026-07-16T11:54:47Z",
+  "hash": "5e74d24254160ccaccacab1b975b7a7329e0b27f2cec4a0dddf6e9524cdc18a6",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "T63BLSA3",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-14T16:42:00Z",
+      "level": 7541.87,
+      "order_ref": "T63BLSA3"
+    },
+    "exit": {
+      "time": "2026-07-16T11:49:55Z",
+      "level": 7536.77,
+      "order_ref": "T63BLSA3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 5.55
+    },
+    "net": -9.75,
+    "currency": "€"
+  }
+}
