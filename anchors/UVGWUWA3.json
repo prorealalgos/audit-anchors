@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "UVGWUWA3",
+  "close_ref": "UVGWUWA3",
+  "attested_at": "2026-07-17T19:14:48Z",
+  "hash": "2f1702a737129be173783e05f20aa5d770e68e03995888372a94c0ae738a811d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "UVGWUWA3",
+    "algo": "Cuts DAX M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-17T14:33:00Z",
+      "level": 24781.3,
+      "order_ref": "UVGWUWA3"
+    },
+    "exit": {
+      "time": "2026-07-17T19:14:05Z",
+      "level": 24785.1,
+      "order_ref": "UVGWUWA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 3.8,
+    "currency": "€"
+  }
+}
