@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "T4HL9PA3",
+  "close_ref": "T4HL9PA3",
+  "attested_at": "2026-07-17T04:24:48Z",
+  "hash": "5c36140cc3a64d4665239595f74e99525d4f9b268ae17571a03299b0fcdcbe26",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "T4HL9PA3",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-14T13:00:00Z",
+      "level": 7536.8,
+      "order_ref": "T4HL9PA3"
+    },
+    "exit": {
+      "time": "2026-07-17T04:19:46Z",
+      "level": 7476.47,
+      "order_ref": "T4HL9PA3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 5.07
+    },
+    "net": -175.92,
+    "currency": "€"
+  }
+}
