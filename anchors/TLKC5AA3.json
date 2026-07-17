@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "TLKC5AA3",
+  "close_ref": "TLKC5AA3",
+  "attested_at": "2026-07-17T04:39:52Z",
+  "hash": "a800562f67094f790f65b46b09b00093be5a3759699de461838c22850ec49be1",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "TLKC5AA3",
+    "algo": "Cuts DAX M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-10T13:09:00Z",
+      "level": 25129.7,
+      "order_ref": "TLKC5AA3"
+    },
+    "exit": {
+      "time": "2026-07-17T04:35:06Z",
+      "level": 24626.2,
+      "order_ref": "TLKC5AA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -503.5,
+    "currency": "€"
+  }
+}
