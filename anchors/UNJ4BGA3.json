@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "UNJ4BGA3",
+  "close_ref": "UNJ4BGA3",
+  "attested_at": "2026-07-17T14:04:49Z",
+  "hash": "1e40b21467739c5fa0e9b70c430101c2445ad82e40f2e9b355ce6b7b19199b11",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "UNJ4BGA3",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-16T18:36:00Z",
+      "level": 7531.64,
+      "order_ref": "UNJ4BGA3"
+    },
+    "exit": {
+      "time": "2026-07-17T14:00:01Z",
+      "level": 7473.34,
+      "order_ref": "UNJ4BGA3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.03
+    },
+    "net": 174.93,
+    "currency": "€"
+  }
+}
