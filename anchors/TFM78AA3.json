@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "TFM78AA3",
+  "close_ref": "TFM78AA3",
+  "attested_at": "2026-07-17T04:39:51Z",
+  "hash": "dc1da6367b59032fcb5382f7428c53798eb4812c012cdcb667e81a2f861efd84",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "TFM78AA3",
+    "algo": "Prime DAX M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-09T15:15:00Z",
+      "level": 25123.6,
+      "order_ref": "TFM78AA3"
+    },
+    "exit": {
+      "time": "2026-07-17T04:35:13Z",
+      "level": 24619.5,
+      "order_ref": "TFM78AA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -504.1,
+    "currency": "€"
+  }
+}
