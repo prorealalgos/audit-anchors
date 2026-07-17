@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "UXCMEDAM",
+  "close_ref": "UXCMEDAM",
+  "attested_at": "2026-07-17T19:04:48Z",
+  "hash": "9bfb0bb0d4dcec21bd8e3fed5eba4a98d263095f7e647e25cc8f3b96754058f9",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "UXCMEDAM",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-15T04:00:00Z",
+      "level": 162.152,
+      "order_ref": "UXCMEDAM"
+    },
+    "exit": {
+      "time": "2026-07-17T19:00:00Z",
+      "level": 162.439,
+      "order_ref": "UXCMEDAM"
+    },
+    "costs": {
+      "entry_spread": -0.7,
+      "exit_spread": -0.7,
+      "overnight": 5.48
+    },
+    "net": 36.22,
+    "currency": "€"
+  }
+}
