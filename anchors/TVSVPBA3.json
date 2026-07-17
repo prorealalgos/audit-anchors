@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "TVSVPBA3",
+  "close_ref": "TVSVPBA3",
+  "attested_at": "2026-07-17T04:39:50Z",
+  "hash": "d37234db1024ff82e09bacb98c66ef9286ad390e6665111d7b0afaf1da38afbb",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "TVSVPBA3",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-13T15:02:00Z",
+      "level": 25113.5,
+      "order_ref": "TVSVPBA3"
+    },
+    "exit": {
+      "time": "2026-07-17T04:37:02Z",
+      "level": 24609.5,
+      "order_ref": "TVSVPBA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -504.0,
+    "currency": "€"
+  }
+}
