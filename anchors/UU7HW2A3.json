@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "UU7HW2A3",
+  "close_ref": "UU7HW2A3",
+  "attested_at": "2026-07-20T14:04:50Z",
+  "hash": "6def039cb8acea8aa9ad11807704bf6684721f06c1758ef5d3f0d00c4f79c3c0",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "UU7HW2A3",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-17T14:12:00Z",
+      "level": 28653.2,
+      "order_ref": "UU7HW2A3"
+    },
+    "exit": {
+      "time": "2026-07-20T14:01:30Z",
+      "level": 28787.2,
+      "order_ref": "UU7HW2A3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 134.0,
+    "currency": "€"
+  }
+}
