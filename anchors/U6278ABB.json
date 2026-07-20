@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "U6278ABB",
+  "close_ref": "U6278ABB",
+  "attested_at": "2026-07-20T18:14:50Z",
+  "hash": "08a986c5aa11069ba631bf9f975d748f13c4aec658d824e524ffec0c96b9f954",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "U6278ABB",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-20T14:45:00Z",
+      "level": 7474.29,
+      "order_ref": "U6278ABB"
+    },
+    "exit": {
+      "time": "2026-07-20T18:12:00Z",
+      "level": 7475.28,
+      "order_ref": "U6278ABB"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -2.97,
+    "currency": "€"
+  }
+}
