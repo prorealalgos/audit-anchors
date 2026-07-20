@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "U7H2DWAT",
+  "close_ref": "U7H2DWAT",
+  "attested_at": "2026-07-20T19:59:50Z",
+  "hash": "f8c1590359d26338c707b8a8230b489fe7aeeeb998a2915ea054a5cdc13dec0d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "U7H2DWAT",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-20T18:45:00Z",
+      "level": 28687.8,
+      "order_ref": "U7H2DWAT"
+    },
+    "exit": {
+      "time": "2026-07-20T19:55:00Z",
+      "level": 28631.4,
+      "order_ref": "U7H2DWAT"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 56.4,
+    "currency": "€"
+  }
+}
