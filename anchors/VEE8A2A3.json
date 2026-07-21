@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "VEE8A2A3",
+  "close_ref": "VEE8A2A3",
+  "attested_at": "2026-07-21T19:59:51Z",
+  "hash": "777b74335ac7751083ca6db24f36342d2f9fb1e712dd5d43aa6b5f811c968c72",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "VEE8A2A3",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-21T14:20:00Z",
+      "level": 24901.7,
+      "order_ref": "VEE8A2A3"
+    },
+    "exit": {
+      "time": "2026-07-21T19:58:00Z",
+      "level": 25068.3,
+      "order_ref": "VEE8A2A3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 166.6,
+    "currency": "€"
+  }
+}
