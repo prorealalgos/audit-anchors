@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "U2T79JAX",
+  "close_ref": "U2T79JAX",
+  "attested_at": "2026-07-22T06:49:50Z",
+  "hash": "c088e4a0ba8c0d5b2b764e2b586a032a73e721a00c0a3afa007f7f3f5f260a0b",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "U2T79JAX",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-20T07:36:00Z",
+      "level": 24871.2,
+      "order_ref": "U2T79JAX"
+    },
+    "exit": {
+      "time": "2026-07-22T06:45:06Z",
+      "level": 24982.8,
+      "order_ref": "U2T79JAX"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 111.6,
+    "currency": "€"
+  }
+}
