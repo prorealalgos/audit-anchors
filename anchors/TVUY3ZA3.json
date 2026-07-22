@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "TVUY3ZA3",
+  "close_ref": "TVUY3ZA3",
+  "attested_at": "2026-07-22T09:39:50Z",
+  "hash": "71d85c7d9888a18da002cdd9c04f62a50a2975004ac4ef2b0ae386c15eadc68b",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "TVUY3ZA3",
+    "algo": "Prime DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-13T15:09:00Z",
+      "level": 25099.5,
+      "order_ref": "TVUY3ZA3"
+    },
+    "exit": {
+      "time": "2026-07-22T09:39:01Z",
+      "level": 25145.2,
+      "order_ref": "TVUY3ZA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 45.7,
+    "currency": "€"
+  }
+}
