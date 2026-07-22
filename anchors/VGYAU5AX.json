@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "VGYAU5AX",
+  "close_ref": "VGYAU5AX",
+  "attested_at": "2026-07-22T09:49:50Z",
+  "hash": "567805dbc1801265eec73170a0cd18fb54d6c659d73a7a13c5047325b7dbb846",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "VGYAU5AX",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-22T07:58:00Z",
+      "level": 25060.6,
+      "order_ref": "VGYAU5AX"
+    },
+    "exit": {
+      "time": "2026-07-22T09:44:51Z",
+      "level": 25123.2,
+      "order_ref": "VGYAU5AX"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 62.6,
+    "currency": "€"
+  }
+}
