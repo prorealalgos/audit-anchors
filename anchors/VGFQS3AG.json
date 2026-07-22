@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "VGFQS3AG",
+  "close_ref": "VGFQS3AG",
+  "attested_at": "2026-07-22T07:04:50Z",
+  "hash": "1abb1b0046898788ea208e04a8134a80555788e1bebda2a3ed18d4fd3eb778f1",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "VGFQS3AG",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-20T15:45:00Z",
+      "level": 24845.4,
+      "order_ref": "VGFQS3AG"
+    },
+    "exit": {
+      "time": "2026-07-22T07:00:00Z",
+      "level": 24968.4,
+      "order_ref": "VGFQS3AG"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 123.0,
+    "currency": "€"
+  }
+}
