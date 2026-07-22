@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "U37EAKAX",
+  "close_ref": "U37EAKAX",
+  "attested_at": "2026-07-22T06:29:51Z",
+  "hash": "d976b4e24b65958aa195c7222085631e197c6be25a94b1f0e7f644cc1fbaa2b3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "U37EAKAX",
+    "algo": "Cuts DAX M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-20T11:45:00Z",
+      "level": 24955.2,
+      "order_ref": "U37EAKAX"
+    },
+    "exit": {
+      "time": "2026-07-22T06:25:25Z",
+      "level": 25007.3,
+      "order_ref": "U37EAKAX"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 52.1,
+    "currency": "€"
+  }
+}
