@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "U63CPKAX",
+  "close_ref": "U63CPKAX",
+  "attested_at": "2026-07-22T22:29:51Z",
+  "hash": "f66fb878c1d5fc02f9746934a6e6f5f1a84a7cdfd3c519a111bb0cc743c297a4",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "U63CPKAX",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-20T18:12:00Z",
+      "level": 7475.57,
+      "order_ref": "U63CPKAX"
+    },
+    "exit": {
+      "time": "2026-07-22T22:29:17Z",
+      "level": 7483.1,
+      "order_ref": "U63CPKAX"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 2.97
+    },
+    "net": 25.56,
+    "currency": "€"
+  }
+}
