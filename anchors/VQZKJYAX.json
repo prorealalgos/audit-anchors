@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "VQZKJYAX",
+  "close_ref": "VQZKJYAX",
+  "attested_at": "2026-07-23T13:39:51Z",
+  "hash": "34cea16420827a4d954d5f81b59789753611e815dc8ebd8c77b3284009d5834a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "VQZKJYAX",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-23T11:20:00Z",
+      "level": 24979.1,
+      "order_ref": "VQZKJYAX"
+    },
+    "exit": {
+      "time": "2026-07-23T13:38:08Z",
+      "level": 24838.9,
+      "order_ref": "VQZKJYAX"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 140.2,
+    "currency": "€"
+  }
+}
