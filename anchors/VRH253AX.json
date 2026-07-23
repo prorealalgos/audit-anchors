@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "VRH253AX",
+  "close_ref": "VRH253AX",
+  "attested_at": "2026-07-23T13:44:52Z",
+  "hash": "bbbbc6d87bbd094210e84b4767caa617fb2b44f79867aa2df20b876b22c575bb",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "VRH253AX",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-23T12:27:00Z",
+      "level": 24934.9,
+      "order_ref": "VRH253AX"
+    },
+    "exit": {
+      "time": "2026-07-23T13:42:07Z",
+      "level": 24846.3,
+      "order_ref": "VRH253AX"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 88.6,
+    "currency": "€"
+  }
+}
