@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "VRLHLMAX",
+  "close_ref": "VRLHLMAX",
+  "attested_at": "2026-07-23T13:44:54Z",
+  "hash": "c9ba5e746ea86cc49a56b5810a0e60185b5603e47cf726857634f9bf0ed2b687",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "VRLHLMAX",
+    "algo": "Cuts DAX M10",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-23T12:33:00Z",
+      "level": 24923.7,
+      "order_ref": "VRLHLMAX"
+    },
+    "exit": {
+      "time": "2026-07-23T13:42:07Z",
+      "level": 24846.3,
+      "order_ref": "VRLHLMAX"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 77.4,
+    "currency": "€"
+  }
+}
