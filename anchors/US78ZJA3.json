@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "US78ZJA3",
+  "close_ref": "US78ZJA3",
+  "attested_at": "2026-07-23T06:04:51Z",
+  "hash": "554844de384b9bc117c9187b91617b85e1da357a2385cb0647e0b1cd2c6c2097",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "US78ZJA3",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-17T10:33:00Z",
+      "level": 24771.9,
+      "order_ref": "US78ZJA3"
+    },
+    "exit": {
+      "time": "2026-07-23T06:00:01Z",
+      "level": 25037.8,
+      "order_ref": "US78ZJA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 265.9,
+    "currency": "€"
+  }
+}
