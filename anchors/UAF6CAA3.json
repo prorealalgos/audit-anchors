@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "UAF6CAA3",
+  "close_ref": "UAF6CAA3",
+  "attested_at": "2026-07-23T13:24:52Z",
+  "hash": "5da66907b4b9a690c188949c47ec3e77ca3b91932ba7848ef264081df3d2a169",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "UAF6CAA3",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-15T09:00:00Z",
+      "level": 52642.9,
+      "order_ref": "UAF6CAA3"
+    },
+    "exit": {
+      "time": "2026-07-23T13:24:34Z",
+      "level": 51590.0,
+      "order_ref": "UAF6CAA3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 4.85
+    },
+    "net": -521.6,
+    "currency": "€"
+  }
+}
