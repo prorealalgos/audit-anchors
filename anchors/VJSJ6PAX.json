@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "VJSJ6PAX",
+  "close_ref": "VJSJ6PAX",
+  "attested_at": "2026-07-23T12:49:51Z",
+  "hash": "d82fbc72d651f28e0a6a78cf2afee38b2018f64dd360bb7dbb5628ea2cb06698",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "VJSJ6PAX",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-22T13:11:00Z",
+      "level": 25183.1,
+      "order_ref": "VJSJ6PAX"
+    },
+    "exit": {
+      "time": "2026-07-23T12:49:06Z",
+      "level": 24855.7,
+      "order_ref": "VJSJ6PAX"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -327.4,
+    "currency": "€"
+  }
+}
