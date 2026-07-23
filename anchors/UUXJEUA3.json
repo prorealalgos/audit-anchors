@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "UUXJEUA3",
+  "close_ref": "UUXJEUA3",
+  "attested_at": "2026-07-23T06:54:51Z",
+  "hash": "effa3ac51612f827ccbdd37cbd67305c80b4db79677ab5a28e616e8d2d80de87",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "UUXJEUA3",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-17T14:00:00Z",
+      "level": 24805.1,
+      "order_ref": "UUXJEUA3"
+    },
+    "exit": {
+      "time": "2026-07-23T06:52:35Z",
+      "level": 25029.0,
+      "order_ref": "UUXJEUA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 223.9,
+    "currency": "€"
+  }
+}
