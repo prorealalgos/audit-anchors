@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "VUKE8VBC",
+  "close_ref": "VUKE8VBC",
+  "attested_at": "2026-07-23T16:24:51Z",
+  "hash": "8d88b69acb425aa537c07f8f827d49b2e6411ce3338a9697f0e810b64c734edf",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "VUKE8VBC",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-23T16:24:00Z",
+      "level": 7420.4,
+      "order_ref": "VUKE8VBC"
+    },
+    "exit": {
+      "time": "2026-07-23T16:24:00Z",
+      "level": 7420.04,
+      "order_ref": "VUKE8VBC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -1.08,
+    "currency": "€"
+  }
+}
