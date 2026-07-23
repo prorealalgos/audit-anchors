@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "U4HX96AX",
+  "close_ref": "U4HX96AX",
+  "attested_at": "2026-07-23T12:39:52Z",
+  "hash": "e0bb4957fa21a0617e00c95b3ebe66ee97736449fe74f9b9cc9aba61f0901b3d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "U4HX96AX",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-20T12:30:00Z",
+      "level": 7492.63,
+      "order_ref": "U4HX96AX"
+    },
+    "exit": {
+      "time": "2026-07-23T12:37:02Z",
+      "level": 7432.55,
+      "order_ref": "U4HX96AX"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 2.7
+    },
+    "net": -177.54,
+    "currency": "€"
+  }
+}
