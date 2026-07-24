@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "VZUBT5AX",
+  "close_ref": "VZUBT5AX",
+  "attested_at": "2026-07-24T18:39:52Z",
+  "hash": "f2797bf5880d1283ac799d24333a9e8e471bed43366900619fc83d14f9374770",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "VZUBT5AX",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-24T13:36:00Z",
+      "level": 24960.2,
+      "order_ref": "VZUBT5AX"
+    },
+    "exit": {
+      "time": "2026-07-24T18:35:28Z",
+      "level": 25036.7,
+      "order_ref": "VZUBT5AX"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 76.5,
+    "currency": "€"
+  }
+}
