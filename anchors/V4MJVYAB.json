@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "V4MJVYAB",
+  "close_ref": "V4MJVYAB",
+  "attested_at": "2026-07-24T19:04:52Z",
+  "hash": "c4eb371dd8074d8ed1de6546b25743b97bf7647c13b428046c29c7e74f8b3f68",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "V4MJVYAB",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-24T04:00:00Z",
+      "level": 163.814,
+      "order_ref": "V4MJVYAB"
+    },
+    "exit": {
+      "time": "2026-07-24T19:00:00Z",
+      "level": 163.832,
+      "order_ref": "V4MJVYAB"
+    },
+    "costs": {
+      "entry_spread": -0.69,
+      "exit_spread": -0.69,
+      "overnight": 0.0
+    },
+    "net": 1.92,
+    "currency": "€"
+  }
+}
