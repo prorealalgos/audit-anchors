@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "WAWAVCA2",
+  "close_ref": "WAWAVCA2",
+  "attested_at": "2026-07-27T14:59:53Z",
+  "hash": "908b0dad44c92002d229f9c876aff9dd145c1011615ae697a9016ab2d5ee7d5f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "WAWAVCA2",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-27T14:25:00Z",
+      "level": 28024.5,
+      "order_ref": "WAWAVCA2"
+    },
+    "exit": {
+      "time": "2026-07-27T14:55:59Z",
+      "level": 27980.1,
+      "order_ref": "WAWAVCA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 44.4,
+    "currency": "€"
+  }
+}
