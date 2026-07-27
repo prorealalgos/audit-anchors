@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "WBR4NBA2",
+  "close_ref": "WBR4NBA2",
+  "attested_at": "2026-07-27T19:34:54Z",
+  "hash": "867a5adb6b2cdaa8ffc202bb9b3f3c64ede19e70c35a86ea33ccb092f177a84d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "WBR4NBA2",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-27T15:25:00Z",
+      "level": 27920.8,
+      "order_ref": "WBR4NBA2"
+    },
+    "exit": {
+      "time": "2026-07-27T19:30:00Z",
+      "level": 28088.8,
+      "order_ref": "WBR4NBA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -168.0,
+    "currency": "€"
+  }
+}
