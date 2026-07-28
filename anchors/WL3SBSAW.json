@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "WL3SBSAW",
+  "close_ref": "WL3SBSAW",
+  "attested_at": "2026-07-28T19:59:50Z",
+  "hash": "22cb53200f0993cb88199ef9ebb90a02bc4b77132c174499e7e6de8177655f80",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "WL3SBSAW",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-28T09:08:00Z",
+      "level": 25500.8,
+      "order_ref": "WL3SBSAW"
+    },
+    "exit": {
+      "time": "2026-07-28T19:58:00Z",
+      "level": 25503.9,
+      "order_ref": "WL3SBSAW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 3.1,
+    "currency": "€"
+  }
+}
