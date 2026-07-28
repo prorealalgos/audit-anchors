@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "VP5L5YAX",
+  "close_ref": "VP5L5YAX",
+  "attested_at": "2026-07-28T13:04:50Z",
+  "hash": "9de27d5ca5f35f18d84aa8b18766a4b845e0ad5e9a1f7dc7143674a830771559",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "VP5L5YAX",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-23T08:20:00Z",
+      "level": 25039.3,
+      "order_ref": "VP5L5YAX"
+    },
+    "exit": {
+      "time": "2026-07-28T13:00:52Z",
+      "level": 25319.8,
+      "order_ref": "VP5L5YAX"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 280.5,
+    "currency": "€"
+  }
+}
