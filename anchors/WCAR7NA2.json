@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "WCAR7NA2",
+  "close_ref": "WCAR7NA2",
+  "attested_at": "2026-07-28T14:14:50Z",
+  "hash": "ed5f164fe1ea89b5c813584d804f7fa21fdd777c07e282d56c156363380c7619",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "WCAR7NA2",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-27T16:26:00Z",
+      "level": 28039.6,
+      "order_ref": "WCAR7NA2"
+    },
+    "exit": {
+      "time": "2026-07-28T14:14:09Z",
+      "level": 27477.2,
+      "order_ref": "WCAR7NA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 1.2
+    },
+    "net": -561.2,
+    "currency": "€"
+  }
+}
