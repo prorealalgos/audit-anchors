@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "WUF552A2",
+  "close_ref": "WUF552A2",
+  "attested_at": "2026-07-29T19:09:50Z",
+  "hash": "c15569931c86fb28c21a04a4e7f71020d0898ec09a4906725b3b641a4c9d653d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "WUF552A2",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-29T16:58:00Z",
+      "level": 27439.5,
+      "order_ref": "WUF552A2"
+    },
+    "exit": {
+      "time": "2026-07-29T19:09:44Z",
+      "level": 27736.9,
+      "order_ref": "WUF552A2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 297.4,
+    "currency": "€"
+  }
+}
