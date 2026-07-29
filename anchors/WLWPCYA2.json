@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "WLWPCYA2",
+  "close_ref": "WLWPCYA2",
+  "attested_at": "2026-07-29T16:04:50Z",
+  "hash": "e039d1d3ef31370be7fb7cfd625b8a6375a9d56077e3007d8379a1afd60b3ad7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "WLWPCYA2",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-28T19:06:00Z",
+      "level": 27866.0,
+      "order_ref": "WLWPCYA2"
+    },
+    "exit": {
+      "time": "2026-07-29T16:04:46Z",
+      "level": 27308.1,
+      "order_ref": "WLWPCYA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -557.9,
+    "currency": "€"
+  }
+}
