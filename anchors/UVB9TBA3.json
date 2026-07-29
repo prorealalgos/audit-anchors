@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "UVB9TBA3",
+  "close_ref": "UVB9TBA3",
+  "attested_at": "2026-07-29T19:44:50Z",
+  "hash": "cd77c78096e697f3809ab2761d7ce8495e00d898e6bd87ecad15551b6069f4b3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "UVB9TBA3",
+    "algo": "Prime SP500 M3b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-17T14:21:00Z",
+      "level": 7488.11,
+      "order_ref": "UVB9TBA3"
+    },
+    "exit": {
+      "time": "2026-07-29T19:40:02Z",
+      "level": 7337.41,
+      "order_ref": "UVB9TBA3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 6.71
+    },
+    "net": -445.39,
+    "currency": "€"
+  }
+}
