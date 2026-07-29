@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "WVN7M2A2",
+  "close_ref": "WVN7M2A2",
+  "attested_at": "2026-07-29T19:24:49Z",
+  "hash": "2b99427f81c0582cd0ed7de58aa57177b2a2c3469ca19bfad3ab2af85854c82e",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "WVN7M2A2",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-29T19:00:01Z",
+      "level": 7444.85,
+      "order_ref": "WVN7M2A2"
+    },
+    "exit": {
+      "time": "2026-07-29T19:21:10Z",
+      "level": 7384.12,
+      "order_ref": "WVN7M2A2"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -182.19,
+    "currency": "€"
+  }
+}
