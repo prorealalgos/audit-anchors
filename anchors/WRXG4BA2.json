@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "WRXG4BA2",
+  "close_ref": "WRXG4BA2",
+  "attested_at": "2026-07-29T17:09:50Z",
+  "hash": "97135d9c7d92e02c0d8ba12c70e4d5442ab7acb285c644298447322795e4796c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "WRXG4BA2",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-07-29T13:06:00Z",
+      "level": 7422.61,
+      "order_ref": "WRXG4BA2"
+    },
+    "exit": {
+      "time": "2026-07-29T17:04:53Z",
+      "level": 7383.33,
+      "order_ref": "WRXG4BA2"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 117.84,
+    "currency": "€"
+  }
+}
