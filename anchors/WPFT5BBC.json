@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "WPFT5BBC",
+  "close_ref": "WPFT5BBC",
+  "attested_at": "2026-07-29T06:09:50Z",
+  "hash": "233e46ada9e6577966188d33869311dde32f34626a59b4551ff6b344984175c9",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "WPFT5BBC",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-27T16:41:00Z",
+      "level": 25451.6,
+      "order_ref": "WPFT5BBC"
+    },
+    "exit": {
+      "time": "2026-07-29T06:05:00Z",
+      "level": 25392.2,
+      "order_ref": "WPFT5BBC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -59.4,
+    "currency": "€"
+  }
+}
