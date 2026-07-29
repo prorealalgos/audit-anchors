@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "WJJRQDA2",
+  "close_ref": "WJJRQDA2",
+  "attested_at": "2026-07-29T01:54:50Z",
+  "hash": "b71b7ab116b53b07f487f2569a6f1e47d1d5b97f140b1ebfa3dbb0b602f9c67e",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "WJJRQDA2",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-28T14:02:00Z",
+      "level": 25362.8,
+      "order_ref": "WJJRQDA2"
+    },
+    "exit": {
+      "time": "2026-07-29T01:51:33Z",
+      "level": 25375.6,
+      "order_ref": "WJJRQDA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 12.8,
+    "currency": "€"
+  }
+}
