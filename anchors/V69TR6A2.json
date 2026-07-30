@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "V69TR6A2",
+  "close_ref": "V69TR6A2",
+  "attested_at": "2026-07-30T13:39:50Z",
+  "hash": "af3f9e5da39551f7e4162fbf864887a3a4be338d833b3e0d33ceee30f9b9196c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "V69TR6A2",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-27T04:00:00Z",
+      "level": 163.587,
+      "order_ref": "V69TR6A2"
+    },
+    "exit": {
+      "time": "2026-07-30T13:36:24Z",
+      "level": 162.103,
+      "order_ref": "V69TR6A2"
+    },
+    "costs": {
+      "entry_spread": -0.7,
+      "exit_spread": -0.7,
+      "overnight": 5.24
+    },
+    "net": -154.84,
+    "currency": "€"
+  }
+}
