@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "V998UQA2",
+  "close_ref": "V998UQA2",
+  "attested_at": "2026-07-31T10:03:11Z",
+  "hash": "1b52fd640d3162e55bb74e0a2f4917dbf992870823043acf32ff1189bd6d737e",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "V998UQA2",
+    "algo": "Prime DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-27T13:48:00Z",
+      "level": 25528.3,
+      "order_ref": "V998UQA2"
+    },
+    "exit": {
+      "time": "2026-07-31T10:00:10Z",
+      "level": 25783.8,
+      "order_ref": "V998UQA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 255.5,
+    "currency": "€"
+  }
+}
