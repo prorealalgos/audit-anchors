@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "XFRSFMA2",
+  "close_ref": "XFRSFMA2",
+  "attested_at": "2026-07-31T20:58:12Z",
+  "hash": "9ca0f47f6d9599bd01a02e561e5a93fc84c566a1ff638df181d02f356d5fb7e3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "XFRSFMA2",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-31T16:14:00Z",
+      "level": 28177.8,
+      "order_ref": "XFRSFMA2"
+    },
+    "exit": {
+      "time": "2026-07-31T20:56:29Z",
+      "level": 28182.3,
+      "order_ref": "XFRSFMA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 4.5,
+    "currency": "€"
+  }
+}
