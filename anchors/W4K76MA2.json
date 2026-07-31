@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "W4K76MA2",
+  "close_ref": "W4K76MA2",
+  "attested_at": "2026-07-31T14:13:12Z",
+  "hash": "a505d4f1a64376d5fb598df80b6ac546130e6682b2bb9b57101cf6f06bfd75f8",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "W4K76MA2",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-30T13:45:00Z",
+      "level": 7387.3,
+      "order_ref": "W4K76MA2"
+    },
+    "exit": {
+      "time": "2026-07-31T14:13:05Z",
+      "level": 7405.25,
+      "order_ref": "W4K76MA2"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 2.7
+    },
+    "net": 56.55,
+    "currency": "€"
+  }
+}
