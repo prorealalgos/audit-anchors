@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "WJUDBJA2",
+  "close_ref": "WJUDBJA2",
+  "attested_at": "2026-07-31T12:33:14Z",
+  "hash": "d9a5f0b824fbba5b32bb157873c2c2fb03e0ee6d421a205128d600dd0295d35e",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "WJUDBJA2",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-28T14:21:00Z",
+      "level": 25389.5,
+      "order_ref": "WJUDBJA2"
+    },
+    "exit": {
+      "time": "2026-07-31T12:30:04Z",
+      "level": 25644.8,
+      "order_ref": "WJUDBJA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 255.3,
+    "currency": "€"
+  }
+}
