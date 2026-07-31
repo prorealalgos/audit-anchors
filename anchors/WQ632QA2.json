@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "WQ632QA2",
+  "close_ref": "WQ632QA2",
+  "attested_at": "2026-07-31T11:13:11Z",
+  "hash": "b548108a218f1c33bf3956f19cad880c95d41cc5388820ae77b0d5d3abe40bfa",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "WQ632QA2",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-29T10:46:00Z",
+      "level": 25482.6,
+      "order_ref": "WQ632QA2"
+    },
+    "exit": {
+      "time": "2026-07-31T11:09:18Z",
+      "level": 25768.0,
+      "order_ref": "WQ632QA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 285.4,
+    "currency": "€"
+  }
+}
