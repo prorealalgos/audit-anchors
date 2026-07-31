@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "WGEVGSA2",
+  "close_ref": "WGEVGSA2",
+  "attested_at": "2026-07-31T11:38:11Z",
+  "hash": "69944aeac038f6e6af383ab4fd7763f6bd4c910b6940f23cac7abd6c8b2d8bcf",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "WGEVGSA2",
+    "algo": "Prime DAX M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-28T09:00:00Z",
+      "level": 25493.0,
+      "order_ref": "WGEVGSA2"
+    },
+    "exit": {
+      "time": "2026-07-31T11:36:59Z",
+      "level": 25689.6,
+      "order_ref": "WGEVGSA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 196.6,
+    "currency": "€"
+  }
+}
