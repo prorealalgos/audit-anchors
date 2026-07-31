@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "XCNS6DAJ",
+  "close_ref": "XCNS6DAJ",
+  "attested_at": "2026-07-31T12:08:12Z",
+  "hash": "3ca6e99991ce8b07ed1eb6e9083180b534c12fd1e3a1cff3a794a3ac74de6ec8",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "XCNS6DAJ",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-30T16:00:00Z",
+      "level": 7396.19,
+      "order_ref": "XCNS6DAJ"
+    },
+    "exit": {
+      "time": "2026-07-31T12:06:00Z",
+      "level": 7464.76,
+      "order_ref": "XCNS6DAJ"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 2.97
+    },
+    "net": 208.68,
+    "currency": "€"
+  }
+}
