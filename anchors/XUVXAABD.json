@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "XUVXAABD",
+  "close_ref": "XUVXAABD",
+  "attested_at": "2026-08-04T13:51:23Z",
+  "hash": "54b98e06675d7eaf5170116bc515aedbf22c0f1dc8f9f610707b2095996a9588",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "XUVXAABD",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-04T10:40:00Z",
+      "level": 53412.6,
+      "order_ref": "XUVXAABD"
+    },
+    "exit": {
+      "time": "2026-08-04T13:46:34Z",
+      "level": 53705.7,
+      "order_ref": "XUVXAABD"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 146.55,
+    "currency": "€"
+  }
+}
