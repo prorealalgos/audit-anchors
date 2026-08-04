@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "XZRNREAF",
+  "close_ref": "XZRNREAF",
+  "attested_at": "2026-08-04T20:01:23Z",
+  "hash": "4ab2fb587ee4aae8bb8475f802c97ae93d5161e0a884332fbf912e81be927d93",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "XZRNREAF",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-04T10:58:00Z",
+      "level": 26147.8,
+      "order_ref": "XZRNREAF"
+    },
+    "exit": {
+      "time": "2026-08-04T19:58:00Z",
+      "level": 26335.3,
+      "order_ref": "XZRNREAF"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 187.5,
+    "currency": "€"
+  }
+}
