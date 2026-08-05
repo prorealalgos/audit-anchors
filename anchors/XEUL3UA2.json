@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "XEUL3UA2",
+  "close_ref": "XEUL3UA2",
+  "attested_at": "2026-08-05T09:51:25Z",
+  "hash": "0ecf0e3f590a88175bbfd9391a6c0a669a5b85352982a927cf6924de4aabfa4a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "XEUL3UA2",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-31T14:44:00Z",
+      "level": 25665.5,
+      "order_ref": "XEUL3UA2"
+    },
+    "exit": {
+      "time": "2026-08-05T09:48:51Z",
+      "level": 26196.0,
+      "order_ref": "XEUL3UA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 530.5,
+    "currency": "€"
+  }
+}
