@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "XE22RYA2",
+  "close_ref": "XE22RYA2",
+  "attested_at": "2026-08-05T09:51:24Z",
+  "hash": "9af15501949190350885b54964d9f8adffc30b1f5fb2774cf0731e6d32a4a081",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "XE22RYA2",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-07-31T15:00:00Z",
+      "level": 25693.0,
+      "order_ref": "XE22RYA2"
+    },
+    "exit": {
+      "time": "2026-08-05T09:48:51Z",
+      "level": 26196.0,
+      "order_ref": "XE22RYA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 503.0,
+    "currency": "€"
+  }
+}
