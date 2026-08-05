@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "XM7949BD",
+  "close_ref": "XM7949BD",
+  "attested_at": "2026-08-05T14:56:22Z",
+  "hash": "c03cd2a2823b05ad2cc71ec8a35ff4a1d46619e60a2efbdce1a2366c6d0aeada",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "XM7949BD",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-03T12:42:00Z",
+      "level": 7536.95,
+      "order_ref": "XM7949BD"
+    },
+    "exit": {
+      "time": "2026-08-05T14:53:44Z",
+      "level": 7749.65,
+      "order_ref": "XM7949BD"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.36
+    },
+    "net": 638.46,
+    "currency": "€"
+  }
+}
