@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "XUPVPEBD",
+  "close_ref": "XUPVPEBD",
+  "attested_at": "2026-08-05T14:41:23Z",
+  "hash": "ffff108d45a36e12d67a78f8ae5b9b6b16a9c637cfdee62c7f634b8517ddcdf1",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "XUPVPEBD",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-04T10:00:00Z",
+      "level": 28961.3,
+      "order_ref": "XUPVPEBD"
+    },
+    "exit": {
+      "time": "2026-08-05T14:38:12Z",
+      "level": 29717.4,
+      "order_ref": "XUPVPEBD"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 756.1,
+    "currency": "€"
+  }
+}
