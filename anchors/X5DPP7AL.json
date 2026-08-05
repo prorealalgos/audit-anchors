@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "X5DPP7AL",
+  "close_ref": "X5DPP7AL",
+  "attested_at": "2026-08-05T15:21:23Z",
+  "hash": "ff7538259984823e1adab6ecaab3848ecb0365b671141fde5aaddc8be0bee427",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "X5DPP7AL",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-05T10:40:00Z",
+      "level": 54302.4,
+      "order_ref": "X5DPP7AL"
+    },
+    "exit": {
+      "time": "2026-08-05T15:18:09Z",
+      "level": 54508.8,
+      "order_ref": "X5DPP7AL"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 103.2,
+    "currency": "€"
+  }
+}
