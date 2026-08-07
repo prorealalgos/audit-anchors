@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "YQPSHEAF",
+  "close_ref": "YQPSHEAF",
+  "attested_at": "2026-08-07T19:52:34Z",
+  "hash": "441051df412612654300b6cf883e53c07aa697e2c06b042536fee2df636e5fd7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "YQPSHEAF",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-07T19:06:00Z",
+      "level": 26318.0,
+      "order_ref": "YQPSHEAF"
+    },
+    "exit": {
+      "time": "2026-08-07T19:50:00Z",
+      "level": 26349.3,
+      "order_ref": "YQPSHEAF"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 31.3,
+    "currency": "€"
+  }
+}
