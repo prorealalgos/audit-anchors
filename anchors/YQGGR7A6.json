@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "YQGGR7A6",
+  "close_ref": "YQGGR7A6",
+  "attested_at": "2026-08-07T19:02:34Z",
+  "hash": "3eff3433e5b9af1a0472e4a2c5d5513943993b3266a4fe0f88749f76197c5a98",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "YQGGR7A6",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-06T04:00:00Z",
+      "level": 157.739,
+      "order_ref": "YQGGR7A6"
+    },
+    "exit": {
+      "time": "2026-08-07T19:00:00Z",
+      "level": 157.533,
+      "order_ref": "YQGGR7A6"
+    },
+    "costs": {
+      "entry_spread": -0.72,
+      "exit_spread": -0.72,
+      "overnight": 2.1
+    },
+    "net": -20.63,
+    "currency": "€"
+  }
+}
