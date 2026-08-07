@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "YQN54HAU",
+  "close_ref": "YQN54HAU",
+  "attested_at": "2026-08-07T19:47:34Z",
+  "hash": "2ac3d971dd3d3a552fdfa3110548247d49e79d759d977b84f82ec78185297ead",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "YQN54HAU",
+    "algo": "PATF DOW M15 (Friday close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-03T20:00:00Z",
+      "level": 53193.5,
+      "order_ref": "YQN54HAU"
+    },
+    "exit": {
+      "time": "2026-08-07T19:45:00Z",
+      "level": 54033.5,
+      "order_ref": "YQN54HAU"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 420.0,
+    "currency": "€"
+  }
+}
