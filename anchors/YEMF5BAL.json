@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "YEMF5BAL",
+  "close_ref": "YEMF5BAL",
+  "attested_at": "2026-08-07T14:12:35Z",
+  "hash": "64d495d8a4a830a73f67036d4ad23179f6317dbfcfae47ba765c76d547e62c85",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "YEMF5BAL",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-06T14:16:00Z",
+      "level": 26212.4,
+      "order_ref": "YEMF5BAL"
+    },
+    "exit": {
+      "time": "2026-08-07T14:08:18Z",
+      "level": 26313.8,
+      "order_ref": "YEMF5BAL"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 101.4,
+    "currency": "€"
+  }
+}
