@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "YTX8FZAG",
+  "close_ref": "YTX8FZAG",
+  "attested_at": "2026-08-11T17:37:34Z",
+  "hash": "ce3f1d1da42262a0b2913da966bb6bd5b0fbae9850160593002f91aedc36cd83",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "YTX8FZAG",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-10T08:43:00Z",
+      "level": 26361.7,
+      "order_ref": "YTX8FZAG"
+    },
+    "exit": {
+      "time": "2026-08-11T17:36:06Z",
+      "level": 26371.9,
+      "order_ref": "YTX8FZAG"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 10.2,
+    "currency": "€"
+  }
+}
