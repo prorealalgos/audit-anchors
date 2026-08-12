@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "YCCWDGAL",
+  "close_ref": "YCCWDGAL",
+  "attested_at": "2026-08-12T15:07:37Z",
+  "hash": "b36baf9a946b694f174ee46421c5bfdea4dbf402cb4efd0ad02a394c8e9cc9f4",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "YCCWDGAL",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-06T08:50:00Z",
+      "level": 26163.1,
+      "order_ref": "YCCWDGAL"
+    },
+    "exit": {
+      "time": "2026-08-12T15:04:24Z",
+      "level": 26333.3,
+      "order_ref": "YCCWDGAL"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 170.2,
+    "currency": "€"
+  }
+}
