@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "Y6XT65AE",
+  "close_ref": "Y6XT65AE",
+  "attested_at": "2026-08-12T00:32:34Z",
+  "hash": "f93f2c45ca79a9f3ddea863efd0a0bd790839607caf43ce59e26481261d09fd3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "Y6XT65AE",
+    "algo": "Cuts SP500 M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-04T10:50:00Z",
+      "level": 7619.06,
+      "order_ref": "Y6XT65AE"
+    },
+    "exit": {
+      "time": "2026-08-12T00:30:00Z",
+      "level": 7729.45,
+      "order_ref": "Y6XT65AE"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 11.72
+    },
+    "net": 342.89,
+    "currency": "€"
+  }
+}
