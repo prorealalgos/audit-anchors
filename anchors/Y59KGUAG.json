@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "Y59KGUAG",
+  "close_ref": "Y59KGUAG",
+  "attested_at": "2026-08-12T13:12:35Z",
+  "hash": "7db1d848120724d1c8d452f2ad86daa063908fd86eb7cd252c8bb3eb80e7d9cc",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "Y59KGUAG",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-11T19:35:00Z",
+      "level": 26372.0,
+      "order_ref": "Y59KGUAG"
+    },
+    "exit": {
+      "time": "2026-08-12T13:09:22Z",
+      "level": 26452.4,
+      "order_ref": "Y59KGUAG"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 80.4,
+    "currency": "€"
+  }
+}
