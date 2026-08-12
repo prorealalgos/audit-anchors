@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "YCGL6BAL",
+  "close_ref": "YCGL6BAL",
+  "attested_at": "2026-08-12T15:07:35Z",
+  "hash": "eb9d13f191a372edef6a64257ae100c2f424294dadaf1d26cbe93062838ee2e9",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "YCGL6BAL",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-06T09:06:00Z",
+      "level": 26197.6,
+      "order_ref": "YCGL6BAL"
+    },
+    "exit": {
+      "time": "2026-08-12T15:04:25Z",
+      "level": 26333.3,
+      "order_ref": "YCGL6BAL"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 135.7,
+    "currency": "€"
+  }
+}
