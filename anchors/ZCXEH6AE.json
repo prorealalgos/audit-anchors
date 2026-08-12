@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ZCXEH6AE",
+  "close_ref": "ZCXEH6AE",
+  "attested_at": "2026-08-12T19:57:34Z",
+  "hash": "e100aa398129a2b3ebd5feca7a22ddf45c744419be5c7ae99957451faa63c5cc",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ZCXEH6AE",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-12T03:25:00Z",
+      "level": 29587.7,
+      "order_ref": "ZCXEH6AE"
+    },
+    "exit": {
+      "time": "2026-08-12T19:55:00Z",
+      "level": 29752.0,
+      "order_ref": "ZCXEH6AE"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 164.3,
+    "currency": "€"
+  }
+}
