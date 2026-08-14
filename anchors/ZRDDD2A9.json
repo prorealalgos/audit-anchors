@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ZRDDD2A9",
+  "close_ref": "ZRDDD2A9",
+  "attested_at": "2026-08-14T19:47:34Z",
+  "hash": "f9e12ce3254ffcd86f02c9d58f7754427dd25a5ff3e1db7969ccdd6b687b7adb",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ZRDDD2A9",
+    "algo": "PATF DOW M15 (Friday close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-14T14:00:00Z",
+      "level": 53844.0,
+      "order_ref": "ZRDDD2A9"
+    },
+    "exit": {
+      "time": "2026-08-14T19:45:00Z",
+      "level": 53745.0,
+      "order_ref": "ZRDDD2A9"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -49.5,
+    "currency": "€"
+  }
+}
