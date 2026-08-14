@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "X8VC9FAL",
+  "close_ref": "X8VC9FAL",
+  "attested_at": "2026-08-14T15:27:35Z",
+  "hash": "5a6d830463c441c10534f2a1a00d2e7fbcdc3585532a1c82947eec3a91dfd7b9",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "X8VC9FAL",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-05T16:54:00Z",
+      "level": 29696.3,
+      "order_ref": "X8VC9FAL"
+    },
+    "exit": {
+      "time": "2026-08-14T15:24:05Z",
+      "level": 29963.7,
+      "order_ref": "X8VC9FAL"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 6.92
+    },
+    "net": 274.32,
+    "currency": "€"
+  }
+}
