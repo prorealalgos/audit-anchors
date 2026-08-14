@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ZRATP8AC",
+  "close_ref": "ZRATP8AC",
+  "attested_at": "2026-08-14T19:02:34Z",
+  "hash": "def7db494f70103eda0e4ecff73413e1c397ea315f909dedf8ccdb2fa0ee160c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ZRATP8AC",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-11T03:00:00Z",
+      "level": 159.271,
+      "order_ref": "ZRATP8AC"
+    },
+    "exit": {
+      "time": "2026-08-14T19:00:00Z",
+      "level": 159.366,
+      "order_ref": "ZRATP8AC"
+    },
+    "costs": {
+      "entry_spread": -0.7,
+      "exit_spread": -0.7,
+      "overnight": 4.92
+    },
+    "net": 15.18,
+    "currency": "€"
+  }
+}
