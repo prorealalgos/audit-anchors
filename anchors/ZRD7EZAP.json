@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ZRD7EZAP",
+  "close_ref": "ZRD7EZAP",
+  "attested_at": "2026-08-14T19:52:34Z",
+  "hash": "b37ac2d0fe9431d1be1648deaf7dc1178871fe9f86bbbe2072246a7397874ea6",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ZRD7EZAP",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-14T06:41:00Z",
+      "level": 26423.4,
+      "order_ref": "ZRD7EZAP"
+    },
+    "exit": {
+      "time": "2026-08-14T19:50:00Z",
+      "level": 26450.3,
+      "order_ref": "ZRD7EZAP"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 26.9,
+    "currency": "€"
+  }
+}
