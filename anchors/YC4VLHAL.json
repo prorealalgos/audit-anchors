@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "YC4VLHAL",
+  "close_ref": "YC4VLHAL",
+  "attested_at": "2026-08-17T13:42:35Z",
+  "hash": "1d63fe0c7cef01ba3c71b21db67f2a404a1dadec13eae78e504fe540eefdb1d6",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "YC4VLHAL",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-06T11:39:00Z",
+      "level": 7737.93,
+      "order_ref": "YC4VLHAL"
+    },
+    "exit": {
+      "time": "2026-08-17T13:41:40Z",
+      "level": 7773.68,
+      "order_ref": "YC4VLHAL"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 28.26
+    },
+    "net": 135.51,
+    "currency": "€"
+  }
+}
