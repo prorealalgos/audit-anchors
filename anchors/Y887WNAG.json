@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "Y887WNAG",
+  "close_ref": "Y887WNAG",
+  "attested_at": "2026-08-17T19:57:34Z",
+  "hash": "466aec30aaefc915e48b7753fe0bb27cb3741257aa8c59c42a4bb90988aa09a8",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "Y887WNAG",
+    "algo": "Prime US100 M30",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-12T10:00:00Z",
+      "level": 29710.8,
+      "order_ref": "Y887WNAG"
+    },
+    "exit": {
+      "time": "2026-08-17T19:56:45Z",
+      "level": 29973.0,
+      "order_ref": "Y887WNAG"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 4.46
+    },
+    "net": 266.66,
+    "currency": "€"
+  }
+}
