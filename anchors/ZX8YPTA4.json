@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ZX8YPTA4",
+  "close_ref": "ZX8YPTA4",
+  "attested_at": "2026-08-17T21:02:35Z",
+  "hash": "35858d52e6ec795913e68e2005c900d35dc53265684fb0e58e2140ffe4e366e6",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ZX8YPTA4",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-07T09:15:00Z",
+      "level": 7724.04,
+      "order_ref": "ZX8YPTA4"
+    },
+    "exit": {
+      "time": "2026-08-17T21:00:00Z",
+      "level": 7743.24,
+      "order_ref": "ZX8YPTA4"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 23.78
+    },
+    "net": 81.38,
+    "currency": "€"
+  }
+}
