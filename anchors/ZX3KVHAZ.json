@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ZX3KVHAZ",
+  "close_ref": "ZX3KVHAZ",
+  "attested_at": "2026-08-17T20:02:34Z",
+  "hash": "1448548fe9063b774d8da0666ba0a5015b398ce878c4adaae5582e7d1606354c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ZX3KVHAZ",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-17T10:24:00Z",
+      "level": 26442.5,
+      "order_ref": "ZX3KVHAZ"
+    },
+    "exit": {
+      "time": "2026-08-17T19:58:00Z",
+      "level": 26316.0,
+      "order_ref": "ZX3KVHAZ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -126.5,
+    "currency": "€"
+  }
+}
