@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ZQ7N83AG",
+  "close_ref": "ZQ7N83AG",
+  "attested_at": "2026-08-17T17:17:35Z",
+  "hash": "fc5aa87963815a30058362f79a8ec1dcde42ca23d8e03602296456fa2872b68a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ZQ7N83AG",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-14T18:16:00Z",
+      "level": 29993.6,
+      "order_ref": "ZQ7N83AG"
+    },
+    "exit": {
+      "time": "2026-08-17T17:17:18Z",
+      "level": 30026.6,
+      "order_ref": "ZQ7N83AG"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.8
+    },
+    "net": 33.8,
+    "currency": "€"
+  }
+}
