@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ZUTBYRBC",
+  "close_ref": "ZUTBYRBC",
+  "attested_at": "2026-08-18T14:58:23Z",
+  "hash": "49035816a92bf94659c2af8897b4b7dfd3181f1272188710e4342566c4edcbe2",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ZUTBYRBC",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-17T10:30:01Z",
+      "level": 26492.7,
+      "order_ref": "ZUTBYRBC"
+    },
+    "exit": {
+      "time": "2026-08-18T14:53:19Z",
+      "level": 26148.3,
+      "order_ref": "ZUTBYRBC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -344.4,
+    "currency": "€"
+  }
+}
