@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "2E46RBAL",
+  "close_ref": "2E46RBAL",
+  "attested_at": "2026-08-19T19:58:21Z",
+  "hash": "fd466ff86ebd1d1c48c788f4ab66651980bbfae894c8ae42f56ffbf681eb5ee8",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "2E46RBAL",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-08-19T12:22:00Z",
+      "level": 26091.7,
+      "order_ref": "2E46RBAL"
+    },
+    "exit": {
+      "time": "2026-08-19T19:58:00Z",
+      "level": 26078.4,
+      "order_ref": "2E46RBAL"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 13.3,
+    "currency": "€"
+  }
+}
