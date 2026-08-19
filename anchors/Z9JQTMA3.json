@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "Z9JQTMA3",
+  "close_ref": "Z9JQTMA3",
+  "attested_at": "2026-08-19T08:03:20Z",
+  "hash": "e7cc14d8cd10928d997c9bb3a81eb299c18929e01d2d51028b800521288ed67c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "Z9JQTMA3",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-17T04:00:00Z",
+      "level": 159.102,
+      "order_ref": "Z9JQTMA3"
+    },
+    "exit": {
+      "time": "2026-08-19T08:00:00Z",
+      "level": 159.161,
+      "order_ref": "Z9JQTMA3"
+    },
+    "costs": {
+      "entry_spread": -0.7,
+      "exit_spread": -0.7,
+      "overnight": 1.56
+    },
+    "net": 7.92,
+    "currency": "€"
+  }
+}
