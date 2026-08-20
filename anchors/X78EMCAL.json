@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "X78EMCAL",
+  "close_ref": "X78EMCAL",
+  "attested_at": "2026-08-20T15:03:25Z",
+  "hash": "7a5dc12c51e33f287dfe719ed484bb6bdc6a2c6361b2dda1e6a34b4b94cf8e43",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "X78EMCAL",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-08-05T15:24:00Z",
+      "level": 26152.1,
+      "order_ref": "X78EMCAL"
+    },
+    "exit": {
+      "time": "2026-08-20T14:59:24Z",
+      "level": 26012.6,
+      "order_ref": "X78EMCAL"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 139.5,
+    "currency": "€"
+  }
+}
