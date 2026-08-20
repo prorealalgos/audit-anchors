@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "YWC75BAG",
+  "close_ref": "YWC75BAG",
+  "attested_at": "2026-08-20T17:23:20Z",
+  "hash": "f1442a0bb35f7264450520ef1b23bebe0d0e750deb95fc860b900ddf7e41f2f3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "YWC75BAG",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-10T14:50:00Z",
+      "level": 54043.9,
+      "order_ref": "YWC75BAG"
+    },
+    "exit": {
+      "time": "2026-08-20T17:19:43Z",
+      "level": 52962.1,
+      "order_ref": "YWC75BAG"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 20.48
+    },
+    "net": -520.43,
+    "currency": "€"
+  }
+}
