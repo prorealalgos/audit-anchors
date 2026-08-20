@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "X8ABADAL",
+  "close_ref": "X8ABADAL",
+  "attested_at": "2026-08-20T15:03:23Z",
+  "hash": "b24e68a1dd6dd51b6df5b990366e1ff96285681a0b70302d20fb11ab053f9892",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "X8ABADAL",
+    "algo": "Cuts DAX M10",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-08-05T15:30:00Z",
+      "level": 26137.5,
+      "order_ref": "X8ABADAL"
+    },
+    "exit": {
+      "time": "2026-08-20T14:59:24Z",
+      "level": 26012.6,
+      "order_ref": "X8ABADAL"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 124.9,
+    "currency": "€"
+  }
+}
