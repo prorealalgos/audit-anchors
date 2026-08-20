@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "2NF39GAM",
+  "close_ref": "2NF39GAM",
+  "attested_at": "2026-08-20T18:08:20Z",
+  "hash": "e3d3ed499499459a053e0ce89599395cfb510d5c1c09ab3ca46435c24300ee35",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "2NF39GAM",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-18T18:27:00Z",
+      "level": 7702.81,
+      "order_ref": "2NF39GAM"
+    },
+    "exit": {
+      "time": "2026-08-20T18:06:00Z",
+      "level": 7657.09,
+      "order_ref": "2NF39GAM"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 7.62
+    },
+    "net": -129.54,
+    "currency": "€"
+  }
+}
