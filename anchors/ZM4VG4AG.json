@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ZM4VG4AG",
+  "close_ref": "ZM4VG4AG",
+  "attested_at": "2026-08-20T12:08:21Z",
+  "hash": "1389a81eec304a4fe731e82e6496cbc9be26088aa0039ded57a1250c4484b063",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ZM4VG4AG",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-14T09:38:00Z",
+      "level": 26447.6,
+      "order_ref": "ZM4VG4AG"
+    },
+    "exit": {
+      "time": "2026-08-20T12:06:00Z",
+      "level": 25918.3,
+      "order_ref": "ZM4VG4AG"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -529.3,
+    "currency": "€"
+  }
+}
