@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ZTL73ZBC",
+  "close_ref": "ZTL73ZBC",
+  "attested_at": "2026-08-20T17:38:20Z",
+  "hash": "635f9814f9fd3852bf6cb8be4980fef0e0cea61b0d6454c52c6196ed5879bc64",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ZTL73ZBC",
+    "algo": "PATF DOW M15 (Friday close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-17T06:15:00Z",
+      "level": 53715.9,
+      "order_ref": "ZTL73ZBC"
+    },
+    "exit": {
+      "time": "2026-08-20T17:37:30Z",
+      "level": 52909.4,
+      "order_ref": "ZTL73ZBC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 15.62
+    },
+    "net": -387.63,
+    "currency": "€"
+  }
+}
