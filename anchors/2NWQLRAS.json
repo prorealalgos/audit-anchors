@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "2NWQLRAS",
+  "close_ref": "2NWQLRAS",
+  "attested_at": "2026-08-20T19:58:20Z",
+  "hash": "abe5e8c4260477332680e64df858afb97225b5e06cd9dd375b832a81af39b579",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "2NWQLRAS",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-08-20T12:30:00Z",
+      "level": 25918.2,
+      "order_ref": "2NWQLRAS"
+    },
+    "exit": {
+      "time": "2026-08-20T19:58:00Z",
+      "level": 25970.0,
+      "order_ref": "2NWQLRAS"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -51.8,
+    "currency": "€"
+  }
+}
