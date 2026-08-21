@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "2UGRYPA7",
+  "close_ref": "2UGRYPA7",
+  "attested_at": "2026-08-21T15:03:21Z",
+  "hash": "843c526dc58ecbc03fa03e52563afd0bcce3c22c245ad36ba15788a326b3ab86",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "2UGRYPA7",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-08-20T18:06:00Z",
+      "level": 7656.54,
+      "order_ref": "2UGRYPA7"
+    },
+    "exit": {
+      "time": "2026-08-21T15:03:00Z",
+      "level": 7676.15,
+      "order_ref": "2UGRYPA7"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.48
+    },
+    "net": -58.35,
+    "currency": "€"
+  }
+}
