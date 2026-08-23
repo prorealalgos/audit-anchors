@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "2VCTVSBC",
+  "close_ref": "2VCTVSBC",
+  "attested_at": "2026-08-23T22:03:20Z",
+  "hash": "b10bf7dbd7af02abe5f5793486f24a7078a7fcfba0b492d54411055173c9eafa",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "2VCTVSBC",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-21T17:30:00Z",
+      "level": 29315.2,
+      "order_ref": "2VCTVSBC"
+    },
+    "exit": {
+      "time": "2026-08-23T22:01:11Z",
+      "level": 29261.7,
+      "order_ref": "2VCTVSBC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.91
+    },
+    "net": -52.59,
+    "currency": "€"
+  }
+}
