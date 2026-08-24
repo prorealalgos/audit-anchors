@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "2DYZ34BC",
+  "close_ref": "2DYZ34BC",
+  "attested_at": "2026-08-24T14:48:23Z",
+  "hash": "3e469d0038323ceb3c813a06483c233c4586a5dbdb959a12b6fbb3a6401574f7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "2DYZ34BC",
+    "algo": "Prime US100 M30",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-19T16:00:00Z",
+      "level": 29516.8,
+      "order_ref": "2DYZ34BC"
+    },
+    "exit": {
+      "time": "2026-08-24T13:44:23Z",
+      "level": 28912.0,
+      "order_ref": "2DYZ34BC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 15.31
+    },
+    "net": -589.49,
+    "currency": "€"
+  }
+}
