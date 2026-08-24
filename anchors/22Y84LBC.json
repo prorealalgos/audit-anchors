@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "22Y84LBC",
+  "close_ref": "22Y84LBC",
+  "attested_at": "2026-08-24T14:48:26Z",
+  "hash": "ad68750e55005a442034192d140ca0ac44f1bff00905ce08f4bcde1feffde0af",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "22Y84LBC",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-24T12:55:00Z",
+      "level": 29141.6,
+      "order_ref": "22Y84LBC"
+    },
+    "exit": {
+      "time": "2026-08-24T13:30:19Z",
+      "level": 29089.6,
+      "order_ref": "22Y84LBC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -52.0,
+    "currency": "€"
+  }
+}
