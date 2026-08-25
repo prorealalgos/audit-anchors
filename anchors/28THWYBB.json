@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "28THWYBB",
+  "close_ref": "28THWYBB",
+  "attested_at": "2026-08-25T12:29:19Z",
+  "hash": "7d9a0ca2c423b594aff8ab25e7a51c4b55017c050dc98ade4537a84718fa51bf",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "28THWYBB",
+    "algo": "Cuts DAX D1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-25T12:08:00Z",
+      "level": 26366.1,
+      "order_ref": "28THWYBB"
+    },
+    "exit": {
+      "time": "2026-08-25T12:08:38Z",
+      "level": 26359.9,
+      "order_ref": "28THWYBB"
+    },
+    "costs": {
+      "entry_spread": -0.1,
+      "exit_spread": -0.1,
+      "overnight": 0.0
+    },
+    "net": -1.24,
+    "currency": "€"
+  }
+}
