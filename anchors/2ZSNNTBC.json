@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "2ZSNNTBC",
+  "close_ref": "2ZSNNTBC",
+  "attested_at": "2026-08-25T13:34:30Z",
+  "hash": "4b923601007e568d4c27e4a585dd637ce80984776fc7c64c0527e4a77540cef3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "2ZSNNTBC",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-24T08:35:00Z",
+      "level": 53287.8,
+      "order_ref": "2ZSNNTBC"
+    },
+    "exit": {
+      "time": "2026-08-25T13:31:58Z",
+      "level": 53524.6,
+      "order_ref": "2ZSNNTBC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 8.15
+    },
+    "net": 126.55,
+    "currency": "€"
+  }
+}
