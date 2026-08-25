@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "28XYAVAN",
+  "close_ref": "28XYAVAN",
+  "attested_at": "2026-08-25T12:38:49Z",
+  "hash": "f21afe408c0dd79ab0854d6d71c052f52c0190c33dee215401200946eb9a85e3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "28XYAVAN",
+    "algo": "Cuts DAX D1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-25T12:34:45Z",
+      "level": 26335.1,
+      "order_ref": "28XYAVAN"
+    },
+    "exit": {
+      "time": "2026-08-25T12:35:52Z",
+      "level": 26327.4,
+      "order_ref": "28XYAVAN"
+    },
+    "costs": {
+      "entry_spread": -0.1,
+      "exit_spread": -0.1,
+      "overnight": 0.0
+    },
+    "net": -1.54,
+    "currency": "€"
+  }
+}
