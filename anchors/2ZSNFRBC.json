@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "2ZSNFRBC",
+  "close_ref": "2ZSNFRBC",
+  "attested_at": "2026-08-25T17:04:36Z",
+  "hash": "638f5bd8f7b8d3711f39636c072fff9da1ef46b58c8a9928a9bfa024bf4d4470",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "2ZSNFRBC",
+    "algo": "Cuts DAX M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-24T08:33:00Z",
+      "level": 26117.5,
+      "order_ref": "2ZSNFRBC"
+    },
+    "exit": {
+      "time": "2026-08-25T17:03:07Z",
+      "level": 26248.8,
+      "order_ref": "2ZSNFRBC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 131.3,
+    "currency": "€"
+  }
+}
