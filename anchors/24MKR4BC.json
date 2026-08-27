@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "24MKR4BC",
+  "close_ref": "24MKR4BC",
+  "attested_at": "2026-08-27T01:05:42Z",
+  "hash": "a43b6f291142e36d876731cf078248e15c1c632a582411b0b75d3bb55b098ec6",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "24MKR4BC",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-24T18:24:00Z",
+      "level": 29138.1,
+      "order_ref": "24MKR4BC"
+    },
+    "exit": {
+      "time": "2026-08-27T01:01:01Z",
+      "level": 29367.8,
+      "order_ref": "24MKR4BC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 229.7,
+    "currency": "€"
+  }
+}
