@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "3LU32QBC",
+  "close_ref": "3LU32QBC",
+  "attested_at": "2026-08-28T16:27:09Z",
+  "hash": "3ebf33ad4fdd96d0b5ef255bf5df1eed5bfc35ab4f33346d853535d84329a400",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "3LU32QBC",
+    "algo": "Prime DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-27T08:24:00Z",
+      "level": 26374.5,
+      "order_ref": "3LU32QBC"
+    },
+    "exit": {
+      "time": "2026-08-28T16:24:12Z",
+      "level": 26511.0,
+      "order_ref": "3LU32QBC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 136.5,
+    "currency": "€"
+  }
+}
