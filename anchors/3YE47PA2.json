@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "3YE47PA2",
+  "close_ref": "3YE47PA2",
+  "attested_at": "2026-08-28T19:03:06Z",
+  "hash": "3c4ae0512d0771339573cb7f4230dda9bc1fd0a5cd32c32d8ed5e53ea33fd6e8",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "3YE47PA2",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-24T03:00:00Z",
+      "level": 158.883,
+      "order_ref": "3YE47PA2"
+    },
+    "exit": {
+      "time": "2026-08-28T19:00:00Z",
+      "level": 160.132,
+      "order_ref": "3YE47PA2"
+    },
+    "costs": {
+      "entry_spread": -0.7,
+      "exit_spread": -0.7,
+      "overnight": 5.62
+    },
+    "net": 139.65,
+    "currency": "€"
+  }
+}
