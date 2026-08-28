@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "2UGKV4BC",
+  "close_ref": "2UGKV4BC",
+  "attested_at": "2026-08-28T16:02:09Z",
+  "hash": "9c9c8a3f498c6a1635e86a792cfadfe2dfc650fac7da2f8d916bd4875d9d9140",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "2UGKV4BC",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-21T15:03:00Z",
+      "level": 7676.34,
+      "order_ref": "2UGKV4BC"
+    },
+    "exit": {
+      "time": "2026-08-28T15:57:11Z",
+      "level": 7726.3,
+      "order_ref": "2UGKV4BC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 12.15
+    },
+    "net": 162.03,
+    "currency": "€"
+  }
+}
