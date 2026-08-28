@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "3YMGFFAM",
+  "close_ref": "3YMGFFAM",
+  "attested_at": "2026-08-28T19:58:06Z",
+  "hash": "83c8a320146ab68862a25e5d7eae59499cd154cf674bfc40c8e075641f00d190",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "3YMGFFAM",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-28T14:36:00Z",
+      "level": 26580.4,
+      "order_ref": "3YMGFFAM"
+    },
+    "exit": {
+      "time": "2026-08-28T19:58:00Z",
+      "level": 26550.8,
+      "order_ref": "3YMGFFAM"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -29.6,
+    "currency": "€"
+  }
+}
