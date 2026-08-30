@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "2LHJLYBC",
+  "close_ref": "2LHJLYBC",
+  "attested_at": "2026-08-30T22:06:17Z",
+  "hash": "ac9a0e542631d1a07a7f0b4f1f51eb89e602429b09242d50a89059f8eede718f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "2LHJLYBC",
+    "algo": "Prime SP500 M3b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-20T14:00:00Z",
+      "level": 7685.12,
+      "order_ref": "2LHJLYBC"
+    },
+    "exit": {
+      "time": "2026-08-30T22:03:14Z",
+      "level": 7696.87,
+      "order_ref": "2LHJLYBC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 11.29
+    },
+    "net": 46.54,
+    "currency": "€"
+  }
+}
