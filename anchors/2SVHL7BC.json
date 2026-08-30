@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "2SVHL7BC",
+  "close_ref": "2SVHL7BC",
+  "attested_at": "2026-08-30T22:06:16Z",
+  "hash": "52ca1f6de04078e6ba0fdc5fcede6fec0ff1381a88ec1ff1f11c54e02f924cc0",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "2SVHL7BC",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-21T12:30:00Z",
+      "level": 7682.72,
+      "order_ref": "2SVHL7BC"
+    },
+    "exit": {
+      "time": "2026-08-30T22:03:14Z",
+      "level": 7694.61,
+      "order_ref": "2SVHL7BC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 13.94
+    },
+    "net": 49.61,
+    "currency": "€"
+  }
+}
