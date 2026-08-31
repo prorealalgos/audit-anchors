@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "2ZQFTYBC",
+  "close_ref": "2ZQFTYBC",
+  "attested_at": "2026-08-31T07:56:15Z",
+  "hash": "485dc9132282fa5c19aff7d5829395c08e02ce01a7a7e947a515562bd4f908e6",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "2ZQFTYBC",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-24T08:18:00Z",
+      "level": 26106.5,
+      "order_ref": "2ZQFTYBC"
+    },
+    "exit": {
+      "time": "2026-08-31T07:51:55Z",
+      "level": 26380.8,
+      "order_ref": "2ZQFTYBC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 274.3,
+    "currency": "€"
+  }
+}
