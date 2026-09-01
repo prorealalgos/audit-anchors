@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "33ZLNSAK",
+  "close_ref": "33ZLNSAK",
+  "attested_at": "2026-09-01T16:46:15Z",
+  "hash": "1595c96d7093b24911c38d392ab3aa7394f261fc7e33a9ccdec4421a3a36007b",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "33ZLNSAK",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-31T08:58:00Z",
+      "level": 26421.2,
+      "order_ref": "33ZLNSAK"
+    },
+    "exit": {
+      "time": "2026-09-01T16:43:14Z",
+      "level": 25892.5,
+      "order_ref": "33ZLNSAK"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -528.7,
+    "currency": "€"
+  }
+}
