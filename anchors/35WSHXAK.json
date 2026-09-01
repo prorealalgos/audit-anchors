@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "35WSHXAK",
+  "close_ref": "35WSHXAK",
+  "attested_at": "2026-09-01T10:26:15Z",
+  "hash": "915a1cd9a506f8f64913499762a9dc51b65c1998a486fb8d50660478eb3364be",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "35WSHXAK",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-08-31T14:36:00Z",
+      "level": 26308.2,
+      "order_ref": "35WSHXAK"
+    },
+    "exit": {
+      "time": "2026-09-01T10:22:29Z",
+      "level": 26021.7,
+      "order_ref": "35WSHXAK"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 286.5,
+    "currency": "€"
+  }
+}
