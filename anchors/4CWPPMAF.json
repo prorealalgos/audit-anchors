@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "4CWPPMAF",
+  "close_ref": "4CWPPMAF",
+  "attested_at": "2026-09-01T14:16:16Z",
+  "hash": "d3b8b6e1542a4ef824bd2a9dbc6b35162fed22e0873944d1037c4a28e1aaf6e9",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "4CWPPMAF",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-08-28T17:06:00Z",
+      "level": 7705.84,
+      "order_ref": "4CWPPMAF"
+    },
+    "exit": {
+      "time": "2026-09-01T14:15:00Z",
+      "level": 7646.16,
+      "order_ref": "4CWPPMAF"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 3.81
+    },
+    "net": 182.85,
+    "currency": "€"
+  }
+}
