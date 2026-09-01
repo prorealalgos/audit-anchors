@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ZWDMQJBC",
+  "close_ref": "ZWDMQJBC",
+  "attested_at": "2026-09-01T17:21:15Z",
+  "hash": "8228af5a6c820df69cf1b29c16663a3df2ba79e9ca0bba4f21b164ba0b57861b",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ZWDMQJBC",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-17T14:30:00Z",
+      "level": 26408.7,
+      "order_ref": "ZWDMQJBC"
+    },
+    "exit": {
+      "time": "2026-09-01T17:17:58Z",
+      "level": 25880.1,
+      "order_ref": "ZWDMQJBC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -528.6,
+    "currency": "€"
+  }
+}
