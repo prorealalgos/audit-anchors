@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "4E6LBKA5",
+  "close_ref": "4E6LBKA5",
+  "attested_at": "2026-09-02T00:00:52Z",
+  "hash": "9d4165b5c6c08449f846afea5f4507f0ff37739e9cc517cf822b9f8bfe3b9355",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "4E6LBKA5",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-01T11:50:00Z",
+      "level": 26025.2,
+      "order_ref": "4E6LBKA5"
+    },
+    "exit": {
+      "time": "2026-09-01T19:58:00Z",
+      "level": 25825.3,
+      "order_ref": "4E6LBKA5"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -199.9,
+    "currency": "€"
+  }
+}
