@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "3YLJETBC",
+  "close_ref": "3YLJETBC",
+  "attested_at": "2026-09-03T06:56:06Z",
+  "hash": "b273bb0b4309c5eeb20df9ccaad0e43b53dc0310761ac96cd3664bcbf7e4a93b",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "3YLJETBC",
+    "algo": "FX USD/JPY H1",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-08-28T20:00:00Z",
+      "level": 160.076,
+      "order_ref": "3YLJETBC"
+    },
+    "exit": {
+      "time": "2026-09-03T06:52:38Z",
+      "level": 157.032,
+      "order_ref": "3YLJETBC"
+    },
+    "costs": {
+      "entry_spread": -0.71,
+      "exit_spread": -0.71,
+      "overnight": -12.44
+    },
+    "net": 319.88,
+    "currency": "€"
+  }
+}
