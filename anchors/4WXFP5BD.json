@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "4WXFP5BD",
+  "close_ref": "4WXFP5BD",
+  "attested_at": "2026-09-03T23:01:05Z",
+  "hash": "25848986e9bfecedef40998d20ad7300c85048aa11158e3f1f8e5e8434cd9cc5",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "4WXFP5BD",
+    "algo": "Cuts DAX D1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-01T23:00:01Z",
+      "level": 25872.2,
+      "order_ref": "4WXFP5BD"
+    },
+    "exit": {
+      "time": "2026-09-03T23:00:02Z",
+      "level": 26054.4,
+      "order_ref": "4WXFP5BD"
+    },
+    "costs": {
+      "entry_spread": -0.1,
+      "exit_spread": -0.1,
+      "overnight": 0.0
+    },
+    "net": 36.44,
+    "currency": "€"
+  }
+}
