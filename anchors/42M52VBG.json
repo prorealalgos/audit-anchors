@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "42M52VBG",
+  "close_ref": "42M52VBG",
+  "attested_at": "2026-09-04T13:01:06Z",
+  "hash": "adc550afe2cf3301bd820531d749536b57b0685ef4e2cf7131b25d4ab31bd840",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "42M52VBG",
+    "algo": "Cuts Gold H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-07T09:00:00Z",
+      "level": 4306.55,
+      "order_ref": "42M52VBG"
+    },
+    "exit": {
+      "time": "2026-09-04T13:00:00Z",
+      "level": 4393.66,
+      "order_ref": "42M52VBG"
+    },
+    "costs": {
+      "entry_spread": -1.2,
+      "exit_spread": -1.2,
+      "overnight": 0.0
+    },
+    "net": 696.88,
+    "currency": "€"
+  }
+}
