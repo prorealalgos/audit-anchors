@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "4ZWNSTAA",
+  "close_ref": "4ZWNSTAA",
+  "attested_at": "2026-09-04T12:31:08Z",
+  "hash": "83a57e6e3c5f87943b420c701b7026664c320d48f197514bf65de0c454a05b67",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "4ZWNSTAA",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-04T12:15:00Z",
+      "level": 29602.0,
+      "order_ref": "4ZWNSTAA"
+    },
+    "exit": {
+      "time": "2026-09-04T12:30:28Z",
+      "level": 29552.0,
+      "order_ref": "4ZWNSTAA"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -50.0,
+    "currency": "€"
+  }
+}
