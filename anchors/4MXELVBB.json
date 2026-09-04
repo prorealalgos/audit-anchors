@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "4MXELVBB",
+  "close_ref": "4MXELVBB",
+  "attested_at": "2026-09-04T07:06:06Z",
+  "hash": "0d8d44f14403c7024fc4fe0808eab182eb3f2a55477095b99335857b10f5f4b5",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "4MXELVBB",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-02T17:51:00Z",
+      "level": 25845.1,
+      "order_ref": "4MXELVBB"
+    },
+    "exit": {
+      "time": "2026-09-04T07:06:01Z",
+      "level": 25957.3,
+      "order_ref": "4MXELVBB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 112.2,
+    "currency": "€"
+  }
+}
