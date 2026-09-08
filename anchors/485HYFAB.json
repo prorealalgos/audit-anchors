@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "485HYFAB",
+  "close_ref": "485HYFAB",
+  "attested_at": "2026-09-08T09:31:06Z",
+  "hash": "980d9e1967232ac63b8d6b17ba441ba4c1e33691d36cad978ea62a017cbd1b3c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "485HYFAB",
+    "algo": "Cuts DAX M10",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-09-07T09:57:00Z",
+      "level": 25976.1,
+      "order_ref": "485HYFAB"
+    },
+    "exit": {
+      "time": "2026-09-08T09:30:01Z",
+      "level": 25903.1,
+      "order_ref": "485HYFAB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 73.0,
+    "currency": "€"
+  }
+}
