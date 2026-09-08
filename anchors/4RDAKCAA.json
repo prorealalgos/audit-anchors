@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "4RDAKCAA",
+  "close_ref": "4RDAKCAA",
+  "attested_at": "2026-09-08T06:06:08Z",
+  "hash": "375dacab46c5ae95df0310bc37279c469dbe2710ca0d7b17f9ab43b4f5583a11",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "4RDAKCAA",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-03T08:30:00Z",
+      "level": 25909.6,
+      "order_ref": "4RDAKCAA"
+    },
+    "exit": {
+      "time": "2026-09-08T06:01:21Z",
+      "level": 25914.4,
+      "order_ref": "4RDAKCAA"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 4.8,
+    "currency": "€"
+  }
+}
