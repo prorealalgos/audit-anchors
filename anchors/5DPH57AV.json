@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "5DPH57AV",
+  "close_ref": "5DPH57AV",
+  "attested_at": "2026-09-08T08:01:05Z",
+  "hash": "926c6482de3b7b4cc3c5b282c3c2c98ba0affbb42bb18ebc25bb02da9156964b",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "5DPH57AV",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-02T15:00:00Z",
+      "level": 7670.4,
+      "order_ref": "5DPH57AV"
+    },
+    "exit": {
+      "time": "2026-09-08T08:00:01Z",
+      "level": 7686.6,
+      "order_ref": "5DPH57AV"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 12.05
+    },
+    "net": 60.65,
+    "currency": "€"
+  }
+}
