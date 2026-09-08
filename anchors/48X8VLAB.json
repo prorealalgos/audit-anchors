@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "48X8VLAB",
+  "close_ref": "48X8VLAB",
+  "attested_at": "2026-09-08T09:31:07Z",
+  "hash": "119594bfd5898b2797f75ed41cec471537e12c6195bebc4c3f7d8a3c8447bef1",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "48X8VLAB",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-09-07T09:21:00Z",
+      "level": 25967.4,
+      "order_ref": "48X8VLAB"
+    },
+    "exit": {
+      "time": "2026-09-08T09:30:01Z",
+      "level": 25903.1,
+      "order_ref": "48X8VLAB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 64.3,
+    "currency": "€"
+  }
+}
