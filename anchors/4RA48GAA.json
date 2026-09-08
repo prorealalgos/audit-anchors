@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "4RA48GAA",
+  "close_ref": "4RA48GAA",
+  "attested_at": "2026-09-08T06:06:07Z",
+  "hash": "4403bf864648f974ad622a0c7e2026e68f90b0f7617ef29c5ea9b1f9313a1808",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "4RA48GAA",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-03T08:20:00Z",
+      "level": 25895.2,
+      "order_ref": "4RA48GAA"
+    },
+    "exit": {
+      "time": "2026-09-08T06:01:21Z",
+      "level": 25914.4,
+      "order_ref": "4RA48GAA"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 19.2,
+    "currency": "€"
+  }
+}
