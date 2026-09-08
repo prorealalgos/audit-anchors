@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "4MYCWKBB",
+  "close_ref": "4MYCWKBB",
+  "attested_at": "2026-09-08T08:06:05Z",
+  "hash": "4ed7def5e86988386a1065452de9c7bf28f74f43caa0393421843b8f5e5bf9ca",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "4MYCWKBB",
+    "algo": "Prime US100 M30",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-02T18:00:00Z",
+      "level": 29113.9,
+      "order_ref": "4MYCWKBB"
+    },
+    "exit": {
+      "time": "2026-09-08T08:04:46Z",
+      "level": 29454.1,
+      "order_ref": "4MYCWKBB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 14.71
+    },
+    "net": 354.91,
+    "currency": "€"
+  }
+}
