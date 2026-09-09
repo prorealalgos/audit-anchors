@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "5MEXQJAB",
+  "close_ref": "5MEXQJAB",
+  "attested_at": "2026-09-09T13:04:22Z",
+  "hash": "5a7c146c63cadf087b3ce493bc1ec73354d8866abec9c9803c364a34b636698d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "5MEXQJAB",
+    "algo": "Prime DAX M3b",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-09-09T10:00:00Z",
+      "level": 25701.2,
+      "order_ref": "5MEXQJAB"
+    },
+    "exit": {
+      "time": "2026-09-09T13:02:26Z",
+      "level": 25668.9,
+      "order_ref": "5MEXQJAB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 32.3,
+    "currency": "€"
+  }
+}
