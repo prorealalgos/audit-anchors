@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "3ULH2CBC",
+  "close_ref": "3ULH2CBC",
+  "attested_at": "2026-09-09T09:54:23Z",
+  "hash": "f5f28a46148b5d43542461ebe8515e3497e1175e8b7d426fd05add5b592b621c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "3ULH2CBC",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-28T12:50:00Z",
+      "level": 53678.4,
+      "order_ref": "3ULH2CBC"
+    },
+    "exit": {
+      "time": "2026-09-09T09:54:03Z",
+      "level": 52602.5,
+      "order_ref": "3ULH2CBC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 59.82
+    },
+    "net": -478.13,
+    "currency": "€"
+  }
+}
