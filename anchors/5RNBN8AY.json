@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "5RNBN8AY",
+  "close_ref": "5RNBN8AY",
+  "attested_at": "2026-09-09T19:59:25Z",
+  "hash": "3ff37c3058d4204d2527f6aa9835382ea66f91095aabd35e19f3ef891d568e5d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "5RNBN8AY",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-09T14:05:00Z",
+      "level": 29551.5,
+      "order_ref": "5RNBN8AY"
+    },
+    "exit": {
+      "time": "2026-09-09T19:55:00Z",
+      "level": 29411.2,
+      "order_ref": "5RNBN8AY"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -140.3,
+    "currency": "€"
+  }
+}
