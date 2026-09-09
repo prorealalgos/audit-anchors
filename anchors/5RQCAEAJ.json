@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "5RQCAEAJ",
+  "close_ref": "5RQCAEAJ",
+  "attested_at": "2026-09-09T19:59:24Z",
+  "hash": "54dcca97d3148a411f4f45c46f0ebfa88a06ce24e4e9fa5a9148f8026ade53dd",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "5RQCAEAJ",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-09T12:52:00Z",
+      "level": 25633.1,
+      "order_ref": "5RQCAEAJ"
+    },
+    "exit": {
+      "time": "2026-09-09T19:58:00Z",
+      "level": 25527.2,
+      "order_ref": "5RQCAEAJ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -105.9,
+    "currency": "€"
+  }
+}
