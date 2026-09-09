@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "48RFWMAB",
+  "close_ref": "48RFWMAB",
+  "attested_at": "2026-09-09T12:14:22Z",
+  "hash": "c8199f9bcd8339832e3bfe7875703b49f34aacfc022adbf62fd776bcb403eaa4",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "48RFWMAB",
+    "algo": "PATF DOW M15 (Friday close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-07T08:30:00Z",
+      "level": 53226.8,
+      "order_ref": "48RFWMAB"
+    },
+    "exit": {
+      "time": "2026-09-09T12:10:37Z",
+      "level": 52426.3,
+      "order_ref": "48RFWMAB"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -400.25,
+    "currency": "€"
+  }
+}
