@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "5MQU9XA9",
+  "close_ref": "5MQU9XA9",
+  "attested_at": "2026-09-09T10:49:23Z",
+  "hash": "109e1700942bb1f5463bf9d496f8867aec60024e96edf21abfc97a32a52775e2",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "5MQU9XA9",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-04T18:48:00Z",
+      "level": 7717.75,
+      "order_ref": "5MQU9XA9"
+    },
+    "exit": {
+      "time": "2026-09-09T10:45:00Z",
+      "level": 7647.52,
+      "order_ref": "5MQU9XA9"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 4.26
+    },
+    "net": -206.43,
+    "currency": "€"
+  }
+}
