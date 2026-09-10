@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "5YLE29AZ",
+  "close_ref": "5YLE29AZ",
+  "attested_at": "2026-09-10T16:52:48Z",
+  "hash": "268dc096d142971e42fdcdc4e1c9f0f03da1ef93fcff0de52823d306a52787d1",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "5YLE29AZ",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-09-09T10:45:00Z",
+      "level": 7647.52,
+      "order_ref": "5YLE29AZ"
+    },
+    "exit": {
+      "time": "2026-09-10T16:51:00Z",
+      "level": 7601.79,
+      "order_ref": "5YLE29AZ"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.75
+    },
+    "net": 137.94,
+    "currency": "€"
+  }
+}
