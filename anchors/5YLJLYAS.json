@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "5YLJLYAS",
+  "close_ref": "5YLJLYAS",
+  "attested_at": "2026-09-10T16:52:46Z",
+  "hash": "c732ee698096ecdcc303dff3d26a3667713e7f5df7c407e8fd8ecf036258f4d2",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "5YLJLYAS",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-10T16:51:00Z",
+      "level": 7601.97,
+      "order_ref": "5YLJLYAS"
+    },
+    "exit": {
+      "time": "2026-09-10T16:51:00Z",
+      "level": 7601.51,
+      "order_ref": "5YLJLYAS"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -1.38,
+    "currency": "€"
+  }
+}
