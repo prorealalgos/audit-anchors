@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "5D786KAB",
+  "close_ref": "5D786KAB",
+  "attested_at": "2026-09-10T15:37:45Z",
+  "hash": "eeb5caabd89def0a2a763ff9197e275c2b42a0e8d9877861a44adcdf3672fc10",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "5D786KAB",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-08T09:24:00Z",
+      "level": 25889.6,
+      "order_ref": "5D786KAB"
+    },
+    "exit": {
+      "time": "2026-09-10T15:34:01Z",
+      "level": 25369.8,
+      "order_ref": "5D786KAB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -519.8,
+    "currency": "€"
+  }
+}
