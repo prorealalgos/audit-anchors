@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "58GDTXA2",
+  "close_ref": "58GDTXA2",
+  "attested_at": "2026-09-11T19:46:31Z",
+  "hash": "2520c8997626649de93adc430512d8fb6e02f696ee81f08dd041ea5ab67f65ef",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "58GDTXA2",
+    "algo": "PATF DOW M15 (Friday close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-10T01:45:00Z",
+      "level": 52501.5,
+      "order_ref": "58GDTXA2"
+    },
+    "exit": {
+      "time": "2026-09-11T19:45:00Z",
+      "level": 52589.5,
+      "order_ref": "58GDTXA2"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 44.0,
+    "currency": "€"
+  }
+}
