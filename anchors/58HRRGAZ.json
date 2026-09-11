@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "58HRRGAZ",
+  "close_ref": "58HRRGAZ",
+  "attested_at": "2026-09-11T20:01:30Z",
+  "hash": "0a431e53bda3e5c3a225c832ae55cd5381e82cb3903f2b1d97f3ffd26639ec30",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "58HRRGAZ",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-11T15:22:00Z",
+      "level": 25564.2,
+      "order_ref": "58HRRGAZ"
+    },
+    "exit": {
+      "time": "2026-09-11T19:58:00Z",
+      "level": 25550.3,
+      "order_ref": "58HRRGAZ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -13.9,
+    "currency": "€"
+  }
+}
