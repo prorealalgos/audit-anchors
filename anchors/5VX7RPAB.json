@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "5VX7RPAB",
+  "close_ref": "5VX7RPAB",
+  "attested_at": "2026-09-11T04:32:48Z",
+  "hash": "df5003a61bab9445cb127ca6c0cd72952e607f57b32a0ba334c96558622ab01e",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "5VX7RPAB",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-09-10T12:39:00Z",
+      "level": 25423.0,
+      "order_ref": "5VX7RPAB"
+    },
+    "exit": {
+      "time": "2026-09-11T04:30:12Z",
+      "level": 25396.4,
+      "order_ref": "5VX7RPAB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 26.6,
+    "currency": "€"
+  }
+}
