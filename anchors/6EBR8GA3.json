@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "6EBR8GA3",
+  "close_ref": "6EBR8GA3",
+  "attested_at": "2026-09-14T13:41:01Z",
+  "hash": "00ef21cf5697b60a5a149b603e177f6756bd5ffcb722e19ae4d07041a9a9d0d6",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "6EBR8GA3",
+    "algo": "Cuts SP500 M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-08-24T00:00:00Z",
+      "level": 7687.01,
+      "order_ref": "6EBR8GA3"
+    },
+    "exit": {
+      "time": "2026-09-14T13:40:00Z",
+      "level": 7598.91,
+      "order_ref": "6EBR8GA3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 29.86
+    },
+    "net": -234.44,
+    "currency": "€"
+  }
+}
