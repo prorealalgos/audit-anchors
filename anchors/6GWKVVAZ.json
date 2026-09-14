@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "6GWKVVAZ",
+  "close_ref": "6GWKVVAZ",
+  "attested_at": "2026-09-14T20:01:01Z",
+  "hash": "63fd9ed8b9926772385e6bd6d43799e231db600dbd4a6f8efa0ada61481c904c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "6GWKVVAZ",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-09-14T14:22:00Z",
+      "level": 25400.4,
+      "order_ref": "6GWKVVAZ"
+    },
+    "exit": {
+      "time": "2026-09-14T19:58:00Z",
+      "level": 25527.4,
+      "order_ref": "6GWKVVAZ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -127.0,
+    "currency": "€"
+  }
+}
