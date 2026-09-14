@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "6HAHZAAV",
+  "close_ref": "6HAHZAAV",
+  "attested_at": "2026-09-14T23:01:01Z",
+  "hash": "c8a960c87de1cf8063a0ae28aba8fd9d3cb12fef84891ea823adc6e9425499a7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "6HAHZAAV",
+    "algo": "Cuts DAX D1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-01T23:00:01Z",
+      "level": 25872.2,
+      "order_ref": "6HAHZAAV"
+    },
+    "exit": {
+      "time": "2026-09-14T23:00:00Z",
+      "level": 25511.0,
+      "order_ref": "6HAHZAAV"
+    },
+    "costs": {
+      "entry_spread": -0.1,
+      "exit_spread": -0.1,
+      "overnight": 0.0
+    },
+    "net": -72.24,
+    "currency": "€"
+  }
+}
