@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "6ABFTDAZ",
+  "close_ref": "6ABFTDAZ",
+  "attested_at": "2026-09-16T18:56:03Z",
+  "hash": "487b4ad38ca48c48bb761f79ce11e40959492a0d049b191d9ea2a72ce54a65de",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "6ABFTDAZ",
+    "algo": "PATF DOW M15 (Friday close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-14T01:00:00Z",
+      "level": 52491.7,
+      "order_ref": "6ABFTDAZ"
+    },
+    "exit": {
+      "time": "2026-09-16T18:53:35Z",
+      "level": 51699.9,
+      "order_ref": "6ABFTDAZ"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 8.0
+    },
+    "net": -387.9,
+    "currency": "€"
+  }
+}
