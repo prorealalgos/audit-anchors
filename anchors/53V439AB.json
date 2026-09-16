@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "53V439AB",
+  "close_ref": "53V439AB",
+  "attested_at": "2026-09-16T18:56:02Z",
+  "hash": "512039b8d9557e86c345b64088068a137785e8f16e040b2b0927120b31e001da",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "53V439AB",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-11T07:30:00Z",
+      "level": 7623.08,
+      "order_ref": "53V439AB"
+    },
+    "exit": {
+      "time": "2026-09-16T18:54:45Z",
+      "level": 7562.09,
+      "order_ref": "53V439AB"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 12.76
+    },
+    "net": -170.21,
+    "currency": "€"
+  }
+}
