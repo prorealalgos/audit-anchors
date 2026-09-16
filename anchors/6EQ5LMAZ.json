@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "6EQ5LMAZ",
+  "close_ref": "6EQ5LMAZ",
+  "attested_at": "2026-09-16T19:11:00Z",
+  "hash": "7af5a22e2606b0a851a82a55f4b463147372ae112d399bc2093127314efb5943",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "6EQ5LMAZ",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-14T14:10:00Z",
+      "level": 52482.5,
+      "order_ref": "6EQ5LMAZ"
+    },
+    "exit": {
+      "time": "2026-09-16T19:09:39Z",
+      "level": 51431.0,
+      "order_ref": "6EQ5LMAZ"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 8.4
+    },
+    "net": -517.35,
+    "currency": "€"
+  }
+}
