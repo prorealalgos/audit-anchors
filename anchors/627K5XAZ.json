@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "627K5XAZ",
+  "close_ref": "627K5XAZ",
+  "attested_at": "2026-09-17T16:21:02Z",
+  "hash": "cc0fa5aaa48632268ff98ac19f2cdea5752c9413f11598c2e03b06250431e2f6",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "627K5XAZ",
+    "algo": "Cuts DAX M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-17T09:33:00Z",
+      "level": 25694.6,
+      "order_ref": "627K5XAZ"
+    },
+    "exit": {
+      "time": "2026-09-17T16:17:17Z",
+      "level": 25698.3,
+      "order_ref": "627K5XAZ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 3.7,
+    "currency": "€"
+  }
+}
