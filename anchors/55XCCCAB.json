@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "55XCCCAB",
+  "close_ref": "55XCCCAB",
+  "attested_at": "2026-09-17T07:56:02Z",
+  "hash": "511e54f3e66474d25e7f7d2cdb98cbee0398be326ee37349ad69e8eb9232a006",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "55XCCCAB",
+    "algo": "Cuts DAX M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-11T13:00:00Z",
+      "level": 25563.4,
+      "order_ref": "55XCCCAB"
+    },
+    "exit": {
+      "time": "2026-09-17T07:55:41Z",
+      "level": 25651.7,
+      "order_ref": "55XCCCAB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 88.3,
+    "currency": "€"
+  }
+}
