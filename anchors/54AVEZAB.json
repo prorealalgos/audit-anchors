@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "54AVEZAB",
+  "close_ref": "54AVEZAB",
+  "attested_at": "2026-09-18T00:51:00Z",
+  "hash": "7fc44a644d97a4d42db35f0c16ec3e1a6bee81126c64a6e7a262944394871f4c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "54AVEZAB",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-11T08:38:00Z",
+      "level": 25469.1,
+      "order_ref": "54AVEZAB"
+    },
+    "exit": {
+      "time": "2026-09-18T00:50:26Z",
+      "level": 25569.1,
+      "order_ref": "54AVEZAB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 100.0,
+    "currency": "€"
+  }
+}
