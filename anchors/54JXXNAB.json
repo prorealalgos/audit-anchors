@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "54JXXNAB",
+  "close_ref": "54JXXNAB",
+  "attested_at": "2026-09-18T14:21:01Z",
+  "hash": "a4bb8f4ecea0d8d62366ccac3e666a88c00c1ab5074058e566af1e10bbd92ead",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "54JXXNAB",
+    "algo": "Prime US100 M30",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-11T09:30:00Z",
+      "level": 29283.1,
+      "order_ref": "54JXXNAB"
+    },
+    "exit": {
+      "time": "2026-09-18T14:16:41Z",
+      "level": 29404.8,
+      "order_ref": "54JXXNAB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 2.13
+    },
+    "net": 123.83,
+    "currency": "€"
+  }
+}
