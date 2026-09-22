@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "7M65HFAN",
+  "close_ref": "7M65HFAN",
+  "attested_at": "2026-09-22T14:10:19Z",
+  "hash": "a2b77b183a7892415638717e3b4fe552b6c15b739663a20340dd80a9f9a40e99",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "7M65HFAN",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-21T16:01:00Z",
+      "level": 25584.7,
+      "order_ref": "7M65HFAN"
+    },
+    "exit": {
+      "time": "2026-09-22T14:08:07Z",
+      "level": 25655.7,
+      "order_ref": "7M65HFAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 71.0,
+    "currency": "€"
+  }
+}
