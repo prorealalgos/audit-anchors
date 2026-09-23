@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "7SDDVSAN",
+  "close_ref": "7SDDVSAN",
+  "attested_at": "2026-09-23T13:50:18Z",
+  "hash": "66a86a14da6da08948ad22965c2f73ef09344571eeddc047e04e7c2e83184816",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "7SDDVSAN",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-22T09:08:00Z",
+      "level": 30480.2,
+      "order_ref": "7SDDVSAN"
+    },
+    "exit": {
+      "time": "2026-09-23T13:47:10Z",
+      "level": 30577.1,
+      "order_ref": "7SDDVSAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.54
+    },
+    "net": 97.44,
+    "currency": "€"
+  }
+}
