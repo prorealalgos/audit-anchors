@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "754REWA7",
+  "close_ref": "754REWA7",
+  "attested_at": "2026-09-24T00:40:18Z",
+  "hash": "31446c83a3f23b73ef72f67999b0c64ea18197aa52bc7041162c1ecda1af6e95",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "754REWA7",
+    "algo": "Cuts SP500 M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-18T18:50:00Z",
+      "level": 7642.68,
+      "order_ref": "754REWA7"
+    },
+    "exit": {
+      "time": "2026-09-24T00:40:00Z",
+      "level": 7700.79,
+      "order_ref": "754REWA7"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 4.25
+    },
+    "net": 178.58,
+    "currency": "€"
+  }
+}
