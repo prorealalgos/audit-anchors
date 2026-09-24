@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "75NRDLAN",
+  "close_ref": "75NRDLAN",
+  "attested_at": "2026-09-24T07:00:17Z",
+  "hash": "b3e8c0113e0c57594ab51c69a1ffbaa6a9d0afb0a72e91e5788488cf3afcc473",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "75NRDLAN",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-23T22:05:00Z",
+      "level": 30493.5,
+      "order_ref": "75NRDLAN"
+    },
+    "exit": {
+      "time": "2026-09-24T06:55:28Z",
+      "level": 30246.2,
+      "order_ref": "75NRDLAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -247.3,
+    "currency": "€"
+  }
+}
