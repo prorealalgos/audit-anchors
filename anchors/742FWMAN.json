@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "742FWMAN",
+  "close_ref": "742FWMAN",
+  "attested_at": "2026-09-25T13:35:17Z",
+  "hash": "45a2165c4ec96ecb4ebcb74a8e36db30dde77e5a4b085f3250d8f9b636e81da5",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "742FWMAN",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-23T17:50:00Z",
+      "level": 30455.5,
+      "order_ref": "742FWMAN"
+    },
+    "exit": {
+      "time": "2026-09-25T13:32:43Z",
+      "level": 30487.6,
+      "order_ref": "742FWMAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.22
+    },
+    "net": 32.32,
+    "currency": "€"
+  }
+}
