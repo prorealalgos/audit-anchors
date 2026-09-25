@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "8KRABNBB",
+  "close_ref": "8KRABNBB",
+  "attested_at": "2026-09-25T19:45:16Z",
+  "hash": "139d0f6a4b7a33c7a07cd44cb1625c3cf67755506ade6042a04c00dd85b910af",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "8KRABNBB",
+    "algo": "PATF DOW M15 (Friday close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-18T20:00:00Z",
+      "level": 51678.7,
+      "order_ref": "8KRABNBB"
+    },
+    "exit": {
+      "time": "2026-09-25T19:45:00Z",
+      "level": 51815.6,
+      "order_ref": "8KRABNBB"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 68.45,
+    "currency": "€"
+  }
+}
