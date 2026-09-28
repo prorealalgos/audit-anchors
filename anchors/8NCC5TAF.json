@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "8NCC5TAF",
+  "close_ref": "8NCC5TAF",
+  "attested_at": "2026-09-28T16:20:15Z",
+  "hash": "039345dd5d902c93272d8f3c8d795da38f0e174ae9aaf5c0627d5a26518006df",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "8NCC5TAF",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-09-28T05:10:00Z",
+      "level": 30394.8,
+      "order_ref": "8NCC5TAF"
+    },
+    "exit": {
+      "time": "2026-09-28T16:17:03Z",
+      "level": 30308.5,
+      "order_ref": "8NCC5TAF"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 86.3,
+    "currency": "€"
+  }
+}
