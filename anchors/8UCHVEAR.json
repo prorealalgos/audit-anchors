@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "8UCHVEAR",
+  "close_ref": "8UCHVEAR",
+  "attested_at": "2026-09-28T20:00:15Z",
+  "hash": "1b77b07671a3e450dbbadd815a7d17c89ad6c17e3fa885aa78f2d99e02ed682f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "8UCHVEAR",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-09-28T09:36:00Z",
+      "level": 25382.1,
+      "order_ref": "8UCHVEAR"
+    },
+    "exit": {
+      "time": "2026-09-28T19:58:00Z",
+      "level": 25505.1,
+      "order_ref": "8UCHVEAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -123.0,
+    "currency": "€"
+  }
+}
