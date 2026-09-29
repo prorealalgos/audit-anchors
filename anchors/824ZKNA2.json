@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "824ZKNA2",
+  "close_ref": "824ZKNA2",
+  "attested_at": "2026-09-29T19:55:16Z",
+  "hash": "cfbeec2164877661353ed2a57fcd0887c690c96f0af833a1a13aa932b52a9687",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "824ZKNA2",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-29T08:45:00Z",
+      "level": 30343.6,
+      "order_ref": "824ZKNA2"
+    },
+    "exit": {
+      "time": "2026-09-29T19:55:00Z",
+      "level": 30358.8,
+      "order_ref": "824ZKNA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 15.2,
+    "currency": "€"
+  }
+}
