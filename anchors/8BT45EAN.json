@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "8BT45EAN",
+  "close_ref": "8BT45EAN",
+  "attested_at": "2026-09-29T04:35:14Z",
+  "hash": "0ffbf9ab1f86357f4454495e75da5a152af85cb6ef9404858fb6c2ba20a3d31c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "8BT45EAN",
+    "algo": "Prime DAX M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-24T16:30:00Z",
+      "level": 25405.8,
+      "order_ref": "8BT45EAN"
+    },
+    "exit": {
+      "time": "2026-09-29T04:30:33Z",
+      "level": 25414.8,
+      "order_ref": "8BT45EAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 9.0,
+    "currency": "€"
+  }
+}
