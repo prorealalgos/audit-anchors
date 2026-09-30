@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "57NP3RAB",
+  "close_ref": "57NP3RAB",
+  "attested_at": "2026-09-30T20:05:35Z",
+  "hash": "0e57bcd4a4527ea648089535b45a5592f7305a5ebe5559de0e9c2bb804b2ce72",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "57NP3RAB",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-11T15:36:00Z",
+      "level": 25571.8,
+      "order_ref": "57NP3RAB"
+    },
+    "exit": {
+      "time": "2026-09-30T20:04:05Z",
+      "level": 25057.2,
+      "order_ref": "57NP3RAB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -514.6,
+    "currency": "€"
+  }
+}
