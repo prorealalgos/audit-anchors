@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "773B7LAN",
+  "close_ref": "773B7LAN",
+  "attested_at": "2026-09-30T23:40:37Z",
+  "hash": "c0b1d4b35c53d600c78289cc5f8fb3e717cb7dbd0da9c6a56cc345d258d4689f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "773B7LAN",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-09-24T08:12:00Z",
+      "level": 25226.1,
+      "order_ref": "773B7LAN"
+    },
+    "exit": {
+      "time": "2026-09-30T23:36:30Z",
+      "level": 25176.8,
+      "order_ref": "773B7LAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 49.3,
+    "currency": "€"
+  }
+}
