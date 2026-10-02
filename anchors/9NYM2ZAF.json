@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "9NYM2ZAF",
+  "close_ref": "9NYM2ZAF",
+  "attested_at": "2026-10-02T15:16:52Z",
+  "hash": "adad5eb3079bea45e63865fb565c2df69c14ceb28eb22937079a7a90eef71e21",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "9NYM2ZAF",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-02T10:45:00Z",
+      "level": 7706.5,
+      "order_ref": "9NYM2ZAF"
+    },
+    "exit": {
+      "time": "2026-10-02T15:12:48Z",
+      "level": 7710.55,
+      "order_ref": "9NYM2ZAF"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 12.15,
+    "currency": "€"
+  }
+}
