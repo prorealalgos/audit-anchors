@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "9NYPXDAQ",
+  "close_ref": "9NYPXDAQ",
+  "attested_at": "2026-10-02T10:46:49Z",
+  "hash": "3fc9e1a88f192c3aed14ca3b6950b0d9e95b6949bf8dcb623cabdce0a5cb744b",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "9NYPXDAQ",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-09-29T16:03:00Z",
+      "level": 7657.71,
+      "order_ref": "9NYPXDAQ"
+    },
+    "exit": {
+      "time": "2026-10-02T10:45:00Z",
+      "level": 7706.29,
+      "order_ref": "9NYPXDAQ"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 1.89
+    },
+    "net": -143.85,
+    "currency": "€"
+  }
+}
