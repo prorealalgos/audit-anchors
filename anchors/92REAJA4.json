@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "92REAJA4",
+  "close_ref": "92REAJA4",
+  "attested_at": "2026-10-05T20:01:47Z",
+  "hash": "ed6c2ac90027fc3ba18f86e5ea1a0621954c1d3b23e14fde5feff01270abcc45",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "92REAJA4",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-10-05T10:28:00Z",
+      "level": 25190.5,
+      "order_ref": "92REAJA4"
+    },
+    "exit": {
+      "time": "2026-10-05T19:58:00Z",
+      "level": 25315.6,
+      "order_ref": "92REAJA4"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -125.1,
+    "currency": "€"
+  }
+}
