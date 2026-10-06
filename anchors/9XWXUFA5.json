@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "9XWXUFA5",
+  "close_ref": "9XWXUFA5",
+  "attested_at": "2026-10-06T13:31:28Z",
+  "hash": "df632b095bfb79103f362bb58b408159c5dc1cb959e0637d374f3eb13c58bc53",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "9XWXUFA5",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-05T11:55:00Z",
+      "level": 51171.2,
+      "order_ref": "9XWXUFA5"
+    },
+    "exit": {
+      "time": "2026-10-06T13:31:01Z",
+      "level": 51432.9,
+      "order_ref": "9XWXUFA5"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 10.05
+    },
+    "net": 140.9,
+    "currency": "€"
+  }
+}
