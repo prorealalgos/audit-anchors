@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "8BT442AN",
+  "close_ref": "8BT442AN",
+  "attested_at": "2026-10-07T13:40:37Z",
+  "hash": "d4772ce1e090f92416143e44304c03975eeac28993f91a9853a98ebda8febb4d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "8BT442AN",
+    "algo": "Prime SP500 M3b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-09-24T16:30:00Z",
+      "level": 7702.29,
+      "order_ref": "8BT442AN"
+    },
+    "exit": {
+      "time": "2026-10-07T13:38:25Z",
+      "level": 7773.21,
+      "order_ref": "8BT442AN"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 6.79
+    },
+    "net": 219.55,
+    "currency": "€"
+  }
+}
