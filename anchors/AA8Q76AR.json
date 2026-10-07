@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "AA8Q76AR",
+  "close_ref": "AA8Q76AR",
+  "attested_at": "2026-10-07T07:00:36Z",
+  "hash": "8f25df23f15070b7e97c2e959c7028fa26b16484a8f042957bf96f3cfd60a75a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "AA8Q76AR",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-05T15:45:00Z",
+      "level": 25261.0,
+      "order_ref": "AA8Q76AR"
+    },
+    "exit": {
+      "time": "2026-10-07T07:00:00Z",
+      "level": 25244.4,
+      "order_ref": "AA8Q76AR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -16.6,
+    "currency": "€"
+  }
+}
