@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "AGE6ZPAR",
+  "close_ref": "AGE6ZPAR",
+  "attested_at": "2026-10-07T19:55:36Z",
+  "hash": "fa355505b8493e6043327dc2a9d235498ddf9644c8eddfab692d7edc65fd9ab8",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "AGE6ZPAR",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-07T18:05:00Z",
+      "level": 31131.4,
+      "order_ref": "AGE6ZPAR"
+    },
+    "exit": {
+      "time": "2026-10-07T19:55:00Z",
+      "level": 31149.4,
+      "order_ref": "AGE6ZPAR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 18.0,
+    "currency": "€"
+  }
+}
