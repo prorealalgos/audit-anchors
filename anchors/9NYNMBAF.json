@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "9NYNMBAF",
+  "close_ref": "9NYNMBAF",
+  "attested_at": "2026-10-07T06:00:37Z",
+  "hash": "831933edb00fa0d6ef0cd903a9a7dc3d6937a3c2c1e72d74453b525d93516741",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "9NYNMBAF",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-02T10:50:00Z",
+      "level": 25224.9,
+      "order_ref": "9NYNMBAF"
+    },
+    "exit": {
+      "time": "2026-10-07T06:00:28Z",
+      "level": 25279.6,
+      "order_ref": "9NYNMBAF"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 54.7,
+    "currency": "€"
+  }
+}
