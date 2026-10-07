@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ACEXJ3A5",
+  "close_ref": "ACEXJ3A5",
+  "attested_at": "2026-10-07T15:45:36Z",
+  "hash": "a60881421df544028ff03097f3ae2a44384bc58cda8a55d2f864069ee1334329",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ACEXJ3A5",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-10-07T09:54:00Z",
+      "level": 25136.3,
+      "order_ref": "ACEXJ3A5"
+    },
+    "exit": {
+      "time": "2026-10-07T15:42:05Z",
+      "level": 25134.3,
+      "order_ref": "ACEXJ3A5"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 2.0,
+    "currency": "€"
+  }
+}
