@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "9XMFNJA5",
+  "close_ref": "9XMFNJA5",
+  "attested_at": "2026-10-07T06:00:39Z",
+  "hash": "476ee5a63acbae7f1197891ba16fc43ea3b859b6e09a9a1656dfe8ac0518479d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "9XMFNJA5",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-05T10:57:00Z",
+      "level": 25253.2,
+      "order_ref": "9XMFNJA5"
+    },
+    "exit": {
+      "time": "2026-10-07T06:00:28Z",
+      "level": 25275.3,
+      "order_ref": "9XMFNJA5"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 22.1,
+    "currency": "€"
+  }
+}
