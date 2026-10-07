@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ADULCMA5",
+  "close_ref": "ADULCMA5",
+  "attested_at": "2026-10-07T15:40:37Z",
+  "hash": "dc5077d63458647a369fa2e136de6980a4cc953f4a68634e66f2e1ce68b6d370",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ADULCMA5",
+    "algo": "Cuts SP500 M15",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-10-07T13:15:00Z",
+      "level": 7787.71,
+      "order_ref": "ADULCMA5"
+    },
+    "exit": {
+      "time": "2026-10-07T15:37:14Z",
+      "level": 7785.51,
+      "order_ref": "ADULCMA5"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 6.6,
+    "currency": "€"
+  }
+}
