@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "AJAMGSA5",
+  "close_ref": "AJAMGSA5",
+  "attested_at": "2026-10-08T13:20:36Z",
+  "hash": "c1d13380b0fad411758c99b3b8040a2fe264455d3b851b280d3c21ded9fc0e8c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "AJAMGSA5",
+    "algo": "Prime DAX M1",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-10-08T06:05:00Z",
+      "level": 25025.2,
+      "order_ref": "AJAMGSA5"
+    },
+    "exit": {
+      "time": "2026-10-08T13:16:31Z",
+      "level": 24959.6,
+      "order_ref": "AJAMGSA5"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 65.6,
+    "currency": "€"
+  }
+}
