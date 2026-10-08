@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "986RMQA5",
+  "close_ref": "986RMQA5",
+  "attested_at": "2026-10-08T17:10:37Z",
+  "hash": "699cd413853f8d4c717d6677bf18585daf30f45e1050fd9e0118e09240e0efed",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "986RMQA5",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-06T18:10:00Z",
+      "level": 31302.9,
+      "order_ref": "986RMQA5"
+    },
+    "exit": {
+      "time": "2026-10-08T17:06:01Z",
+      "level": 30676.1,
+      "order_ref": "986RMQA5"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 1.98
+    },
+    "net": -624.82,
+    "currency": "€"
+  }
+}
