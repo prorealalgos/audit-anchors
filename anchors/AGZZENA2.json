@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "AGZZENA2",
+  "close_ref": "AGZZENA2",
+  "attested_at": "2026-10-08T00:10:35Z",
+  "hash": "f767e44fb2d58ae3ae255b95333f7e3835f3c675a7914d9582eedec782036970",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "AGZZENA2",
+    "algo": "Cuts SP500 M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-06T06:50:00Z",
+      "level": 7790.74,
+      "order_ref": "AGZZENA2"
+    },
+    "exit": {
+      "time": "2026-10-08T00:10:00Z",
+      "level": 7796.6,
+      "order_ref": "AGZZENA2"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 1.75
+    },
+    "net": 19.33,
+    "currency": "€"
+  }
+}
