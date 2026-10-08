@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "AP4464AB",
+  "close_ref": "AP4464AB",
+  "attested_at": "2026-10-08T20:00:36Z",
+  "hash": "886af473876d8a248d99a98feb8a2a718ea86e920d51ca4c4db5af8b60a3eeec",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "AP4464AB",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-10-08T10:36:00Z",
+      "level": 24810.0,
+      "order_ref": "AP4464AB"
+    },
+    "exit": {
+      "time": "2026-10-08T19:58:00Z",
+      "level": 24972.1,
+      "order_ref": "AP4464AB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -162.1,
+    "currency": "€"
+  }
+}
