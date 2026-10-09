@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "AWAV4WBF",
+  "close_ref": "AWAV4WBF",
+  "attested_at": "2026-10-09T19:50:35Z",
+  "hash": "f0d287177f0deca6265ccf43a93ab57c662ef473986b8d4cf4aa861c2f82a2e7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "AWAV4WBF",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-09T06:08:00Z",
+      "level": 25024.4,
+      "order_ref": "AWAV4WBF"
+    },
+    "exit": {
+      "time": "2026-10-09T19:50:00Z",
+      "level": 25153.5,
+      "order_ref": "AWAV4WBF"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 129.1,
+    "currency": "€"
+  }
+}
