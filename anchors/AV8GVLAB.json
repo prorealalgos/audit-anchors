@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "AV8GVLAB",
+  "close_ref": "AV8GVLAB",
+  "attested_at": "2026-10-09T19:00:35Z",
+  "hash": "0cdd881ad19d586e01218024e8581d6be9d7d72a0ac3bd485228b623f2d2f62a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "AV8GVLAB",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-05T03:00:00Z",
+      "level": 158.005,
+      "order_ref": "AV8GVLAB"
+    },
+    "exit": {
+      "time": "2026-10-09T19:00:00Z",
+      "level": 158.199,
+      "order_ref": "AV8GVLAB"
+    },
+    "costs": {
+      "entry_spread": -0.73,
+      "exit_spread": -0.73,
+      "overnight": 7.3
+    },
+    "net": 29.08,
+    "currency": "€"
+  }
+}
