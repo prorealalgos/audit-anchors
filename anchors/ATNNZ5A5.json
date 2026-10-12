@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ATNNZ5A5",
+  "close_ref": "ATNNZ5A5",
+  "attested_at": "2026-10-12T06:25:38Z",
+  "hash": "4f051104df77cef99948814c5380282c636652f3d78cd71883e350053e91e0f7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ATNNZ5A5",
+    "algo": "Cuts DAX M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-09T11:48:00Z",
+      "level": 25119.1,
+      "order_ref": "ATNNZ5A5"
+    },
+    "exit": {
+      "time": "2026-10-12T06:23:43Z",
+      "level": 25184.7,
+      "order_ref": "ATNNZ5A5"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 65.6,
+    "currency": "€"
+  }
+}
