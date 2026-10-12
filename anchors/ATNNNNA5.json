@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ATNNNNA5",
+  "close_ref": "ATNNNNA5",
+  "attested_at": "2026-10-12T06:25:36Z",
+  "hash": "6a3c2fd9f80a0d98122b936e95fd20792b970e3234f2cb2709fbe0dc3c05db06",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ATNNNNA5",
+    "algo": "Prime DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-09T11:45:00Z",
+      "level": 25123.6,
+      "order_ref": "ATNNNNA5"
+    },
+    "exit": {
+      "time": "2026-10-12T06:23:43Z",
+      "level": 25184.3,
+      "order_ref": "ATNNNNA5"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 60.7,
+    "currency": "€"
+  }
+}
