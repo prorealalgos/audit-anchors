@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "A4NYVYAH",
+  "close_ref": "A4NYVYAH",
+  "attested_at": "2026-10-12T19:55:34Z",
+  "hash": "755c790423e36a700e00ea96f8fdf6381b7736ce30f051f47fcbe0219a2d38f4",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "A4NYVYAH",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-10-12T06:25:00Z",
+      "level": 30935.0,
+      "order_ref": "A4NYVYAH"
+    },
+    "exit": {
+      "time": "2026-10-12T19:55:00Z",
+      "level": 30659.1,
+      "order_ref": "A4NYVYAH"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 275.9,
+    "currency": "€"
+  }
+}
