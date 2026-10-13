@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "A5F55SAB",
+  "close_ref": "A5F55SAB",
+  "attested_at": "2026-10-13T01:00:34Z",
+  "hash": "5098d940a88e79d2b77358c1483a3f4e98c78d82ff845cf922926c94d18d4462",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "A5F55SAB",
+    "algo": "Cuts SP500 M15",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-10-12T18:30:00Z",
+      "level": 7800.2,
+      "order_ref": "A5F55SAB"
+    },
+    "exit": {
+      "time": "2026-10-13T01:00:00Z",
+      "level": 7794.55,
+      "order_ref": "A5F55SAB"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": -0.05
+    },
+    "net": 16.9,
+    "currency": "€"
+  }
+}
