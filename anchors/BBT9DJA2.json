@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "BBT9DJA2",
+  "close_ref": "BBT9DJA2",
+  "attested_at": "2026-10-13T20:00:34Z",
+  "hash": "6464da4d5d2ddce65a8e6f2ee1f62a9a6a149a215f3b6b45f873863054294ae3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "BBT9DJA2",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-10-13T15:44:00Z",
+      "level": 25251.3,
+      "order_ref": "BBT9DJA2"
+    },
+    "exit": {
+      "time": "2026-10-13T19:58:00Z",
+      "level": 25298.3,
+      "order_ref": "BBT9DJA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -47.0,
+    "currency": "€"
+  }
+}
