@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ASXAYMA5",
+  "close_ref": "ASXAYMA5",
+  "attested_at": "2026-10-13T02:35:34Z",
+  "hash": "6e060df1a86d500c8c20bf08551a6111eb86c57f3d0bdf855d7a0d58b38ddc02",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ASXAYMA5",
+    "algo": "Prime US100 M30",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-09T09:00:00Z",
+      "level": 31013.0,
+      "order_ref": "ASXAYMA5"
+    },
+    "exit": {
+      "time": "2026-10-13T02:33:18Z",
+      "level": 30391.6,
+      "order_ref": "ASXAYMA5"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -621.4,
+    "currency": "€"
+  }
+}
