@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "BKKHQGA8",
+  "close_ref": "BKKHQGA8",
+  "attested_at": "2026-10-14T20:00:34Z",
+  "hash": "dee09539386ba6123eaebf783abceb9050d2e9959896f6f1f790d9454ee8bc24",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "BKKHQGA8",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-14T08:22:00Z",
+      "level": 25373.2,
+      "order_ref": "BKKHQGA8"
+    },
+    "exit": {
+      "time": "2026-10-14T19:58:00Z",
+      "level": 25248.3,
+      "order_ref": "BKKHQGA8"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -124.9,
+    "currency": "€"
+  }
+}
