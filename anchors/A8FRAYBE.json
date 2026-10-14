@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "A8FRAYBE",
+  "close_ref": "A8FRAYBE",
+  "attested_at": "2026-10-14T14:15:33Z",
+  "hash": "d3a9c7c3a9a900bff8d073322caa71f26575564b17e4f8718c9f93866757645a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "A8FRAYBE",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-13T10:15:00Z",
+      "level": 7814.08,
+      "order_ref": "A8FRAYBE"
+    },
+    "exit": {
+      "time": "2026-10-14T14:12:46Z",
+      "level": 7751.44,
+      "order_ref": "A8FRAYBE"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 1.01
+    },
+    "net": -186.91,
+    "currency": "€"
+  }
+}
