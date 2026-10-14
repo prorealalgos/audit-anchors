@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ASLRBGA5",
+  "close_ref": "ASLRBGA5",
+  "attested_at": "2026-10-14T17:50:33Z",
+  "hash": "d7cafafa69946cd56d71c13133382967618fcb9d05588c80b8ef8db60085c716",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ASLRBGA5",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-09T07:57:00Z",
+      "level": 25039.6,
+      "order_ref": "ASLRBGA5"
+    },
+    "exit": {
+      "time": "2026-10-14T17:50:19Z",
+      "level": 25219.5,
+      "order_ref": "ASLRBGA5"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 179.9,
+    "currency": "€"
+  }
+}
