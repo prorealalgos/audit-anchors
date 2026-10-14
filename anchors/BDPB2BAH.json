@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "BDPB2BAH",
+  "close_ref": "BDPB2BAH",
+  "attested_at": "2026-10-14T07:00:33Z",
+  "hash": "d18670264f35dc6ed43ae9e80c3e35397c03b1e3cff0ca026b342bb0db3e2b97",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "BDPB2BAH",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-12T15:45:00Z",
+      "level": 25284.9,
+      "order_ref": "BDPB2BAH"
+    },
+    "exit": {
+      "time": "2026-10-14T07:00:00Z",
+      "level": 25385.8,
+      "order_ref": "BDPB2BAH"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 100.9,
+    "currency": "€"
+  }
+}
