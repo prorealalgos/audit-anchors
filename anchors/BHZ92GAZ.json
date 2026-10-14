@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "BHZ92GAZ",
+  "close_ref": "BHZ92GAZ",
+  "attested_at": "2026-10-14T15:45:33Z",
+  "hash": "e2d30db4c730becd3eb96c3aeb77696e0da14c2d9ad69b5a709e192a2224cea3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "BHZ92GAZ",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-13T16:33:00Z",
+      "level": 7803.86,
+      "order_ref": "BHZ92GAZ"
+    },
+    "exit": {
+      "time": "2026-10-14T15:42:00Z",
+      "level": 7731.51,
+      "order_ref": "BHZ92GAZ"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 1.11
+    },
+    "net": -215.94,
+    "currency": "€"
+  }
+}
