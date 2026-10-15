@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "BTZXRAAU",
+  "close_ref": "BTZXRAAU",
+  "attested_at": "2026-10-15T19:59:46Z",
+  "hash": "f189daa79e662d5e6e8f682595763d224a6e2c71b911aba0d0b1349d1abea86f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "BTZXRAAU",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-15T09:18:00Z",
+      "level": 25253.5,
+      "order_ref": "BTZXRAAU"
+    },
+    "exit": {
+      "time": "2026-10-15T19:58:00Z",
+      "level": 25479.6,
+      "order_ref": "BTZXRAAU"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 226.1,
+    "currency": "€"
+  }
+}
