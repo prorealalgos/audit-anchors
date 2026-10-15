@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "BNPHXCAH",
+  "close_ref": "BNPHXCAH",
+  "attested_at": "2026-10-15T07:24:44Z",
+  "hash": "b5e85ad86ebf8cb613619e3256415a15760cf98123ca01a1a16c6fb4ff78799a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "BNPHXCAH",
+    "algo": "Cuts SP500 M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-13T04:00:00Z",
+      "level": 7797.71,
+      "order_ref": "BNPHXCAH"
+    },
+    "exit": {
+      "time": "2026-10-15T07:20:00Z",
+      "level": 7690.46,
+      "order_ref": "BNPHXCAH"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 2.47
+    },
+    "net": -319.28,
+    "currency": "€"
+  }
+}
