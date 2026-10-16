@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "BPEPT2BE",
+  "close_ref": "BPEPT2BE",
+  "attested_at": "2026-10-16T17:02:00Z",
+  "hash": "b92569b9481bc764c695d93204565aed6c8aff2d1544e87a414d2afca214fd89",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "BPEPT2BE",
+    "algo": "Prime DAX M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-15T09:00:00Z",
+      "level": 25228.9,
+      "order_ref": "BPEPT2BE"
+    },
+    "exit": {
+      "time": "2026-10-16T17:01:45Z",
+      "level": 25506.5,
+      "order_ref": "BPEPT2BE"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 277.6,
+    "currency": "€"
+  }
+}
