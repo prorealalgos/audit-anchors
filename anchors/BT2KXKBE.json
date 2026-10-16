@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "BT2KXKBE",
+  "close_ref": "BT2KXKBE",
+  "attested_at": "2026-10-16T16:52:00Z",
+  "hash": "b0704eae73618b32fa3608a1366f2345e7f46728ffb37577c0359ea691753d6e",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "BT2KXKBE",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-15T20:00:00Z",
+      "level": 7744.86,
+      "order_ref": "BT2KXKBE"
+    },
+    "exit": {
+      "time": "2026-10-16T16:51:24Z",
+      "level": 7682.9,
+      "order_ref": "BT2KXKBE"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -185.88,
+    "currency": "€"
+  }
+}
