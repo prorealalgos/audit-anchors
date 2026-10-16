@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "B294Z4AC",
+  "close_ref": "B294Z4AC",
+  "attested_at": "2026-10-16T19:02:00Z",
+  "hash": "040e396fc6f029446000fe119a40a636e610d6e8cca827492854d8b77daa08f7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "B294Z4AC",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-12T03:00:00Z",
+      "level": 158.268,
+      "order_ref": "B294Z4AC"
+    },
+    "exit": {
+      "time": "2026-10-16T19:00:00Z",
+      "level": 158.053,
+      "order_ref": "B294Z4AC"
+    },
+    "costs": {
+      "entry_spread": -0.74,
+      "exit_spread": -0.74,
+      "overnight": 5.92
+    },
+    "net": -18.42,
+    "currency": "€"
+  }
+}
