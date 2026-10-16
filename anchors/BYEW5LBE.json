@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "BYEW5LBE",
+  "close_ref": "BYEW5LBE",
+  "attested_at": "2026-10-16T15:27:00Z",
+  "hash": "7d48f438efa0410cf32d939245cfd56ffe59b2ebf2fc65b9fa4fd79c9f5b4a63",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "BYEW5LBE",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-16T13:45:00Z",
+      "level": 25692.8,
+      "order_ref": "BYEW5LBE"
+    },
+    "exit": {
+      "time": "2026-10-16T15:22:32Z",
+      "level": 25614.7,
+      "order_ref": "BYEW5LBE"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -78.1,
+    "currency": "€"
+  }
+}
