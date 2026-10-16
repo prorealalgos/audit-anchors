@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "ABSXTGA5",
+  "close_ref": "ABSXTGA5",
+  "attested_at": "2026-10-16T18:07:00Z",
+  "hash": "4ae6568429df5953c81f89d7ca37f62235669879336f232c647e30de2d4cea8f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "ABSXTGA5",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-07T08:16:00Z",
+      "level": 25283.1,
+      "order_ref": "ABSXTGA5"
+    },
+    "exit": {
+      "time": "2026-10-16T18:03:52Z",
+      "level": 25461.2,
+      "order_ref": "ABSXTGA5"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 178.1,
+    "currency": "€"
+  }
+}
