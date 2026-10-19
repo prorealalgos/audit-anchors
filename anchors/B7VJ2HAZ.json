@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "B7VJ2HAZ",
+  "close_ref": "B7VJ2HAZ",
+  "attested_at": "2026-10-19T17:10:42Z",
+  "hash": "0c99fbdfdf605afcb5755c6edb2bb74734f62c0b9025d6617ee39d32380a53af",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "B7VJ2HAZ",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-19T10:02:00Z",
+      "level": 29530.9,
+      "order_ref": "B7VJ2HAZ"
+    },
+    "exit": {
+      "time": "2026-10-19T17:09:40Z",
+      "level": 29571.7,
+      "order_ref": "B7VJ2HAZ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 40.8,
+    "currency": "€"
+  }
+}
