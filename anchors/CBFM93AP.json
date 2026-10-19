@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "CBFM93AP",
+  "close_ref": "CBFM93AP",
+  "attested_at": "2026-10-19T19:58:25Z",
+  "hash": "978d9bac91340522861493f27e58941abc7989935c5f81ad253be1d54d9251fc",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "CBFM93AP",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-19T10:58:00Z",
+      "level": 25345.1,
+      "order_ref": "CBFM93AP"
+    },
+    "exit": {
+      "time": "2026-10-19T19:58:00Z",
+      "level": 25189.8,
+      "order_ref": "CBFM93AP"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -155.3,
+    "currency": "€"
+  }
+}
