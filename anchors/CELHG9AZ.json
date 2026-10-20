@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "CELHG9AZ",
+  "close_ref": "CELHG9AZ",
+  "attested_at": "2026-10-20T15:15:43Z",
+  "hash": "0cf8677b2960b168000316d0bfac63c1c6c7d816419570048c288f4194f89904",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "CELHG9AZ",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-20T09:58:00Z",
+      "level": 25107.8,
+      "order_ref": "CELHG9AZ"
+    },
+    "exit": {
+      "time": "2026-10-20T15:12:52Z",
+      "level": 25311.8,
+      "order_ref": "CELHG9AZ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 204.0,
+    "currency": "€"
+  }
+}
