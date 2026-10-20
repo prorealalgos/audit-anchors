@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "BYEW5UBE",
+  "close_ref": "BYEW5UBE",
+  "attested_at": "2026-10-20T15:15:44Z",
+  "hash": "65352aa622f60981aa2c07f99c93790d1e13abbb4b106ab41d64e1e072197a34",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "BYEW5UBE",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-16T13:45:00Z",
+      "level": 52481.4,
+      "order_ref": "BYEW5UBE"
+    },
+    "exit": {
+      "time": "2026-10-20T15:12:33Z",
+      "level": 52468.0,
+      "order_ref": "BYEW5UBE"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -6.7,
+    "currency": "€"
+  }
+}
