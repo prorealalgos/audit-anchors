@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "B9CF98AZ",
+  "close_ref": "B9CF98AZ",
+  "attested_at": "2026-10-21T23:03:44Z",
+  "hash": "3b07def1823388bddfd4fa6d2d26d929f8e3aaa1e66e9b324712ce7e99059b03",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "B9CF98AZ",
+    "algo": "Prime US100 M30",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-19T14:00:00Z",
+      "level": 29518.1,
+      "order_ref": "B9CF98AZ"
+    },
+    "exit": {
+      "time": "2026-10-21T23:03:20Z",
+      "level": 29632.0,
+      "order_ref": "B9CF98AZ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 113.9,
+    "currency": "€"
+  }
+}
