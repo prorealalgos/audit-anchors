@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "CLNND5A2",
+  "close_ref": "CLNND5A2",
+  "attested_at": "2026-10-21T07:00:44Z",
+  "hash": "596d509d4b131a5ede1d1497c1f31b122106fd05d8f2fd640f8d7af4ee393273",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "CLNND5A2",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-19T15:45:00Z",
+      "level": 25315.4,
+      "order_ref": "CLNND5A2"
+    },
+    "exit": {
+      "time": "2026-10-21T07:00:00Z",
+      "level": 25328.2,
+      "order_ref": "CLNND5A2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 12.8,
+    "currency": "€"
+  }
+}
