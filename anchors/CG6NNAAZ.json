@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "CG6NNAAZ",
+  "close_ref": "CG6NNAAZ",
+  "attested_at": "2026-10-21T19:03:44Z",
+  "hash": "b302395bd9441ca187e7b073a8db58d7a18f1be55df2d75eb48b265a56a09b8c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "CG6NNAAZ",
+    "algo": "Prime DAX M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-20T14:45:00Z",
+      "level": 25396.8,
+      "order_ref": "CG6NNAAZ"
+    },
+    "exit": {
+      "time": "2026-10-21T19:03:00Z",
+      "level": 25502.1,
+      "order_ref": "CG6NNAAZ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 105.3,
+    "currency": "€"
+  }
+}
