@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "CABZGHAZ",
+  "close_ref": "CABZGHAZ",
+  "attested_at": "2026-10-22T05:48:48Z",
+  "hash": "e6fe73e6955a1b761761384e6abd802a78e8365fd3459986104534b711979b68",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "CABZGHAZ",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-19T15:39:00Z",
+      "level": 25320.4,
+      "order_ref": "CABZGHAZ"
+    },
+    "exit": {
+      "time": "2026-10-22T05:43:59Z",
+      "level": 25473.8,
+      "order_ref": "CABZGHAZ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 153.4,
+    "currency": "€"
+  }
+}
