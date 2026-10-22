@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "CGJUNDAZ",
+  "close_ref": "CGJUNDAZ",
+  "attested_at": "2026-10-22T14:33:46Z",
+  "hash": "b9d04a89233b5bfff4cc950bc664f2fb30efedb2d4d7b1073ad4dc006d5d769e",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "CGJUNDAZ",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-20T14:15:00Z",
+      "level": 7716.83,
+      "order_ref": "CGJUNDAZ"
+    },
+    "exit": {
+      "time": "2026-10-22T14:30:26Z",
+      "level": 7655.1,
+      "order_ref": "CGJUNDAZ"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 1.64
+    },
+    "net": -183.55,
+    "currency": "€"
+  }
+}
