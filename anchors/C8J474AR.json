@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "C8J474AR",
+  "close_ref": "C8J474AR",
+  "attested_at": "2026-10-23T20:00:54Z",
+  "hash": "f9894d8ad545c3f644ba77d9c6bb6ff4a4017de06fd0bfaa829b4a223d26a814",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "C8J474AR",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-10-23T13:24:00Z",
+      "level": 25104.2,
+      "order_ref": "C8J474AR"
+    },
+    "exit": {
+      "time": "2026-10-23T19:58:00Z",
+      "level": 25146.0,
+      "order_ref": "C8J474AR"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -41.8,
+    "currency": "€"
+  }
+}
