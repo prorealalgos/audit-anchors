@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "DGNKWSBE",
+  "close_ref": "DGNKWSBE",
+  "attested_at": "2026-10-27T00:04:07Z",
+  "hash": "e94ee30477f9ec1fb4d025d261178ff25fd0be96f4d29d1c9386dd95d7e9e1c5",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "DGNKWSBE",
+    "algo": "Cuts DAX D1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-26T00:00:00Z",
+      "level": 25239.3,
+      "order_ref": "DGNKWSBE"
+    },
+    "exit": {
+      "time": "2026-10-27T00:00:00Z",
+      "level": 25504.5,
+      "order_ref": "DGNKWSBE"
+    },
+    "costs": {
+      "entry_spread": -0.2,
+      "exit_spread": -0.2,
+      "overnight": 0.0
+    },
+    "net": 106.08,
+    "currency": "€"
+  }
+}
