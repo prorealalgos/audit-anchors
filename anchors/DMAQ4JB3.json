@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "DMAQ4JB3",
+  "close_ref": "DMAQ4JB3",
+  "attested_at": "2026-10-28T08:05:08Z",
+  "hash": "1fd497589555fb23d17e51d2f511c381e4e35fd28c5bc460b07e4a9c9e7af8c7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "DMAQ4JB3",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-27T14:45:00Z",
+      "level": 25563.2,
+      "order_ref": "DMAQ4JB3"
+    },
+    "exit": {
+      "time": "2026-10-28T08:00:52Z",
+      "level": 25486.5,
+      "order_ref": "DMAQ4JB3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -76.7,
+    "currency": "€"
+  }
+}
