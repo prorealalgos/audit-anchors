@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "DSMRF3B3",
+  "close_ref": "DSMRF3B3",
+  "attested_at": "2026-10-28T20:05:09Z",
+  "hash": "5720076f91e284417baedc3386d0e9c64646db934ae160bebb3e7448f62159c3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "DSMRF3B3",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-28T12:30:00Z",
+      "level": 25666.7,
+      "order_ref": "DSMRF3B3"
+    },
+    "exit": {
+      "time": "2026-10-28T20:01:37Z",
+      "level": 25885.9,
+      "order_ref": "DSMRF3B3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 219.2,
+    "currency": "€"
+  }
+}
