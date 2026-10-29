@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "DZV3X8B3",
+  "close_ref": "DZV3X8B3",
+  "attested_at": "2026-10-29T10:29:41Z",
+  "hash": "a2bccabf8640e8c2c0a9abd5772cedfba3053de3511a410cda5f2739ab64fdc0",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "DZV3X8B3",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-29T10:00:00Z",
+      "level": 25995.1,
+      "order_ref": "DZV3X8B3"
+    },
+    "exit": {
+      "time": "2026-10-29T10:26:46Z",
+      "level": 25929.0,
+      "order_ref": "DZV3X8B3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -66.1,
+    "currency": "€"
+  }
+}
