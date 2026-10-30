@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "CPY9MVAZ",
+  "close_ref": "CPY9MVAZ",
+  "attested_at": "2026-10-30T16:49:04Z",
+  "hash": "0bcdb1697b43447b733010436ebb98bcceb4ad378f0936548816a1e2a6b9dede",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "CPY9MVAZ",
+    "algo": "Prime SP500 M3b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-21T15:24:00Z",
+      "level": 7739.68,
+      "order_ref": "CPY9MVAZ"
+    },
+    "exit": {
+      "time": "2026-10-30T16:48:17Z",
+      "level": 7584.43,
+      "order_ref": "CPY9MVAZ"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 5.98
+    },
+    "net": -459.77,
+    "currency": "€"
+  }
+}
