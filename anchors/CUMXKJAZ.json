@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "CUMXKJAZ",
+  "close_ref": "CUMXKJAZ",
+  "attested_at": "2026-10-30T10:04:06Z",
+  "hash": "e55b7c8bf8105f38b780dd02e8d746d6648437da34a6b66cc72bfd8651f75a31",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "CUMXKJAZ",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-22T08:56:00Z",
+      "level": 25383.3,
+      "order_ref": "CUMXKJAZ"
+    },
+    "exit": {
+      "time": "2026-10-30T10:01:09Z",
+      "level": 25895.2,
+      "order_ref": "CUMXKJAZ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 511.9,
+    "currency": "€"
+  }
+}
