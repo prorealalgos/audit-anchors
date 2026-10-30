@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "D7H32DBH",
+  "close_ref": "D7H32DBH",
+  "attested_at": "2026-10-30T01:04:41Z",
+  "hash": "3046fcbd7321c8545817196bb6d99e5c10aa2f15d04e75dcba2be85840c1464c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "D7H32DBH",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-26T05:00:00Z",
+      "level": 156.943,
+      "order_ref": "D7H32DBH"
+    },
+    "exit": {
+      "time": "2026-10-30T01:00:00Z",
+      "level": 157.351,
+      "order_ref": "D7H32DBH"
+    },
+    "costs": {
+      "entry_spread": -0.73,
+      "exit_spread": -0.73,
+      "overnight": 5.34
+    },
+    "net": 51.41,
+    "currency": "€"
+  }
+}
