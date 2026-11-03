@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "EUCTBRB7",
+  "close_ref": "EUCTBRB7",
+  "attested_at": "2026-11-03T14:05:03Z",
+  "hash": "5497a42d91a983772316cc0097524e83e441cf865b90dada5d6a3d25f0ffcaad",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "EUCTBRB7",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-03T12:38:00Z",
+      "level": 25861.8,
+      "order_ref": "EUCTBRB7"
+    },
+    "exit": {
+      "time": "2026-11-03T14:02:39Z",
+      "level": 25935.6,
+      "order_ref": "EUCTBRB7"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 73.8,
+    "currency": "€"
+  }
+}
