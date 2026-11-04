@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "EUBJKLB7",
+  "close_ref": "EUBJKLB7",
+  "attested_at": "2026-11-04T00:20:03Z",
+  "hash": "9d9d80958063bf50128ab0dec912c379c150ee2eb9626e77872e89b0fa9fa39c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "EUBJKLB7",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-03T12:30:00Z",
+      "level": 7541.74,
+      "order_ref": "EUBJKLB7"
+    },
+    "exit": {
+      "time": "2026-11-04T00:19:05Z",
+      "level": 7557.33,
+      "order_ref": "EUBJKLB7"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.12
+    },
+    "net": 46.89,
+    "currency": "€"
+  }
+}
