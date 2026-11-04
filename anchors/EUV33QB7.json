@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "EUV33QB7",
+  "close_ref": "EUV33QB7",
+  "attested_at": "2026-11-04T15:15:02Z",
+  "hash": "34e20af9cf8645e5269a513ee472ca63adeb27044731ec85d0378fcd8e9fc606",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "EUV33QB7",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-03T13:35:00Z",
+      "level": 51846.2,
+      "order_ref": "EUV33QB7"
+    },
+    "exit": {
+      "time": "2026-11-04T15:10:36Z",
+      "level": 52844.5,
+      "order_ref": "EUV33QB7"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 499.15,
+    "currency": "€"
+  }
+}
