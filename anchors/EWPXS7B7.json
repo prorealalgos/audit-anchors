@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "EWPXS7B7",
+  "close_ref": "EWPXS7B7",
+  "attested_at": "2026-11-04T01:35:04Z",
+  "hash": "6436492f3b3f19cbf3eed20b3044ca1cc31f50b07f2d1224f25dd8103576188b",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "EWPXS7B7",
+    "algo": "Prime US100 M30",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-03T16:30:00Z",
+      "level": 28220.1,
+      "order_ref": "EWPXS7B7"
+    },
+    "exit": {
+      "time": "2026-11-04T01:32:43Z",
+      "level": 27655.2,
+      "order_ref": "EWPXS7B7"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -564.9,
+    "currency": "€"
+  }
+}
