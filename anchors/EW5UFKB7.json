@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "EW5UFKB7",
+  "close_ref": "EW5UFKB7",
+  "attested_at": "2026-11-04T01:35:05Z",
+  "hash": "55b0bc2c456a3785f6f40a5c761a752fc17443ebf0950b56497ee8e575de9490",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "EW5UFKB7",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-03T17:54:00Z",
+      "level": 28247.4,
+      "order_ref": "EW5UFKB7"
+    },
+    "exit": {
+      "time": "2026-11-04T01:31:39Z",
+      "level": 27682.5,
+      "order_ref": "EW5UFKB7"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -564.9,
+    "currency": "€"
+  }
+}
