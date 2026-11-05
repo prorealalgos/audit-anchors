@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "FDRVFGB7",
+  "close_ref": "FDRVFGB7",
+  "attested_at": "2026-11-05T15:10:03Z",
+  "hash": "6e3e27267d55bc41faee5906075fa1bf27964639c78ccdc8d0daddfadf34afa5",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "FDRVFGB7",
+    "algo": "Cuts SP500 M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-05T07:10:00Z",
+      "level": 7689.77,
+      "order_ref": "FDRVFGB7"
+    },
+    "exit": {
+      "time": "2026-11-05T15:05:50Z",
+      "level": 7539.2,
+      "order_ref": "FDRVFGB7"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -451.71,
+    "currency": "€"
+  }
+}
