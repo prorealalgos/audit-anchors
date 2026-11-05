@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "EWEWMEB7",
+  "close_ref": "EWEWMEB7",
+  "attested_at": "2026-11-05T14:55:06Z",
+  "hash": "6f23622a890af671668cf940b8b8453f82a9bd0d6b46ebf31cc255149ed87ef2",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "EWEWMEB7",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-03T15:54:00Z",
+      "level": 25957.3,
+      "order_ref": "EWEWMEB7"
+    },
+    "exit": {
+      "time": "2026-11-05T14:52:21Z",
+      "level": 26447.4,
+      "order_ref": "EWEWMEB7"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 490.1,
+    "currency": "€"
+  }
+}
