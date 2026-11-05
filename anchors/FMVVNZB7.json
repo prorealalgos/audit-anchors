@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "FMVVNZB7",
+  "close_ref": "FMVVNZB7",
+  "attested_at": "2026-11-05T23:20:02Z",
+  "hash": "c8e3aa95c5fbe4ecf31c33eb7ef3b6923b37c7d8d93cd20110354aeab9900247",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "FMVVNZB7",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-05T19:40:00Z",
+      "level": 26870.1,
+      "order_ref": "FMVVNZB7"
+    },
+    "exit": {
+      "time": "2026-11-05T23:18:47Z",
+      "level": 26332.2,
+      "order_ref": "FMVVNZB7"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.88
+    },
+    "net": -537.02,
+    "currency": "€"
+  }
+}
