@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "FYLYZTAX",
+  "close_ref": "FYLYZTAX",
+  "attested_at": "2026-11-06T21:00:00Z",
+  "hash": "46f41f30ed09f9f08c35cb08e9ea051a98c872f5c1d1657906756274caaa4469",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "FYLYZTAX",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-06T13:30:00Z",
+      "level": 25743.3,
+      "order_ref": "FYLYZTAX"
+    },
+    "exit": {
+      "time": "2026-11-06T20:58:00Z",
+      "level": 25678.7,
+      "order_ref": "FYLYZTAX"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -64.6,
+    "currency": "€"
+  }
+}
