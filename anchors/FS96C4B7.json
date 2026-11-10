@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "FS96C4B7",
+  "close_ref": "FS96C4B7",
+  "attested_at": "2026-11-10T16:24:59Z",
+  "hash": "919f15834a1ac890b070911f709f6d354d553fef3fb795635ade9c46dc9e27d5",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "FS96C4B7",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-06T09:21:00Z",
+      "level": 26014.5,
+      "order_ref": "FS96C4B7"
+    },
+    "exit": {
+      "time": "2026-11-10T16:21:53Z",
+      "level": 26385.6,
+      "order_ref": "FS96C4B7"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 371.1,
+    "currency": "€"
+  }
+}
