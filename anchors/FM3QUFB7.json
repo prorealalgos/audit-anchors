@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "FM3QUFB7",
+  "close_ref": "FM3QUFB7",
+  "attested_at": "2026-11-10T13:44:58Z",
+  "hash": "d73bb1124a078592c1f7dcaa3b77c48bba250fa2700d0a8d2606c03950e6aba3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "FM3QUFB7",
+    "algo": "Prime SP500 M3b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-05T19:57:00Z",
+      "level": 7418.62,
+      "order_ref": "FM3QUFB7"
+    },
+    "exit": {
+      "time": "2026-11-10T13:40:22Z",
+      "level": 7507.74,
+      "order_ref": "FM3QUFB7"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 9.56
+    },
+    "net": 276.92,
+    "currency": "€"
+  }
+}
