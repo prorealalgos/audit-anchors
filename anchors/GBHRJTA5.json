@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "GBHRJTA5",
+  "close_ref": "GBHRJTA5",
+  "attested_at": "2026-11-10T00:04:58Z",
+  "hash": "d1833996d60133418b5eb477395f276699e8906d61c266744dcc60541c4060f5",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "GBHRJTA5",
+    "algo": "Cuts DAX D1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-10-30T00:00:00Z",
+      "level": 26192.4,
+      "order_ref": "GBHRJTA5"
+    },
+    "exit": {
+      "time": "2026-11-10T00:00:00Z",
+      "level": 26524.5,
+      "order_ref": "GBHRJTA5"
+    },
+    "costs": {
+      "entry_spread": -0.1,
+      "exit_spread": -0.1,
+      "overnight": 0.0
+    },
+    "net": 66.42,
+    "currency": "€"
+  }
+}
