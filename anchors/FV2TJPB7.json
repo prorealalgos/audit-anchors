@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "FV2TJPB7",
+  "close_ref": "FV2TJPB7",
+  "attested_at": "2026-11-10T00:54:58Z",
+  "hash": "218ef28e08eb8bfb302be83326881e55151e4c61616fa3a2e1f213da45452799",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "FV2TJPB7",
+    "algo": "Cuts DAX M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-06T14:51:00Z",
+      "level": 25759.1,
+      "order_ref": "FV2TJPB7"
+    },
+    "exit": {
+      "time": "2026-11-10T00:52:11Z",
+      "level": 26393.9,
+      "order_ref": "FV2TJPB7"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 634.8,
+    "currency": "€"
+  }
+}
