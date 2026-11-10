@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "FS7EF7B7",
+  "close_ref": "FS7EF7B7",
+  "attested_at": "2026-11-10T16:25:01Z",
+  "hash": "324d9d6ea1517695d0e1c0c5e378910f020799a09cf6bbec2d26dd4b1299fad3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "FS7EF7B7",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-06T09:12:00Z",
+      "level": 26014.9,
+      "order_ref": "FS7EF7B7"
+    },
+    "exit": {
+      "time": "2026-11-10T16:21:35Z",
+      "level": 26396.8,
+      "order_ref": "FS7EF7B7"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 381.9,
+    "currency": "€"
+  }
+}
