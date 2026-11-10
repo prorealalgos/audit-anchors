@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "GDC7MBBC",
+  "close_ref": "GDC7MBBC",
+  "attested_at": "2026-11-10T08:04:58Z",
+  "hash": "17399d68b56d4f3bf7e90f5ccf68188f49b117ffa8e2fe9c4cc0fa389b1c176e",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "GDC7MBBC",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-10T07:45:00Z",
+      "level": 26605.3,
+      "order_ref": "GDC7MBBC"
+    },
+    "exit": {
+      "time": "2026-11-10T08:00:01Z",
+      "level": 26538.7,
+      "order_ref": "GDC7MBBC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -66.6,
+    "currency": "€"
+  }
+}
