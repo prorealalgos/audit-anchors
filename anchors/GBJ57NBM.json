@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "GBJ57NBM",
+  "close_ref": "GBJ57NBM",
+  "attested_at": "2026-11-10T00:04:59Z",
+  "hash": "36c1601fdb0575bf3a8ff43af5a9ca5b955534e0a851f2666d40c82abbe45bde",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "GBJ57NBM",
+    "algo": "Cuts DAX D1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-02T00:00:00Z",
+      "level": 25962.6,
+      "order_ref": "GBJ57NBM"
+    },
+    "exit": {
+      "time": "2026-11-10T00:00:00Z",
+      "level": 26523.8,
+      "order_ref": "GBJ57NBM"
+    },
+    "costs": {
+      "entry_spread": -0.1,
+      "exit_spread": -0.1,
+      "overnight": 0.0
+    },
+    "net": 112.24,
+    "currency": "€"
+  }
+}
