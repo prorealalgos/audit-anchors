@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "GH8Z43BC",
+  "close_ref": "GH8Z43BC",
+  "attested_at": "2026-11-11T13:29:57Z",
+  "hash": "8c409ae52519b1d3c0b2ba570774716c3f6b489b127a7933a392dde88944ffcb",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "GH8Z43BC",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-10T16:48:00Z",
+      "level": 7484.76,
+      "order_ref": "GH8Z43BC"
+    },
+    "exit": {
+      "time": "2026-11-11T13:26:01Z",
+      "level": 7597.06,
+      "order_ref": "GH8Z43BC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -336.9,
+    "currency": "€"
+  }
+}
