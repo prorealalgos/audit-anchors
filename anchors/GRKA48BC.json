@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "GRKA48BC",
+  "close_ref": "GRKA48BC",
+  "attested_at": "2026-11-11T20:54:57Z",
+  "hash": "72fb722ca40cd7cde5f6ecdd7bfc920d61e83b8ef28d033148a409264fc8df4c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "GRKA48BC",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-11T15:36:00Z",
+      "level": 28301.4,
+      "order_ref": "GRKA48BC"
+    },
+    "exit": {
+      "time": "2026-11-11T20:50:02Z",
+      "level": 28383.8,
+      "order_ref": "GRKA48BC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 82.4,
+    "currency": "€"
+  }
+}
