@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "F6ALFQBC",
+  "close_ref": "F6ALFQBC",
+  "attested_at": "2026-11-11T15:29:58Z",
+  "hash": "a371788b60f4b45ff1c7ea60dd501502cee8b0c4752ceaa0b7c22d500a190403",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "F6ALFQBC",
+    "algo": "Cuts Gold H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-09T12:00:00Z",
+      "level": 4108.31,
+      "order_ref": "F6ALFQBC"
+    },
+    "exit": {
+      "time": "2026-11-11T15:26:41Z",
+      "level": 4005.6,
+      "order_ref": "F6ALFQBC"
+    },
+    "costs": {
+      "entry_spread": -1.2,
+      "exit_spread": -1.2,
+      "overnight": 0.0
+    },
+    "net": -821.68,
+    "currency": "€"
+  }
+}
