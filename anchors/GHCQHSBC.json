@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "GHCQHSBC",
+  "close_ref": "GHCQHSBC",
+  "attested_at": "2026-11-11T23:19:57Z",
+  "hash": "7b0704752252b4ef783dd14effcfe6b677ad05f78b76ceb8683ebf77bd33f79e",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "GHCQHSBC",
+    "algo": "Prime SP500 M3b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-10T15:33:00Z",
+      "level": 7527.02,
+      "order_ref": "GHCQHSBC"
+    },
+    "exit": {
+      "time": "2026-11-11T23:14:58Z",
+      "level": 7576.47,
+      "order_ref": "GHCQHSBC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 6.47
+    },
+    "net": 154.82,
+    "currency": "€"
+  }
+}
