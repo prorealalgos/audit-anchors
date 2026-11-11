@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "GTKME5AN",
+  "close_ref": "GTKME5AN",
+  "attested_at": "2026-11-11T20:59:57Z",
+  "hash": "8a2a5f29a472ecbd14b9b92b60517a99df4bb4d7295547c7ccf2053307aaad3d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "GTKME5AN",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-11T11:34:00Z",
+      "level": 26523.9,
+      "order_ref": "GTKME5AN"
+    },
+    "exit": {
+      "time": "2026-11-11T20:58:00Z",
+      "level": 26765.4,
+      "order_ref": "GTKME5AN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 241.5,
+    "currency": "€"
+  }
+}
