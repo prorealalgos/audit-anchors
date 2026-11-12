@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "G4XSJSBB",
+  "close_ref": "G4XSJSBB",
+  "attested_at": "2026-11-12T20:59:56Z",
+  "hash": "8a66dee627853be338dab8cd71be12824a25b559201728cdfb62ddc2ed42d541",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "G4XSJSBB",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-12T15:44:00Z",
+      "level": 26805.3,
+      "order_ref": "G4XSJSBB"
+    },
+    "exit": {
+      "time": "2026-11-12T20:58:00Z",
+      "level": 26681.7,
+      "order_ref": "G4XSJSBB"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -123.6,
+    "currency": "€"
+  }
+}
