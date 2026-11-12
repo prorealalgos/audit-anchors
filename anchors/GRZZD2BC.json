@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "GRZZD2BC",
+  "close_ref": "GRZZD2BC",
+  "attested_at": "2026-11-12T04:19:56Z",
+  "hash": "51b0e6edc2c8b82f81efc058dc51ec4715de0250dd91ddb9999b73285f824e27",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "GRZZD2BC",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-11T16:15:00Z",
+      "level": 26638.2,
+      "order_ref": "GRZZD2BC"
+    },
+    "exit": {
+      "time": "2026-11-12T04:15:47Z",
+      "level": 26848.6,
+      "order_ref": "GRZZD2BC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 210.4,
+    "currency": "€"
+  }
+}
