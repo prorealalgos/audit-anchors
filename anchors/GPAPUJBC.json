@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "GPAPUJBC",
+  "close_ref": "GPAPUJBC",
+  "attested_at": "2026-11-12T13:09:58Z",
+  "hash": "e5a2692d1cad5ff0544c932216b9fee771a5752027c831e6516b71e5045af3c9",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "GPAPUJBC",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-11T11:02:00Z",
+      "level": 26532.9,
+      "order_ref": "GPAPUJBC"
+    },
+    "exit": {
+      "time": "2026-11-12T13:09:45Z",
+      "level": 26755.3,
+      "order_ref": "GPAPUJBC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 222.4,
+    "currency": "€"
+  }
+}
