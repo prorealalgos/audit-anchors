@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "GR5495BC",
+  "close_ref": "GR5495BC",
+  "attested_at": "2026-11-12T13:10:00Z",
+  "hash": "3ec07547416b276e1d09e7b59a10ff02fc49971f0f3a09721f056830e855ac7d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "GR5495BC",
+    "algo": "Prime DAX M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-11T16:30:00Z",
+      "level": 26643.3,
+      "order_ref": "GR5495BC"
+    },
+    "exit": {
+      "time": "2026-11-12T13:08:17Z",
+      "level": 26799.1,
+      "order_ref": "GR5495BC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 155.8,
+    "currency": "€"
+  }
+}
