@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "F555NCBC",
+  "close_ref": "F555NCBC",
+  "attested_at": "2026-11-13T15:15:27Z",
+  "hash": "d177b9341716d7e61e0304c08b587ceaee2eb801fa502012b327b098fe0a8f17",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "F555NCBC",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-09T11:30:00Z",
+      "level": 7427.24,
+      "order_ref": "F555NCBC"
+    },
+    "exit": {
+      "time": "2026-11-13T15:14:23Z",
+      "level": 7516.89,
+      "order_ref": "F555NCBC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 21.49
+    },
+    "net": 290.44,
+    "currency": "€"
+  }
+}
