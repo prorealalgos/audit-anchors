@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "HDD4UPBF",
+  "close_ref": "HDD4UPBF",
+  "attested_at": "2026-11-13T20:50:27Z",
+  "hash": "8747d8eb53eb33f294edff1ab7456a4df77d8c3d6c610e5113d19e63cd1d639f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "HDD4UPBF",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-13T17:10:00Z",
+      "level": 26767.1,
+      "order_ref": "HDD4UPBF"
+    },
+    "exit": {
+      "time": "2026-11-13T20:50:00Z",
+      "level": 26793.0,
+      "order_ref": "HDD4UPBF"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 25.9,
+    "currency": "€"
+  }
+}
