@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "G34KQ4BC",
+  "close_ref": "G34KQ4BC",
+  "attested_at": "2026-11-13T15:10:27Z",
+  "hash": "b07517b52fe2f9ae333d64c0de191984208452f590c6bd2717eaf55a74c4a1da",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "G34KQ4BC",
+    "algo": "Prime US100 M30",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-12T18:00:00Z",
+      "level": 28415.5,
+      "order_ref": "G34KQ4BC"
+    },
+    "exit": {
+      "time": "2026-11-13T15:10:08Z",
+      "level": 27841.9,
+      "order_ref": "G34KQ4BC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 1.63
+    },
+    "net": -571.97,
+    "currency": "€"
+  }
+}
