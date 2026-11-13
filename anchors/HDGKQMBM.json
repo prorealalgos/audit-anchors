@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "HDGKQMBM",
+  "close_ref": "HDGKQMBM",
+  "attested_at": "2026-11-13T21:00:27Z",
+  "hash": "e0c7c1ffdb355041c363a1acca67c6888db8f1903019fe3e3ce6c548d077391f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "HDGKQMBM",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-13T15:00:00Z",
+      "level": 26763.9,
+      "order_ref": "HDGKQMBM"
+    },
+    "exit": {
+      "time": "2026-11-13T20:58:00Z",
+      "level": 26798.7,
+      "order_ref": "HDGKQMBM"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 34.8,
+    "currency": "€"
+  }
+}
