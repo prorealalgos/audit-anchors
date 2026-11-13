@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "G4JY5TBC",
+  "close_ref": "G4JY5TBC",
+  "attested_at": "2026-11-13T18:40:27Z",
+  "hash": "ec18e773696c8488cced0cd20fefa667f598e7a10b9f39b3c3609c154cfd0c3c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "G4JY5TBC",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-12T19:33:00Z",
+      "level": 7601.96,
+      "order_ref": "G4JY5TBC"
+    },
+    "exit": {
+      "time": "2026-11-13T18:36:54Z",
+      "level": 7547.73,
+      "order_ref": "G4JY5TBC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 3.93
+    },
+    "net": 166.62,
+    "currency": "€"
+  }
+}
