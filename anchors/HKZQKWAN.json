@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "HKZQKWAN",
+  "close_ref": "HKZQKWAN",
+  "attested_at": "2026-11-16T18:40:11Z",
+  "hash": "8a3c6444d77b4ead7b9032c30f247f6fcc3a8c7f11713e8aa3ec55e5662505f6",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "HKZQKWAN",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-16T11:04:00Z",
+      "level": 27724.8,
+      "order_ref": "HKZQKWAN"
+    },
+    "exit": {
+      "time": "2026-11-16T18:35:11Z",
+      "level": 27167.1,
+      "order_ref": "HKZQKWAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -557.7,
+    "currency": "€"
+  }
+}
