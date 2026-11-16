@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "HPSZSXAM",
+  "close_ref": "HPSZSXAM",
+  "attested_at": "2026-11-16T18:10:11Z",
+  "hash": "6ec1aa8db15b2bc1a752cc75220ab00a04bbf1197124365e93c0d27a23e89059",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "HPSZSXAM",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-16T11:18:00Z",
+      "level": 7540.89,
+      "order_ref": "HPSZSXAM"
+    },
+    "exit": {
+      "time": "2026-11-16T18:06:00Z",
+      "level": 7441.77,
+      "order_ref": "HPSZSXAM"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -297.36,
+    "currency": "€"
+  }
+}
