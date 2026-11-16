@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "HQZ7KLBW",
+  "close_ref": "HQZ7KLBW",
+  "attested_at": "2026-11-16T21:00:10Z",
+  "hash": "a99a4f8243fb66c352fc2ec275da3ff8d338b319428f21ee1670f347f36780dc",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "HQZ7KLBW",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-16T09:40:00Z",
+      "level": 26734.1,
+      "order_ref": "HQZ7KLBW"
+    },
+    "exit": {
+      "time": "2026-11-16T20:58:00Z",
+      "level": 26507.7,
+      "order_ref": "HQZ7KLBW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 226.4,
+    "currency": "€"
+  }
+}
