@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "HGRFSAAN",
+  "close_ref": "HGRFSAAN",
+  "attested_at": "2026-11-16T01:05:12Z",
+  "hash": "859a7d09823948d9b354172e92772652e676b74521edc05d81ecfa461e10330b",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "HGRFSAAN",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-16T00:05:00Z",
+      "level": 28161.1,
+      "order_ref": "HGRFSAAN"
+    },
+    "exit": {
+      "time": "2026-11-16T01:03:03Z",
+      "level": 27935.8,
+      "order_ref": "HGRFSAAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -225.3,
+    "currency": "€"
+  }
+}
