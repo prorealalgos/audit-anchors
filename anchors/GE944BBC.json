@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "GE944BBC",
+  "close_ref": "GE944BBC",
+  "attested_at": "2026-11-16T19:45:10Z",
+  "hash": "812675743bd29ca642b8f6dd0f545c798d6547dd50fde2fc84e7e9edebafe820",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "GE944BBC",
+    "algo": "Prime DOW M5",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-10T13:00:00Z",
+      "level": 52600.1,
+      "order_ref": "GE944BBC"
+    },
+    "exit": {
+      "time": "2026-11-16T19:41:52Z",
+      "level": 51548.1,
+      "order_ref": "GE944BBC"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 7.57
+    },
+    "net": -518.42,
+    "currency": "€"
+  }
+}
