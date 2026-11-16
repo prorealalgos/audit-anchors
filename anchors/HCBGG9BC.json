@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "HCBGG9BC",
+  "close_ref": "HCBGG9BC",
+  "attested_at": "2026-11-16T01:05:13Z",
+  "hash": "6a9799bdb24f159880458123569bd7324c7fd2dcc2638c113220218d5f49e181",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "HCBGG9BC",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-13T17:12:00Z",
+      "level": 27825.3,
+      "order_ref": "HCBGG9BC"
+    },
+    "exit": {
+      "time": "2026-11-16T01:02:30Z",
+      "level": 27968.4,
+      "order_ref": "HCBGG9BC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.58
+    },
+    "net": 143.68,
+    "currency": "€"
+  }
+}
