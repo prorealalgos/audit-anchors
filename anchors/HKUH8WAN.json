@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "HKUH8WAN",
+  "close_ref": "HKUH8WAN",
+  "attested_at": "2026-11-17T10:40:13Z",
+  "hash": "1356af6e9c817c90108482faa18f95456207406c5427e3937f82e0168e7594b5",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "HKUH8WAN",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-16T10:33:00Z",
+      "level": 26742.6,
+      "order_ref": "HKUH8WAN"
+    },
+    "exit": {
+      "time": "2026-11-17T10:36:00Z",
+      "level": 26404.8,
+      "order_ref": "HKUH8WAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 337.8,
+    "currency": "€"
+  }
+}
