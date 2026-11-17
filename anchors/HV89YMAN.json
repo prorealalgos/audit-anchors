@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "HV89YMAN",
+  "close_ref": "HV89YMAN",
+  "attested_at": "2026-11-17T17:10:15Z",
+  "hash": "07842ebe2c3a1191bf7f112ec01e1777bf04cb40060869c1c758a57f78d2c499",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "HV89YMAN",
+    "algo": "Prime DAX M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-17T13:42:00Z",
+      "level": 26258.6,
+      "order_ref": "HV89YMAN"
+    },
+    "exit": {
+      "time": "2026-11-17T17:06:56Z",
+      "level": 26122.3,
+      "order_ref": "HV89YMAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 136.3,
+    "currency": "€"
+  }
+}
