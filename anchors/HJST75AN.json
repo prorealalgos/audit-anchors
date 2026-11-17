@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "HJST75AN",
+  "close_ref": "HJST75AN",
+  "attested_at": "2026-11-17T06:40:10Z",
+  "hash": "6f671d2ec68d8ebdc6979f1f8233d752fd0dec876a5cf488f363ab9853743db0",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "HJST75AN",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-16T07:11:00Z",
+      "level": 26780.4,
+      "order_ref": "HJST75AN"
+    },
+    "exit": {
+      "time": "2026-11-17T06:35:32Z",
+      "level": 26432.3,
+      "order_ref": "HJST75AN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -348.1,
+    "currency": "€"
+  }
+}
