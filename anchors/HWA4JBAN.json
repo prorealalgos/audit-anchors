@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "HWA4JBAN",
+  "close_ref": "HWA4JBAN",
+  "attested_at": "2026-11-17T17:10:14Z",
+  "hash": "1f9dc553d74aeb1c041ebd2c53ed85b3600fd2fbd367db72cc01cf80fec367f9",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "HWA4JBAN",
+    "algo": "Cuts DAX M10",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-17T13:51:00Z",
+      "level": 26294.6,
+      "order_ref": "HWA4JBAN"
+    },
+    "exit": {
+      "time": "2026-11-17T17:06:56Z",
+      "level": 26122.0,
+      "order_ref": "HWA4JBAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 172.6,
+    "currency": "€"
+  }
+}
