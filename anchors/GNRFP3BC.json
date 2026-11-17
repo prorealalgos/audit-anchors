@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "GNRFP3BC",
+  "close_ref": "GNRFP3BC",
+  "attested_at": "2026-11-17T10:40:11Z",
+  "hash": "2221f829bc6944c6bc1783410d075aad148309f9804a10c8c548e4f266e39250",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "GNRFP3BC",
+    "algo": "Cuts DAX M10",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-11T09:30:00Z",
+      "level": 26531.1,
+      "order_ref": "GNRFP3BC"
+    },
+    "exit": {
+      "time": "2026-11-17T10:36:00Z",
+      "level": 26404.8,
+      "order_ref": "GNRFP3BC"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 126.3,
+    "currency": "€"
+  }
+}
