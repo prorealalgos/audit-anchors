@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "H5J4PHAN",
+  "close_ref": "H5J4PHAN",
+  "attested_at": "2026-11-18T14:45:10Z",
+  "hash": "3bcde37f3324b8a4b79775fe2d07902bf3358c31e4ae27d5189c7716c31a2a76",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "H5J4PHAN",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-18T08:00:00Z",
+      "level": 7385.23,
+      "order_ref": "H5J4PHAN"
+    },
+    "exit": {
+      "time": "2026-11-18T14:40:55Z",
+      "level": 7324.88,
+      "order_ref": "H5J4PHAN"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -181.05,
+    "currency": "€"
+  }
+}
