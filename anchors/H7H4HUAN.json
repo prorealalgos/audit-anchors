@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "H7H4HUAN",
+  "close_ref": "H7H4HUAN",
+  "attested_at": "2026-11-18T15:00:09Z",
+  "hash": "8cc9047764b97c6b4c21891f4f2aef15329ed501e379550b0c140deade559f50",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "H7H4HUAN",
+    "algo": "Prime DOW M5",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-18T13:15:00Z",
+      "level": 50717.7,
+      "order_ref": "H7H4HUAN"
+    },
+    "exit": {
+      "time": "2026-11-18T14:58:43Z",
+      "level": 50461.5,
+      "order_ref": "H7H4HUAN"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 128.1,
+    "currency": "€"
+  }
+}
