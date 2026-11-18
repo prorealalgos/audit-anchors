@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "HU34XSAN",
+  "close_ref": "HU34XSAN",
+  "attested_at": "2026-11-18T14:40:09Z",
+  "hash": "46d910a71d1588a495ec695c51fff8e4fc6272a18b7ae701df1c5cdad2eda588",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "HU34XSAN",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-17T10:39:00Z",
+      "level": 26410.0,
+      "order_ref": "HU34XSAN"
+    },
+    "exit": {
+      "time": "2026-11-18T14:35:55Z",
+      "level": 25879.0,
+      "order_ref": "HU34XSAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -531.0,
+    "currency": "€"
+  }
+}
