@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JE2J6PAT",
+  "close_ref": "JE2J6PAT",
+  "attested_at": "2026-11-19T10:15:08Z",
+  "hash": "f67e1810caa75df8121749a17c0dd9c025b576ab9319dc2b55ce734ecb20ad19",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JE2J6PAT",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-18T15:33:00Z",
+      "level": 7323.44,
+      "order_ref": "JE2J6PAT"
+    },
+    "exit": {
+      "time": "2026-11-19T10:15:00Z",
+      "level": 7400.57,
+      "order_ref": "JE2J6PAT"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 1.14
+    },
+    "net": -230.25,
+    "currency": "€"
+  }
+}
