@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JCZE5UAN",
+  "close_ref": "JCZE5UAN",
+  "attested_at": "2026-11-19T15:35:10Z",
+  "hash": "2cde84b0e386dab9fc66f16914d1feb905bc4f2577de0670f0018ef4cd2aa04f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JCZE5UAN",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-19T02:45:00Z",
+      "level": 7357.57,
+      "order_ref": "JCZE5UAN"
+    },
+    "exit": {
+      "time": "2026-11-19T15:34:42Z",
+      "level": 7298.55,
+      "order_ref": "JCZE5UAN"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -177.06,
+    "currency": "€"
+  }
+}
