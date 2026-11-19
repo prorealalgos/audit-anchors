@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "H6DLQKAN",
+  "close_ref": "H6DLQKAN",
+  "attested_at": "2026-11-19T15:35:11Z",
+  "hash": "c265f9f7d3e229bcaf69da28b336eadc4e681aed502f31bd568be3990850d666",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "H6DLQKAN",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-18T09:58:00Z",
+      "level": 26119.8,
+      "order_ref": "H6DLQKAN"
+    },
+    "exit": {
+      "time": "2026-11-19T15:31:47Z",
+      "level": 25597.3,
+      "order_ref": "H6DLQKAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -522.5,
+    "currency": "€"
+  }
+}
