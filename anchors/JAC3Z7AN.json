@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JAC3Z7AN",
+  "close_ref": "JAC3Z7AN",
+  "attested_at": "2026-11-19T01:35:08Z",
+  "hash": "63ce5d01305b79ccc8439e2ec9234374966c113ba6ecbd0fb09e9d1c92bc0d3a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JAC3Z7AN",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-18T17:24:00Z",
+      "level": 27138.2,
+      "order_ref": "JAC3Z7AN"
+    },
+    "exit": {
+      "time": "2026-11-19T01:31:23Z",
+      "level": 27293.3,
+      "order_ref": "JAC3Z7AN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 4.14
+    },
+    "net": 159.24,
+    "currency": "€"
+  }
+}
