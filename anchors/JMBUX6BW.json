@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JMBUX6BW",
+  "close_ref": "JMBUX6BW",
+  "attested_at": "2026-11-19T20:55:09Z",
+  "hash": "82b610cf4d4a94d071a488ebd440a7217df2ba895aa1a531f991e0c3115f45f2",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JMBUX6BW",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-19T18:25:00Z",
+      "level": 26717.0,
+      "order_ref": "JMBUX6BW"
+    },
+    "exit": {
+      "time": "2026-11-19T20:55:00Z",
+      "level": 26585.1,
+      "order_ref": "JMBUX6BW"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 131.9,
+    "currency": "€"
+  }
+}
