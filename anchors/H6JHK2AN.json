@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "H6JHK2AN",
+  "close_ref": "H6JHK2AN",
+  "attested_at": "2026-11-19T15:40:11Z",
+  "hash": "8c080c731d11feaae561c3c8ebb14fbfba3ff6b82174fa15ff7dca3572e8cff3",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "H6JHK2AN",
+    "algo": "Prime DAX M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-18T10:30:00Z",
+      "level": 26099.3,
+      "order_ref": "H6JHK2AN"
+    },
+    "exit": {
+      "time": "2026-11-19T15:36:00Z",
+      "level": 25576.0,
+      "order_ref": "H6JHK2AN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -523.3,
+    "currency": "€"
+  }
+}
