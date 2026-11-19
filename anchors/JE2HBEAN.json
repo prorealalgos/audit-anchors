@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JE2HBEAN",
+  "close_ref": "JE2HBEAN",
+  "attested_at": "2026-11-19T15:40:09Z",
+  "hash": "b8ad5f104bf8caa1f44885169a727f8bd2d434d4024b61f49d8a578da79a9872",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JE2HBEAN",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-19T10:15:00Z",
+      "level": 7401.87,
+      "order_ref": "JE2HBEAN"
+    },
+    "exit": {
+      "time": "2026-11-19T15:37:10Z",
+      "level": 7290.84,
+      "order_ref": "JE2HBEAN"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -333.09,
+    "currency": "€"
+  }
+}
