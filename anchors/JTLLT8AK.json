@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JTLLT8AK",
+  "close_ref": "JTLLT8AK",
+  "attested_at": "2026-11-20T13:31:22Z",
+  "hash": "f7cfb4df072e8997cbc3dcd4d9641d115c82af5203e83fa5d61c1b7028566bda",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JTLLT8AK",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-20T10:24:00Z",
+      "level": 7148.44,
+      "order_ref": "JTLLT8AK"
+    },
+    "exit": {
+      "time": "2026-11-20T13:27:00Z",
+      "level": 7102.43,
+      "order_ref": "JTLLT8AK"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -138.03,
+    "currency": "€"
+  }
+}
