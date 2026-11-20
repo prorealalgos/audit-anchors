@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JSEKANAN",
+  "close_ref": "JSEKANAN",
+  "attested_at": "2026-11-20T19:36:23Z",
+  "hash": "1b8de4df1d57033ad9cf42cf70507e9cbc3f6b17ebc03231f222312cbdfa8d9f",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JSEKANAN",
+    "algo": "Prime DAX M2b",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-20T10:32:00Z",
+      "level": 25079.0,
+      "order_ref": "JSEKANAN"
+    },
+    "exit": {
+      "time": "2026-11-20T19:33:14Z",
+      "level": 24576.7,
+      "order_ref": "JSEKANAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -502.3,
+    "currency": "€"
+  }
+}
