@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JSH6AYAN",
+  "close_ref": "JSH6AYAN",
+  "attested_at": "2026-11-20T19:31:24Z",
+  "hash": "2eeae4bf223b2d14ec3f1ac4c4abf8fd56a402c0f272931ac1f5ced073fa6146",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JSH6AYAN",
+    "algo": "Prime DAX M3c",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-20T10:45:00Z",
+      "level": 25141.7,
+      "order_ref": "JSH6AYAN"
+    },
+    "exit": {
+      "time": "2026-11-20T19:28:01Z",
+      "level": 24638.5,
+      "order_ref": "JSH6AYAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -503.2,
+    "currency": "€"
+  }
+}
