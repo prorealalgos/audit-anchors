@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JRSCYGAN",
+  "close_ref": "JRSCYGAN",
+  "attested_at": "2026-11-20T14:41:22Z",
+  "hash": "8ac631fbcc2dfa0293f6270bfcd1fbc68cb33965ac1bdf57db7881b852006b14",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JRSCYGAN",
+    "algo": "Prime DAX M1",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-20T09:21:00Z",
+      "level": 25033.6,
+      "order_ref": "JRSCYGAN"
+    },
+    "exit": {
+      "time": "2026-11-20T14:36:42Z",
+      "level": 24979.3,
+      "order_ref": "JRSCYGAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 54.3,
+    "currency": "€"
+  }
+}
