@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JRVXEMAN",
+  "close_ref": "JRVXEMAN",
+  "attested_at": "2026-11-20T10:06:29Z",
+  "hash": "60fff69c0f83d6c2c389d77ac75bc34b94e91ee6421cdc8b386ec7d8a31aeaaa",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JRVXEMAN",
+    "algo": "Cuts DAX M10",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-20T09:30:00Z",
+      "level": 25017.8,
+      "order_ref": "JRVXEMAN"
+    },
+    "exit": {
+      "time": "2026-11-20T10:04:42Z",
+      "level": 25013.7,
+      "order_ref": "JRVXEMAN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 4.1,
+    "currency": "€"
+  }
+}
