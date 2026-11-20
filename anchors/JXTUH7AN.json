@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "JXTUH7AN",
+  "close_ref": "JXTUH7AN",
+  "attested_at": "2026-11-20T20:26:23Z",
+  "hash": "b8b5c1fcbb9f00095e48cc359572d40baa320928ee62570b06ab1a61ea100e65",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "JXTUH7AN",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-20T18:56:00Z",
+      "level": 25662.2,
+      "order_ref": "JXTUH7AN"
+    },
+    "exit": {
+      "time": "2026-11-20T20:26:11Z",
+      "level": 25144.3,
+      "order_ref": "JXTUH7AN"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -517.9,
+    "currency": "€"
+  }
+}
