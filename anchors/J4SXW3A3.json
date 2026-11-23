@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "J4SXW3A3",
+  "close_ref": "J4SXW3A3",
+  "attested_at": "2026-11-23T13:51:23Z",
+  "hash": "00e212b321091a6e1592a159e1c36eb2d57e6943ad45f06a3b8d2647cec217ec",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "J4SXW3A3",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-23T07:05:00Z",
+      "level": 24888.6,
+      "order_ref": "J4SXW3A3"
+    },
+    "exit": {
+      "time": "2026-11-23T13:50:59Z",
+      "level": 24936.4,
+      "order_ref": "J4SXW3A3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 47.8,
+    "currency": "€"
+  }
+}
