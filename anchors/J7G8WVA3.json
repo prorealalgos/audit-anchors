@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "J7G8WVA3",
+  "close_ref": "J7G8WVA3",
+  "attested_at": "2026-11-23T16:46:28Z",
+  "hash": "0337f5ff009ae9e762fde5595837247fbb47368243bbf0a7982a4a38eb3598a1",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "J7G8WVA3",
+    "algo": "Cuts DAX M10",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-23T14:00:00Z",
+      "level": 25171.2,
+      "order_ref": "J7G8WVA3"
+    },
+    "exit": {
+      "time": "2026-11-23T16:42:12Z",
+      "level": 25293.2,
+      "order_ref": "J7G8WVA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 122.0,
+    "currency": "€"
+  }
+}
