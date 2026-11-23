@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KA3495B5",
+  "close_ref": "KA3495B5",
+  "attested_at": "2026-11-23T17:41:23Z",
+  "hash": "da844a1616f2080b5a52f8c9ba28a186a39f037ad21327eac90ca536ab68b0fd",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KA3495B5",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-23T17:30:00Z",
+      "level": 7245.56,
+      "order_ref": "KA3495B5"
+    },
+    "exit": {
+      "time": "2026-11-23T17:39:00Z",
+      "level": 7249.56,
+      "order_ref": "KA3495B5"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -12.0,
+    "currency": "€"
+  }
+}
