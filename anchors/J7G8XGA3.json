@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "J7G8XGA3",
+  "close_ref": "J7G8XGA3",
+  "attested_at": "2026-11-23T16:46:29Z",
+  "hash": "00ace3f39b3ad0843492bb09e19a7a13272cbd0699dd14d4609e0b8ab531f85a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "J7G8XGA3",
+    "algo": "Prime DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-23T14:00:00Z",
+      "level": 25170.7,
+      "order_ref": "J7G8XGA3"
+    },
+    "exit": {
+      "time": "2026-11-23T16:42:12Z",
+      "level": 25293.4,
+      "order_ref": "J7G8XGA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 122.7,
+    "currency": "€"
+  }
+}
