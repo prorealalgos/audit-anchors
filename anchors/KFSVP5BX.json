@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KFSVP5BX",
+  "close_ref": "KFSVP5BX",
+  "attested_at": "2026-11-24T10:06:23Z",
+  "hash": "b98c3a020a118e4cc1d060d70c8391b86e1aa165aa43e545437250f6bef947c6",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KFSVP5BX",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-23T17:39:00Z",
+      "level": 7249.07,
+      "order_ref": "KFSVP5BX"
+    },
+    "exit": {
+      "time": "2026-11-24T10:06:00Z",
+      "level": 7201.95,
+      "order_ref": "KFSVP5BX"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 1.98
+    },
+    "net": -139.38,
+    "currency": "€"
+  }
+}
