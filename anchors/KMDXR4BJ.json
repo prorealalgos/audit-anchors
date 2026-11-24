@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KMDXR4BJ",
+  "close_ref": "KMDXR4BJ",
+  "attested_at": "2026-11-24T21:01:22Z",
+  "hash": "5dd104838889788f41cbe01dd7bc01b0512460174da0a0d360d1c68d4b563c53",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KMDXR4BJ",
+    "algo": "Prime DAX M2 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-24T12:46:00Z",
+      "level": 25174.4,
+      "order_ref": "KMDXR4BJ"
+    },
+    "exit": {
+      "time": "2026-11-24T20:58:00Z",
+      "level": 25198.0,
+      "order_ref": "KMDXR4BJ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 23.6,
+    "currency": "€"
+  }
+}
