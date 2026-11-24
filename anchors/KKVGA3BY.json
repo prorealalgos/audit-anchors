@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KKVGA3BY",
+  "close_ref": "KKVGA3BY",
+  "attested_at": "2026-11-24T16:46:23Z",
+  "hash": "f7dca0ac12a7c04e432fc927e9ff7208e9e888c1d3cdfb36313ca1c815915d3c",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KKVGA3BY",
+    "algo": "Prime SP500 M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-24T14:42:00Z",
+      "level": 7176.95,
+      "order_ref": "KKVGA3BY"
+    },
+    "exit": {
+      "time": "2026-11-24T16:42:00Z",
+      "level": 7147.11,
+      "order_ref": "KKVGA3BY"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -89.52,
+    "currency": "€"
+  }
+}
