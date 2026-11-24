@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KFTNEWA3",
+  "close_ref": "KFTNEWA3",
+  "attested_at": "2026-11-24T14:41:23Z",
+  "hash": "534451b96bdf19a2f7372ee3d65d8d713d53bedb57c2c9101c0ec1fa6fcecb4d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KFTNEWA3",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-24T10:06:00Z",
+      "level": 7201.2,
+      "order_ref": "KFTNEWA3"
+    },
+    "exit": {
+      "time": "2026-11-24T14:40:44Z",
+      "level": 7173.76,
+      "order_ref": "KFTNEWA3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 82.32,
+    "currency": "€"
+  }
+}
