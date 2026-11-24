@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KK5AQLBW",
+  "close_ref": "KK5AQLBW",
+  "attested_at": "2026-11-24T17:06:23Z",
+  "hash": "2c89a65d1040f15d03875fa6b8bcae8ce47d958a821f9d4bf058ccbb5669e765",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KK5AQLBW",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-24T16:42:00Z",
+      "level": 7147.72,
+      "order_ref": "KK5AQLBW"
+    },
+    "exit": {
+      "time": "2026-11-24T17:06:00Z",
+      "level": 7177.97,
+      "order_ref": "KK5AQLBW"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": -90.75,
+    "currency": "€"
+  }
+}
