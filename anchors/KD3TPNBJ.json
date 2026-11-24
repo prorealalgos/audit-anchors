@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KD3TPNBJ",
+  "close_ref": "KD3TPNBJ",
+  "attested_at": "2026-11-24T04:01:22Z",
+  "hash": "1d5ab3dc5011e45ca8ce82de729e07f9699097551083b08aaa80c145ab40bc44",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KD3TPNBJ",
+    "algo": "FX USD/JPY H1",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-11T22:00:00Z",
+      "level": 159.757,
+      "order_ref": "KD3TPNBJ"
+    },
+    "exit": {
+      "time": "2026-11-24T04:00:00Z",
+      "level": 158.985,
+      "order_ref": "KD3TPNBJ"
+    },
+    "costs": {
+      "entry_spread": -0.75,
+      "exit_spread": -0.75,
+      "overnight": -19.24
+    },
+    "net": 69.32,
+    "currency": "€"
+  }
+}
