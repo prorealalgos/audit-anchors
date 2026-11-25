@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KQ36V7A3",
+  "close_ref": "KQ36V7A3",
+  "attested_at": "2026-11-25T14:56:20Z",
+  "hash": "588aaae30e011a8919d71fbbbdef5714ee42800cb5bc7760e11a8ac269b63be5",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KQ36V7A3",
+    "algo": "Prime SP500 M3",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-25T10:33:00Z",
+      "level": 7092.17,
+      "order_ref": "KQ36V7A3"
+    },
+    "exit": {
+      "time": "2026-11-25T14:54:40Z",
+      "level": 7017.09,
+      "order_ref": "KQ36V7A3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 225.24,
+    "currency": "€"
+  }
+}
