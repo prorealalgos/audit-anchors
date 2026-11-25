@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KMSLH8BE",
+  "close_ref": "KMSLH8BE",
+  "attested_at": "2026-11-25T00:01:30Z",
+  "hash": "9cba829101e7d637ccceb1c83fbec125e4dbd98ca803c847f949ca54e5c1c5a8",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KMSLH8BE",
+    "algo": "Cuts DAX D1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-24T00:00:00Z",
+      "level": 25421.8,
+      "order_ref": "KMSLH8BE"
+    },
+    "exit": {
+      "time": "2026-11-25T00:00:00Z",
+      "level": 25194.4,
+      "order_ref": "KMSLH8BE"
+    },
+    "costs": {
+      "entry_spread": -0.1,
+      "exit_spread": -0.1,
+      "overnight": 0.0
+    },
+    "net": -45.48,
+    "currency": "€"
+  }
+}
