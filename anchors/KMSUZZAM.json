@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KMSUZZAM",
+  "close_ref": "KMSUZZAM",
+  "attested_at": "2026-11-25T00:01:32Z",
+  "hash": "07c299deb62d4123b5e191fd117a5445be85ad84679b04d9146ec5141a1fcb13",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KMSUZZAM",
+    "algo": "Cuts DAX D1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-19T00:00:00Z",
+      "level": 25882.5,
+      "order_ref": "KMSUZZAM"
+    },
+    "exit": {
+      "time": "2026-11-25T00:00:00Z",
+      "level": 25194.4,
+      "order_ref": "KMSUZZAM"
+    },
+    "costs": {
+      "entry_spread": -0.1,
+      "exit_spread": -0.1,
+      "overnight": 0.0
+    },
+    "net": -137.62,
+    "currency": "€"
+  }
+}
