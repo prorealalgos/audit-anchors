@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KK6HPDA3",
+  "close_ref": "KK6HPDA3",
+  "attested_at": "2026-11-25T07:21:22Z",
+  "hash": "2381ea4a14a47885da4b87530b4dc8f2e4c55ac8d810b696ab229de0e037150d",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KK6HPDA3",
+    "algo": "Prime US100 M2",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-24T17:12:00Z",
+      "level": 26234.6,
+      "order_ref": "KK6HPDA3"
+    },
+    "exit": {
+      "time": "2026-11-25T07:20:55Z",
+      "level": 25692.1,
+      "order_ref": "KK6HPDA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 1.6
+    },
+    "net": -540.9,
+    "currency": "€"
+  }
+}
