@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KPX4LKAJ",
+  "close_ref": "KPX4LKAJ",
+  "attested_at": "2026-11-25T08:01:22Z",
+  "hash": "bb731e6f4e562204fa04deb5dea1fb77c9d8a2caf0051ef26d0598d248e84354",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KPX4LKAJ",
+    "algo": "Cuts DAX M3",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-23T16:45:00Z",
+      "level": 25329.9,
+      "order_ref": "KPX4LKAJ"
+    },
+    "exit": {
+      "time": "2026-11-25T08:00:00Z",
+      "level": 25028.9,
+      "order_ref": "KPX4LKAJ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -301.0,
+    "currency": "€"
+  }
+}
