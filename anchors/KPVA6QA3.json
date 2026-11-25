@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KPVA6QA3",
+  "close_ref": "KPVA6QA3",
+  "attested_at": "2026-11-25T15:11:20Z",
+  "hash": "26bc633049e6007017b87bdeec300a95edeea8544225417155445d7b9b197a80",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KPVA6QA3",
+    "algo": "Prime DAX M1",
+    "side": "SHORT",
+    "entry": {
+      "time": "2026-11-25T07:46:00Z",
+      "level": 25028.2,
+      "order_ref": "KPVA6QA3"
+    },
+    "exit": {
+      "time": "2026-11-25T15:06:33Z",
+      "level": 24930.2,
+      "order_ref": "KPVA6QA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 98.0,
+    "currency": "€"
+  }
+}
