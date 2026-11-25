@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KX7HCJAM",
+  "close_ref": "KX7HCJAM",
+  "attested_at": "2026-11-25T20:56:20Z",
+  "hash": "6cd61734c737e22c4d1f0c53b60a2261add63cb5278ec5d656147443c23e9838",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KX7HCJAM",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-25T19:25:00Z",
+      "level": 26011.7,
+      "order_ref": "KX7HCJAM"
+    },
+    "exit": {
+      "time": "2026-11-25T20:55:00Z",
+      "level": 26000.0,
+      "order_ref": "KX7HCJAM"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -11.7,
+    "currency": "€"
+  }
+}
