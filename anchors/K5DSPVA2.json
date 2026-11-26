@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "K5DSPVA2",
+  "close_ref": "K5DSPVA2",
+  "attested_at": "2026-11-26T20:56:20Z",
+  "hash": "ea335b3699e05704b93e015cf429f2d61044c18561e105befde8d1dce660bd2a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "K5DSPVA2",
+    "algo": "Cuts US100 M5 (Daily close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-26T03:45:00Z",
+      "level": 26284.5,
+      "order_ref": "K5DSPVA2"
+    },
+    "exit": {
+      "time": "2026-11-26T20:55:00Z",
+      "level": 26199.3,
+      "order_ref": "K5DSPVA2"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": -85.2,
+    "currency": "€"
+  }
+}
