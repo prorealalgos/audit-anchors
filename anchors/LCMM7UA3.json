@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LCMM7UA3",
+  "close_ref": "LCMM7UA3",
+  "attested_at": "2026-11-27T20:01:20Z",
+  "hash": "181b92f0573dc8f72b652f0f87360500a30ac6ebcdcbe2c4c7ceb63f30e2f2a4",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LCMM7UA3",
+    "algo": "FX USD/JPY H1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-24T04:00:00Z",
+      "level": 158.987,
+      "order_ref": "LCMM7UA3"
+    },
+    "exit": {
+      "time": "2026-11-27T20:00:00Z",
+      "level": 159.552,
+      "order_ref": "LCMM7UA3"
+    },
+    "costs": {
+      "entry_spread": -0.74,
+      "exit_spread": -0.74,
+      "overnight": 4.48
+    },
+    "net": 68.91,
+    "currency": "€"
+  }
+}
