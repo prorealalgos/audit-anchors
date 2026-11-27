@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LCQB92BJ",
+  "close_ref": "LCQB92BJ",
+  "attested_at": "2026-11-27T20:51:20Z",
+  "hash": "a42bb574e4987cd61783844bbb01032bfa396b380db25d36718f308e66fc13aa",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LCQB92BJ",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-27T15:07:00Z",
+      "level": 25372.6,
+      "order_ref": "LCQB92BJ"
+    },
+    "exit": {
+      "time": "2026-11-27T20:50:00Z",
+      "level": 25489.6,
+      "order_ref": "LCQB92BJ"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 117.0,
+    "currency": "€"
+  }
+}
