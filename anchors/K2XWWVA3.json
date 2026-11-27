@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "K2XWWVA3",
+  "close_ref": "K2XWWVA3",
+  "attested_at": "2026-11-27T11:51:21Z",
+  "hash": "80dfcd2859d233c099c5b89137e6479444eb3c32a3082a4c7218612478bcd10a",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "K2XWWVA3",
+    "algo": "Prime DAX M1",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-26T08:47:00Z",
+      "level": 25214.1,
+      "order_ref": "K2XWWVA3"
+    },
+    "exit": {
+      "time": "2026-11-27T11:46:57Z",
+      "level": 25344.1,
+      "order_ref": "K2XWWVA3"
+    },
+    "costs": {
+      "entry_spread": -0.5,
+      "exit_spread": -0.5,
+      "overnight": 0.0
+    },
+    "net": 130.0,
+    "currency": "€"
+  }
+}
