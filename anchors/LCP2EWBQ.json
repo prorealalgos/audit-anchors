@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "LCP2EWBQ",
+  "close_ref": "LCP2EWBQ",
+  "attested_at": "2026-11-27T20:46:20Z",
+  "hash": "181cf3dac426b9c38e91dfd0f1291575df1b2096977ce140f0a9275cb93a0b63",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "LCP2EWBQ",
+    "algo": "PATF DOW M15 (Friday close)",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-27T01:15:00Z",
+      "level": 50540.3,
+      "order_ref": "LCP2EWBQ"
+    },
+    "exit": {
+      "time": "2026-11-27T20:45:00Z",
+      "level": 50794.0,
+      "order_ref": "LCP2EWBQ"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 0.0
+    },
+    "net": 126.85,
+    "currency": "€"
+  }
+}
