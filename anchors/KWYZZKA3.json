@@ -1,0 +1,32 @@
+{
+  "schema": "prorealalgos.audit-attestation.v1",
+  "trade_ref": "KWYZZKA3",
+  "close_ref": "KWYZZKA3",
+  "attested_at": "2026-11-27T15:01:20Z",
+  "hash": "9930707def87ccc65049cb30e243160dd2709b113f7d0548b3785a8734a826f7",
+  "hash_algorithm": "sha256",
+  "leaf_format": "sha256(canonical receipt JSON, UTF-8 bytes)",
+  "receipt": {
+    "v": 1,
+    "trade": "KWYZZKA3",
+    "algo": "Cuts SP500 M15",
+    "side": "LONG",
+    "entry": {
+      "time": "2026-11-25T18:30:00Z",
+      "level": 7166.28,
+      "order_ref": "KWYZZKA3"
+    },
+    "exit": {
+      "time": "2026-11-27T14:59:00Z",
+      "level": 7216.58,
+      "order_ref": "KWYZZKA3"
+    },
+    "costs": {
+      "entry_spread": -0.6,
+      "exit_spread": -0.6,
+      "overnight": 1.23
+    },
+    "net": 152.13,
+    "currency": "€"
+  }
+}
